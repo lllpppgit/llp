@@ -1,0 +1,593 @@
+2023-01-17T06:39:42.944812551Z stderr F Flag --insecure-port has been deprecated, This flag has no effect now and will be removed in v1.24.
+2023-01-17T06:39:42.951184694Z stderr F I0117 06:39:42.945730       1 server.go:629] external host was not specified, using 172.18.0.2
+2023-01-17T06:39:42.961164711Z stderr F I0117 06:39:42.952473       1 server.go:181] Version: v1.21.1
+2023-01-17T06:39:48.173585304Z stderr F I0117 06:39:48.164079       1 shared_informer.go:240] Waiting for caches to sync for node_authorizer
+2023-01-17T06:39:48.440332899Z stderr F I0117 06:39:48.417400       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2023-01-17T06:39:48.44036856Z stderr F I0117 06:39:48.417424       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2023-01-17T06:39:48.50108444Z stderr F I0117 06:39:48.500256       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2023-01-17T06:39:48.501127374Z stderr F I0117 06:39:48.500275       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2023-01-17T06:39:48.927369229Z stderr F I0117 06:39:48.908455       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:48.927405163Z stderr F I0117 06:39:48.908634       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:49.247532286Z stderr F I0117 06:39:49.207964       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:49.247569164Z stderr F I0117 06:39:49.208019       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:50.352398243Z stderr F I0117 06:39:50.314350       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:50.352488637Z stderr F I0117 06:39:50.314427       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:50.729391773Z stderr F I0117 06:39:50.721795       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:39:50.729423963Z stderr F I0117 06:39:50.721880       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:39:50.7294305Z stderr F I0117 06:39:50.721898       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:39:51.372396618Z stderr F I0117 06:39:51.365365       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:51.372413478Z stderr F I0117 06:39:51.365410       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:52.412949884Z stderr F I0117 06:39:52.399099       1 instance.go:283] Using reconciler: lease
+2023-01-17T06:39:52.413146466Z stderr F I0117 06:39:52.399936       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:52.413150925Z stderr F I0117 06:39:52.399959       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:52.634644648Z stderr F I0117 06:39:52.627708       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:52.634716695Z stderr F I0117 06:39:52.627758       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:52.734245291Z stderr F I0117 06:39:52.713143       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:52.73436097Z stderr F I0117 06:39:52.713177       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:52.846253544Z stderr F I0117 06:39:52.828765       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:52.846274237Z stderr F I0117 06:39:52.828794       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:52.954287833Z stderr F I0117 06:39:52.932379       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:52.954308428Z stderr F I0117 06:39:52.932414       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:53.130535216Z stderr F I0117 06:39:53.123182       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:53.130557635Z stderr F I0117 06:39:53.123211       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:53.521480768Z stderr F I0117 06:39:53.509169       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:53.521504516Z stderr F I0117 06:39:53.509246       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:53.773321833Z stderr F I0117 06:39:53.765870       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:53.77333553Z stderr F I0117 06:39:53.765897       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:53.864148257Z stderr F I0117 06:39:53.853595       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:53.864159727Z stderr F I0117 06:39:53.853637       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:53.985422613Z stderr F I0117 06:39:53.985020       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:53.991337108Z stderr F I0117 06:39:53.986331       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:54.186534525Z stderr F I0117 06:39:54.174417       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:54.186542281Z stderr F I0117 06:39:54.174446       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:54.332203633Z stderr F I0117 06:39:54.324776       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:54.33221957Z stderr F I0117 06:39:54.324920       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:54.381311815Z stderr F I0117 06:39:54.373333       1 trace.go:205] Trace[462337062]: "List etcd3" key:/secrets,resourceVersion:,resourceVersionMatch:,limit:10000,continue: (17-Jan-2023 06:39:53.508) (total time: 864ms):
+2023-01-17T06:39:54.381383622Z stderr F Trace[462337062]: [864.463608ms] [864.463608ms] END
+2023-01-17T06:39:54.435122417Z stderr F I0117 06:39:54.434359       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:54.435146441Z stderr F I0117 06:39:54.434386       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:54.615759518Z stderr F I0117 06:39:54.606339       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:54.615778207Z stderr F I0117 06:39:54.606368       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:54.688884917Z stderr F I0117 06:39:54.688093       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:54.688933028Z stderr F I0117 06:39:54.688126       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:54.8266547Z stderr F I0117 06:39:54.821027       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:54.843347513Z stderr F I0117 06:39:54.839024       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:54.952245881Z stderr F I0117 06:39:54.938623       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:54.952261733Z stderr F I0117 06:39:54.938650       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:55.045448145Z stderr F I0117 06:39:55.038437       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:55.045468623Z stderr F I0117 06:39:55.038495       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:55.143269474Z stderr F I0117 06:39:55.117016       1 rest.go:130] the default service ipfamily for this cluster is: IPv4
+2023-01-17T06:39:56.369028388Z stderr F I0117 06:39:56.358531       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:56.369062Z stderr F I0117 06:39:56.358577       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:56.418323354Z stderr F I0117 06:39:56.404139       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:56.418347173Z stderr F I0117 06:39:56.404177       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:56.638837944Z stderr F I0117 06:39:56.631932       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:56.638847867Z stderr F I0117 06:39:56.631962       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:56.897225615Z stderr F I0117 06:39:56.891125       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:56.897249512Z stderr F I0117 06:39:56.891153       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:57.076250795Z stderr F I0117 06:39:57.066823       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:57.076267463Z stderr F I0117 06:39:57.066866       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:57.152295381Z stderr F I0117 06:39:57.144174       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:57.152316985Z stderr F I0117 06:39:57.144203       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:57.308174121Z stderr F I0117 06:39:57.301123       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:57.308191541Z stderr F I0117 06:39:57.301152       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:57.354212746Z stderr F I0117 06:39:57.346077       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:57.354230071Z stderr F I0117 06:39:57.346109       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:57.412423972Z stderr F I0117 06:39:57.407775       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:57.412453618Z stderr F I0117 06:39:57.407813       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:57.50029988Z stderr F I0117 06:39:57.473639       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:57.500410933Z stderr F I0117 06:39:57.473675       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:57.716569203Z stderr F I0117 06:39:57.708687       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:57.716607851Z stderr F I0117 06:39:57.708714       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:57.897199485Z stderr F I0117 06:39:57.891109       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:57.897259257Z stderr F I0117 06:39:57.891141       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:58.133147923Z stderr F I0117 06:39:58.109356       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:58.13316476Z stderr F I0117 06:39:58.109383       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:58.809209827Z stderr F I0117 06:39:58.801264       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:58.809233451Z stderr F I0117 06:39:58.801296       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:58.865421204Z stderr F I0117 06:39:58.858852       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:58.86547152Z stderr F I0117 06:39:58.858886       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:59.004388623Z stderr F I0117 06:39:58.985730       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:59.004434062Z stderr F I0117 06:39:58.985763       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:59.171908574Z stderr F I0117 06:39:59.162193       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:59.171969568Z stderr F I0117 06:39:59.162230       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:59.293620721Z stderr F I0117 06:39:59.262607       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:59.2941684Z stderr F I0117 06:39:59.262631       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:59.691386645Z stderr F I0117 06:39:59.667339       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:59.691415743Z stderr F I0117 06:39:59.667433       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:39:59.978487054Z stderr F I0117 06:39:59.962709       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:39:59.978505517Z stderr F I0117 06:39:59.962738       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:00.363164707Z stderr F I0117 06:40:00.360912       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:00.363246945Z stderr F I0117 06:40:00.360943       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:00.555316623Z stderr F I0117 06:40:00.532838       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:00.555511192Z stderr F I0117 06:40:00.533005       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:00.918229827Z stderr F I0117 06:40:00.914390       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:00.918253279Z stderr F I0117 06:40:00.914451       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:01.097267429Z stderr F I0117 06:40:01.093116       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:01.097281008Z stderr F I0117 06:40:01.093152       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:01.141550968Z stderr F I0117 06:40:01.125030       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:01.141569329Z stderr F I0117 06:40:01.125102       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:01.19688926Z stderr F I0117 06:40:01.187083       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:01.196907696Z stderr F I0117 06:40:01.187115       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:01.29820776Z stderr F I0117 06:40:01.289699       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:01.298261749Z stderr F I0117 06:40:01.289730       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:01.378191912Z stderr F I0117 06:40:01.373420       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:01.378209462Z stderr F I0117 06:40:01.373441       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:01.483253726Z stderr F I0117 06:40:01.475323       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:01.483265359Z stderr F I0117 06:40:01.475349       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:02.237393531Z stderr F I0117 06:40:02.110955       1 trace.go:205] Trace[1671261174]: "List etcd3" key:/clusterroles,resourceVersion:,resourceVersionMatch:,limit:10000,continue: (17-Jan-2023 06:40:01.298) (total time: 812ms):
+2023-01-17T06:40:02.237421216Z stderr F Trace[1671261174]: [812.102122ms] [812.102122ms] END
+2023-01-17T06:40:03.107310844Z stderr F I0117 06:40:03.097981       1 trace.go:205] Trace[332296404]: "List etcd3" key:/clusterrolebindings,resourceVersion:,resourceVersionMatch:,limit:10000,continue: (17-Jan-2023 06:40:01.373) (total time: 1724ms):
+2023-01-17T06:40:03.107323885Z stderr F Trace[332296404]: [1.724321782s] [1.724321782s] END
+2023-01-17T06:40:03.370185903Z stderr F I0117 06:40:03.366388       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:03.370211777Z stderr F I0117 06:40:03.366430       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:04.295233329Z stderr F I0117 06:40:04.247543       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:04.295276104Z stderr F I0117 06:40:04.247581       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:05.176209356Z stderr F I0117 06:40:05.169878       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:05.176229939Z stderr F I0117 06:40:05.169896       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:05.233173783Z stderr F I0117 06:40:05.217358       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:05.233191855Z stderr F I0117 06:40:05.217384       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:05.337251956Z stderr F I0117 06:40:05.328886       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:05.337259122Z stderr F I0117 06:40:05.328964       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:05.628411519Z stderr F I0117 06:40:05.621854       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:05.628493705Z stderr F I0117 06:40:05.621921       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.012224883Z stderr F I0117 06:40:06.002273       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.012244785Z stderr F I0117 06:40:06.002340       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.226180512Z stderr F I0117 06:40:06.177931       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.226199752Z stderr F I0117 06:40:06.177958       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.294190301Z stderr F I0117 06:40:06.283387       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.294211713Z stderr F I0117 06:40:06.283414       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.367309073Z stderr F I0117 06:40:06.364974       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.367334502Z stderr F I0117 06:40:06.365005       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.390526181Z stderr F I0117 06:40:06.386547       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.390546545Z stderr F I0117 06:40:06.386573       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.457337792Z stderr F I0117 06:40:06.454969       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.457791158Z stderr F I0117 06:40:06.454997       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.519231467Z stderr F I0117 06:40:06.508543       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.519253153Z stderr F I0117 06:40:06.508567       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.601436721Z stderr F I0117 06:40:06.589132       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.601454606Z stderr F I0117 06:40:06.589160       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.66732412Z stderr F I0117 06:40:06.656159       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.667344676Z stderr F I0117 06:40:06.656189       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.945321725Z stderr F I0117 06:40:06.942745       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.945342939Z stderr F I0117 06:40:06.942774       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:06.983189348Z stderr F I0117 06:40:06.977335       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:06.983210803Z stderr F I0117 06:40:06.977361       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:07.018200628Z stderr F I0117 06:40:07.015735       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:07.018221912Z stderr F I0117 06:40:07.015761       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:07.206256969Z stderr F I0117 06:40:07.200603       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:07.206280431Z stderr F I0117 06:40:07.200631       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:07.291510389Z stderr F I0117 06:40:07.286671       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:07.29153494Z stderr F I0117 06:40:07.286697       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:07.722345815Z stderr F I0117 06:40:07.536664       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:07.722397751Z stderr F I0117 06:40:07.536704       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:07.881518854Z stderr F I0117 06:40:07.878836       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:07.881542241Z stderr F I0117 06:40:07.878864       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:07.987254337Z stderr F I0117 06:40:07.986724       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:07.987280015Z stderr F I0117 06:40:07.986751       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:08.013332158Z stderr F I0117 06:40:08.009709       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:08.013339086Z stderr F I0117 06:40:08.009743       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:08.131614486Z stderr F I0117 06:40:08.122860       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:08.131682813Z stderr F I0117 06:40:08.122892       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:08.251624178Z stderr F I0117 06:40:08.243121       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:08.251701655Z stderr F I0117 06:40:08.243159       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:09.900272135Z stderr F W0117 06:40:09.891464       1 genericapiserver.go:425] Skipping API node.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:40:10.019463504Z stderr F W0117 06:40:10.003621       1 genericapiserver.go:425] Skipping API rbac.authorization.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:40:10.040174263Z stderr F W0117 06:40:10.028123       1 genericapiserver.go:425] Skipping API scheduling.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:40:10.089191938Z stderr F W0117 06:40:10.077010       1 genericapiserver.go:425] Skipping API storage.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:40:10.099148835Z stderr F W0117 06:40:10.090315       1 genericapiserver.go:425] Skipping API flowcontrol.apiserver.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:40:10.176421883Z stderr F W0117 06:40:10.168911       1 genericapiserver.go:425] Skipping API apps/v1beta2 because it has no resources.
+2023-01-17T06:40:10.176490834Z stderr F W0117 06:40:10.168933       1 genericapiserver.go:425] Skipping API apps/v1beta1 because it has no resources.
+2023-01-17T06:40:10.67134581Z stderr F I0117 06:40:10.585575       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2023-01-17T06:40:10.671367984Z stderr F I0117 06:40:10.585605       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2023-01-17T06:40:10.684019007Z stderr F I0117 06:40:10.682253       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:10.684081432Z stderr F I0117 06:40:10.682368       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:11.020802403Z stderr F I0117 06:40:11.008503       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:40:11.021218657Z stderr F I0117 06:40:11.008532       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:40:12.282501071Z stderr F I0117 06:40:12.263849       1 trace.go:205] Trace[153869785]: "List etcd3" key:/apiregistration.k8s.io/apiservices,resourceVersion:,resourceVersionMatch:,limit:10000,continue: (17-Jan-2023 06:40:11.008) (total time: 1074ms):
+2023-01-17T06:40:12.282503734Z stderr F Trace[153869785]: [1.074962148s] [1.074962148s] END
+2023-01-17T06:40:26.42571288Z stderr F I0117 06:40:26.411725       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:40:26.457328382Z stderr F I0117 06:40:26.435999       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:40:26.549485034Z stderr F I0117 06:40:26.519577       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:41:24.370427598Z stderr F I0117 06:41:24.336171       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:41:40.211682429Z stderr F I0117 06:41:40.099995       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:41:40.465428355Z stderr F I0117 06:41:40.462975       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:40.476782854Z stderr F W0117 06:41:40.471800       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:41:41.369849348Z stderr F W0117 06:41:40.797394       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:41:41.369867631Z stderr F I0117 06:41:40.797462       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:41:42.160652164Z stderr F W0117 06:41:40.334484       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:41:57.525395263Z stderr F I0117 06:41:57.324638       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:57.525729593Z stderr F I0117 06:41:57.327017       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:58.218192865Z stderr F I0117 06:41:58.035627       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:58.218239154Z stderr F I0117 06:41:58.035739       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:58.218245158Z stderr F I0117 06:41:58.035818       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:58.531532422Z stderr F I0117 06:41:58.513026       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:58.757966954Z stderr F I0117 06:41:58.532233       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:58.758008404Z stderr F I0117 06:41:58.719668       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:59.69854383Z stderr F I0117 06:41:53.396861       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:41:59.698568736Z stderr F I0117 06:41:59.616404       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:42:00.110543914Z stderr F I0117 06:42:00.047266       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:42:01.099503573Z stderr F W0117 06:42:00.973513       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:01.099527774Z stderr F W0117 06:42:01.018707       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:01.749302262Z stderr F W0117 06:42:01.601616       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:02.163443116Z stderr F W0117 06:42:02.156016       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:02.932429038Z stderr F W0117 06:42:02.927411       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:03.22509722Z stderr F W0117 06:42:03.194844       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:05.091479676Z stderr F I0117 06:42:05.085659       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:42:05.319418097Z stderr F W0117 06:42:05.302654       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:05.518444845Z stderr F W0117 06:42:05.512166       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:06.310298482Z stderr F W0117 06:42:06.289143       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:06.310322709Z stderr F W0117 06:42:06.289244       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:06.310326645Z stderr F W0117 06:42:06.289302       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:06.983334144Z stderr F W0117 06:42:06.923819       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446144197Z stderr F W0117 06:42:07.296269       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446171579Z stderr F W0117 06:42:07.296431       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446175666Z stderr F W0117 06:42:07.296702       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446188165Z stderr F W0117 06:42:07.296778       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446215463Z stderr F W0117 06:42:07.296882       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446219032Z stderr F W0117 06:42:07.362995       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446222684Z stderr F W0117 06:42:07.363462       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446226218Z stderr F W0117 06:42:07.363571       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446229775Z stderr F W0117 06:42:07.363631       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446233276Z stderr F W0117 06:42:07.363680       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446236845Z stderr F W0117 06:42:07.363729       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446240356Z stderr F W0117 06:42:07.363776       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446243887Z stderr F W0117 06:42:07.363887       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446247438Z stderr F W0117 06:42:07.417732       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446251014Z stderr F W0117 06:42:07.417825       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.446258841Z stderr F W0117 06:42:07.417897       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:07.560414489Z stderr F W0117 06:42:07.552308       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:08.022287477Z stderr F W0117 06:42:07.997426       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:08.253183777Z stderr F W0117 06:42:08.233954       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:09.445788135Z stderr F W0117 06:42:09.374420       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:42:38.43740563Z stderr F I0117 06:42:38.408755       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:42:38.890203421Z stderr F I0117 06:42:38.628338       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:42:38.890230053Z stderr F I0117 06:42:38.628392       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:43:17.876221099Z stderr F I0117 06:43:17.870541       1 dynamic_cafile_content.go:167] Starting request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+2023-01-17T06:43:17.88345218Z stderr F I0117 06:43:17.876688       1 dynamic_cafile_content.go:167] Starting client-ca-bundle::/etc/kubernetes/pki/ca.crt
+2023-01-17T06:43:17.883472389Z stderr F I0117 06:43:17.877594       1 secure_serving.go:197] Serving securely on [::]:6443
+2023-01-17T06:43:17.913250939Z stderr F I0117 06:43:17.896396       1 dynamic_serving_content.go:130] Starting serving-cert::/etc/kubernetes/pki/apiserver.crt::/etc/kubernetes/pki/apiserver.key
+2023-01-17T06:43:17.913317338Z stderr F I0117 06:43:17.896472       1 tlsconfig.go:240] Starting DynamicServingCertificateController
+2023-01-17T06:43:18.003126299Z stderr F I0117 06:43:17.994678       1 autoregister_controller.go:141] Starting autoregister controller
+2023-01-17T06:43:18.003143124Z stderr F I0117 06:43:17.994720       1 cache.go:32] Waiting for caches to sync for autoregister controller
+2023-01-17T06:43:18.003244575Z stderr F I0117 06:43:17.994752       1 controller.go:83] Starting OpenAPI AggregationController
+2023-01-17T06:43:18.029456883Z stderr F I0117 06:43:18.028371       1 dynamic_serving_content.go:130] Starting aggregator-proxy-cert::/etc/kubernetes/pki/front-proxy-client.crt::/etc/kubernetes/pki/front-proxy-client.key
+2023-01-17T06:43:18.031284298Z stderr F I0117 06:43:18.029545       1 apiservice_controller.go:97] Starting APIServiceRegistrationController
+2023-01-17T06:43:18.03134279Z stderr F I0117 06:43:18.029569       1 cache.go:32] Waiting for caches to sync for APIServiceRegistrationController controller
+2023-01-17T06:43:18.031347954Z stderr F I0117 06:43:18.029752       1 customresource_discovery_controller.go:209] Starting DiscoveryController
+2023-01-17T06:43:18.031351899Z stderr F I0117 06:43:18.030505       1 cluster_authentication_trust_controller.go:440] Starting cluster_authentication_trust_controller controller
+2023-01-17T06:43:18.031355388Z stderr F I0117 06:43:18.030519       1 shared_informer.go:240] Waiting for caches to sync for cluster_authentication_trust_controller
+2023-01-17T06:43:18.03135915Z stderr F I0117 06:43:18.030544       1 available_controller.go:475] Starting AvailableConditionController
+2023-01-17T06:43:18.031382621Z stderr F I0117 06:43:18.030552       1 cache.go:32] Waiting for caches to sync for AvailableConditionController controller
+2023-01-17T06:43:18.031386128Z stderr F I0117 06:43:18.030582       1 apf_controller.go:294] Starting API Priority and Fairness config controller
+2023-01-17T06:43:18.292284464Z stderr F I0117 06:43:18.286423       1 crdregistration_controller.go:111] Starting crd-autoregister controller
+2023-01-17T06:43:18.292296734Z stderr F I0117 06:43:18.286447       1 shared_informer.go:240] Waiting for caches to sync for crd-autoregister
+2023-01-17T06:43:18.34916484Z stderr F I0117 06:43:18.345708       1 controller.go:86] Starting OpenAPI controller
+2023-01-17T06:43:18.349185159Z stderr F I0117 06:43:18.345748       1 naming_controller.go:291] Starting NamingConditionController
+2023-01-17T06:43:18.349189008Z stderr F I0117 06:43:18.345772       1 establishing_controller.go:76] Starting EstablishingController
+2023-01-17T06:43:18.349192907Z stderr F I0117 06:43:18.345793       1 nonstructuralschema_controller.go:192] Starting NonStructuralSchemaConditionController
+2023-01-17T06:43:18.349195209Z stderr F I0117 06:43:18.345811       1 apiapproval_controller.go:186] Starting KubernetesAPIApprovalPolicyConformantConditionController
+2023-01-17T06:43:18.349226125Z stderr F I0117 06:43:18.345871       1 crd_finalizer.go:266] Starting CRDFinalizer
+2023-01-17T06:43:18.349229561Z stderr F I0117 06:43:18.345976       1 dynamic_cafile_content.go:167] Starting client-ca-bundle::/etc/kubernetes/pki/ca.crt
+2023-01-17T06:43:18.349233009Z stderr F I0117 06:43:18.346044       1 dynamic_cafile_content.go:167] Starting request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+2023-01-17T06:43:21.817279752Z stderr F I0117 06:43:21.799669       1 controller.go:132] OpenAPI AggregationController: action for item : Nothing (removed from the queue).
+2023-01-17T06:43:21.817339222Z stderr F I0117 06:43:21.799695       1 controller.go:132] OpenAPI AggregationController: action for item k8s_internal_local_delegation_chain_0000000000: Nothing (removed from the queue).
+2023-01-17T06:43:21.969741373Z stderr F E0117 06:43:21.959526       1 controller.go:152] Unable to remove old endpoints from kubernetes service: StorageError: key not found, Code: 1, Key: /registry/masterleases/172.18.0.2, ResourceVersion: 0, AdditionalErrorMsg: 
+2023-01-17T06:43:24.34862439Z stderr F E0117 06:43:24.333545       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.34865059Z stderr F E0117 06:43:24.333711       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.348685239Z stderr F E0117 06:43:24.334338       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:43:24.348688939Z stderr F E0117 06:43:24.334871       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.348692366Z stderr F E0117 06:43:24.334892       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.348696719Z stderr F E0117 06:43:24.337647       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.348701214Z stderr F E0117 06:43:24.343650       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:43:24.348753674Z stderr F E0117 06:43:24.343844       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.349031129Z stderr F E0117 06:43:24.343954       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.390559035Z stderr F E0117 06:43:24.369269       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.390574839Z stderr F E0117 06:43:24.372651       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:43:24.390578653Z stderr F E0117 06:43:24.373343       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.390588068Z stderr F E0117 06:43:24.373806       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.414684471Z stderr F E0117 06:43:24.396486       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.41470878Z stderr F E0117 06:43:24.397456       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.459938132Z stderr F E0117 06:43:24.448610       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.459949902Z stderr F E0117 06:43:24.451914       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:43:24.459953804Z stderr F E0117 06:43:24.452339       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.459958161Z stderr F E0117 06:43:24.452391       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.459962913Z stderr F E0117 06:43:24.456359       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.459967611Z stderr F E0117 06:43:24.456739       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.481297842Z stderr F E0117 06:43:24.461712       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.481321487Z stderr F E0117 06:43:24.462400       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.481325208Z stderr F E0117 06:43:24.465616       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.481328656Z stderr F E0117 06:43:24.467387       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:43:24.481332037Z stderr F E0117 06:43:24.468520       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.48133541Z stderr F E0117 06:43:24.472342       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.563540231Z stderr F I0117 06:43:24.545733       1 apf_controller.go:299] Running API Priority and Fairness config worker
+2023-01-17T06:43:24.563556765Z stderr F E0117 06:43:24.550640       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.777988051Z stderr F I0117 06:43:24.730616       1 shared_informer.go:247] Caches are synced for node_authorizer 
+2023-01-17T06:43:24.778142849Z stderr F I0117 06:43:24.730652       1 shared_informer.go:247] Caches are synced for crd-autoregister 
+2023-01-17T06:43:24.778150506Z stderr F I0117 06:43:24.731000       1 shared_informer.go:247] Caches are synced for cluster_authentication_trust_controller 
+2023-01-17T06:43:24.778154354Z stderr F E0117 06:43:24.731464       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:43:24.778157771Z stderr F E0117 06:43:24.735760       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.77816112Z stderr F E0117 06:43:24.745685       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:43:24.803562486Z stderr F I0117 06:43:24.795175       1 cache.go:39] Caches are synced for autoregister controller
+2023-01-17T06:43:24.973599914Z stderr F I0117 06:43:24.969503       1 cache.go:39] Caches are synced for APIServiceRegistrationController controller
+2023-01-17T06:43:25.032650402Z stderr F I0117 06:43:25.017302       1 cache.go:39] Caches are synced for AvailableConditionController controller
+2023-01-17T06:43:25.242131446Z stderr F I0117 06:43:25.234714       1 trace.go:205] Trace[1677589685]: "List etcd3" key:/clusterroles,resourceVersion:,resourceVersionMatch:,limit:0,continue: (17-Jan-2023 06:43:24.472) (total time: 762ms):
+2023-01-17T06:43:25.242152269Z stderr F Trace[1677589685]: [762.445026ms] [762.445026ms] END
+2023-01-17T06:43:25.274455794Z stderr F I0117 06:43:25.271855       1 trace.go:205] Trace[1078885861]: "List" url:/apis/rbac.authorization.k8s.io/v1/clusterroles,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:43:24.472) (total time: 799ms):
+2023-01-17T06:43:25.274473469Z stderr F Trace[1078885861]: ---"Listing from storage done" 762ms (06:43:00.234)
+2023-01-17T06:43:25.274477873Z stderr F Trace[1078885861]: [799.659708ms] [799.659708ms] END
+2023-01-17T06:43:25.419498307Z stderr F I0117 06:43:25.418271       1 trace.go:205] Trace[1438324791]: "List" url:/api/v1/nodes,user-agent:kindnetd/v0.0.0 (linux/amd64) kubernetes/$Format,client:172.18.0.2,accept:application/json, */*,protocol:HTTP/2.0 (17-Jan-2023 06:43:24.857) (total time: 560ms):
+2023-01-17T06:43:25.419523879Z stderr F Trace[1438324791]: ---"Listing from storage done" 481ms (06:43:00.338)
+2023-01-17T06:43:25.419528248Z stderr F Trace[1438324791]: [560.448366ms] [560.448366ms] END
+2023-01-17T06:43:25.726405646Z stderr F I0117 06:43:25.725576       1 trace.go:205] Trace[1031225379]: "Patch" url:/api/v1/nodes/kind-control-plane/status,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:43:25.214) (total time: 511ms):
+2023-01-17T06:43:25.72643348Z stderr F Trace[1031225379]: ---"Object stored in database" 459ms (06:43:00.725)
+2023-01-17T06:43:25.72643788Z stderr F Trace[1031225379]: [511.260662ms] [511.260662ms] END
+2023-01-17T06:43:25.959803903Z stderr F I0117 06:43:25.947940       1 trace.go:205] Trace[394352616]: "Get" url:/apis/scheduling.k8s.io/v1/priorityclasses/system-cluster-critical,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:43:25.238) (total time: 708ms):
+2023-01-17T06:43:25.959847756Z stderr F Trace[394352616]: ---"About to write a response" 708ms (06:43:00.947)
+2023-01-17T06:43:25.959858932Z stderr F Trace[394352616]: [708.87557ms] [708.87557ms] END
+2023-01-17T06:43:25.959872161Z stderr F I0117 06:43:25.948746       1 trace.go:205] Trace[1285886583]: "GuaranteedUpdate etcd3" type:*core.Pod (17-Jan-2023 06:43:24.905) (total time: 1043ms):
+2023-01-17T06:43:25.959882305Z stderr F Trace[1285886583]: ---"Transaction prepared" 411ms (06:43:00.316)
+2023-01-17T06:43:25.959892283Z stderr F Trace[1285886583]: ---"Transaction committed" 631ms (06:43:00.948)
+2023-01-17T06:43:25.959902072Z stderr F Trace[1285886583]: [1.043516356s] [1.043516356s] END
+2023-01-17T06:43:25.98530036Z stderr F I0117 06:43:25.981323       1 trace.go:205] Trace[761361083]: "GuaranteedUpdate etcd3" type:*core.RangeAllocation (17-Jan-2023 06:43:25.214) (total time: 766ms):
+2023-01-17T06:43:25.985316948Z stderr F Trace[761361083]: ---"initial value restored" 758ms (06:43:00.973)
+2023-01-17T06:43:25.985354203Z stderr F Trace[761361083]: [766.661202ms] [766.661202ms] END
+2023-01-17T06:43:25.985358458Z stderr F I0117 06:43:25.981804       1 trace.go:205] Trace[91153262]: "Patch" url:/api/v1/namespaces/kube-system/pods/kindnet-msl5l/status,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:43:24.795) (total time: 1186ms):
+2023-01-17T06:43:25.985369777Z stderr F Trace[91153262]: ---"Recorded the audit event" 109ms (06:43:00.904)
+2023-01-17T06:43:25.985373417Z stderr F Trace[91153262]: ---"About to check admission control" 201ms (06:43:00.106)
+2023-01-17T06:43:25.985376865Z stderr F Trace[91153262]: ---"Object stored in database" 841ms (06:43:00.948)
+2023-01-17T06:43:25.985380288Z stderr F Trace[91153262]: [1.186652834s] [1.186652834s] END
+2023-01-17T06:43:25.995638803Z stderr F I0117 06:43:25.987769       1 storage_scheduling.go:148] all system priority classes are created successfully or already exist.
+2023-01-17T06:43:26.077223811Z stderr F I0117 06:43:26.076649       1 trace.go:205] Trace[252347387]: "Get" url:/apis/flowcontrol.apiserver.k8s.io/v1beta1/flowschemas/exempt,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:43:25.238) (total time: 838ms):
+2023-01-17T06:43:26.077276898Z stderr F Trace[252347387]: ---"About to write a response" 837ms (06:43:00.076)
+2023-01-17T06:43:26.077282633Z stderr F Trace[252347387]: [838.116816ms] [838.116816ms] END
+2023-01-17T06:43:26.213670811Z stderr F I0117 06:43:26.197266       1 controller.go:611] quota admission added evaluator for: leases.coordination.k8s.io
+2023-01-17T06:43:42.134728546Z stderr F I0117 06:43:42.131425       1 controller.go:611] quota admission added evaluator for: endpointslices.discovery.k8s.io
+2023-01-17T06:43:42.134745444Z stderr F I0117 06:43:42.131689       1 controller.go:611] quota admission added evaluator for: endpoints
+2023-01-17T06:43:42.155193268Z stderr F I0117 06:43:42.151390       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:43:42.162375472Z stderr F I0117 06:43:42.161370       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:43:42.162391616Z stderr F I0117 06:43:42.161407       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:44:16.01776444Z stderr F I0117 06:44:16.015611       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:44:16.022666807Z stderr F I0117 06:44:16.021869       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:44:16.022763232Z stderr F I0117 06:44:16.021973       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:44:51.523704733Z stderr F I0117 06:44:51.520762       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:44:51.536632708Z stderr F I0117 06:44:51.536228       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:44:51.536731051Z stderr F I0117 06:44:51.536274       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:45:23.476010437Z stderr F I0117 06:45:23.471473       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:45:23.509351841Z stderr F I0117 06:45:23.506509       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:45:23.512284465Z stderr F I0117 06:45:23.511182       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:45:56.535350535Z stderr F I0117 06:45:56.534627       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:45:56.54915943Z stderr F I0117 06:45:56.548705       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:45:56.552217556Z stderr F I0117 06:45:56.549601       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:46:40.905820336Z stderr F I0117 06:46:40.902767       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:46:40.922142785Z stderr F I0117 06:46:40.917947       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:46:40.922192155Z stderr F I0117 06:46:40.918012       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:47:23.219260862Z stderr F I0117 06:47:23.218838       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:47:23.223358235Z stderr F I0117 06:47:23.221778       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:47:23.223382229Z stderr F I0117 06:47:23.221831       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:47:57.69745338Z stderr F I0117 06:47:57.696965       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:47:57.748400058Z stderr F I0117 06:47:57.746772       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:47:57.748435978Z stderr F I0117 06:47:57.747018       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:48:31.123210803Z stderr F I0117 06:48:31.121543       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:48:31.126264922Z stderr F I0117 06:48:31.125804       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:48:31.126288295Z stderr F I0117 06:48:31.125860       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:49:01.654492807Z stderr F I0117 06:49:01.650513       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:49:01.682750616Z stderr F I0117 06:49:01.679681       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:49:01.682875864Z stderr F I0117 06:49:01.679930       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:49:36.441093741Z stderr F I0117 06:49:36.440291       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:49:36.444185362Z stderr F I0117 06:49:36.443557       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:49:36.453605515Z stderr F I0117 06:49:36.452323       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:50:20.70853188Z stderr F I0117 06:50:20.708308       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:50:20.712478659Z stderr F I0117 06:50:20.710247       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:50:20.712502431Z stderr F I0117 06:50:20.710267       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:50:56.099683917Z stderr F I0117 06:50:56.099194       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:50:56.103533352Z stderr F I0117 06:50:56.103148       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:50:56.103554642Z stderr F I0117 06:50:56.103207       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:51:26.336531224Z stderr F I0117 06:51:26.334602       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:51:26.34523773Z stderr F I0117 06:51:26.344333       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:51:26.34534849Z stderr F I0117 06:51:26.344396       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:52:10.35073714Z stderr F I0117 06:52:10.350317       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:52:10.385833015Z stderr F I0117 06:52:10.373471       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:52:10.385868274Z stderr F I0117 06:52:10.373517       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:52:42.819383894Z stderr F I0117 06:52:42.818270       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:52:42.841473893Z stderr F I0117 06:52:42.828470       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:52:42.841532573Z stderr F I0117 06:52:42.828574       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:53:16.657002422Z stderr F I0117 06:53:16.655726       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:53:16.661555033Z stderr F I0117 06:53:16.660669       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:53:16.661588619Z stderr F I0117 06:53:16.661197       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:53:49.81326611Z stderr F I0117 06:53:49.811813       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:53:49.81999746Z stderr F I0117 06:53:49.819048       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:53:49.820021365Z stderr F I0117 06:53:49.819190       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:54:28.644448993Z stderr F I0117 06:54:28.643816       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:54:28.648867827Z stderr F I0117 06:54:28.647713       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:54:28.648902843Z stderr F I0117 06:54:28.647902       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:55:09.568460358Z stderr F I0117 06:55:09.565571       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:55:09.573945098Z stderr F I0117 06:55:09.571243       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:55:09.574086831Z stderr F I0117 06:55:09.571293       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:55:51.6344025Z stderr F I0117 06:55:51.625317       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:55:51.647236602Z stderr F I0117 06:55:51.644301       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:55:51.647662093Z stderr F I0117 06:55:51.644379       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:56:30.796248709Z stderr F I0117 06:56:30.795323       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:56:30.814606207Z stderr F I0117 06:56:30.813694       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:56:30.817746009Z stderr F I0117 06:56:30.817219       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:57:05.075257638Z stderr F I0117 06:57:05.070520       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:57:05.085321322Z stderr F I0117 06:57:05.080459       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:57:05.085397969Z stderr F I0117 06:57:05.080553       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:57:48.072032649Z stderr F I0117 06:57:48.068719       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:57:48.086372463Z stderr F I0117 06:57:48.086007       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:57:48.088501519Z stderr F I0117 06:57:48.086528       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:58:21.247125931Z stderr F I0117 06:58:21.246084       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:58:21.25615678Z stderr F I0117 06:58:21.253087       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:58:21.256171191Z stderr F I0117 06:58:21.253129       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:59:02.886792465Z stderr F I0117 06:59:02.886386       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:59:02.887642756Z stderr F I0117 06:59:02.887149       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:59:02.887736477Z stderr F I0117 06:59:02.887208       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:59:39.729364449Z stderr F I0117 06:59:39.728443       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:59:39.736207257Z stderr F I0117 06:59:39.734562       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:59:39.736307829Z stderr F I0117 06:59:39.734632       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:00:20.096776645Z stderr F I0117 07:00:20.093468       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:00:20.097151683Z stderr F I0117 07:00:20.093657       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:00:20.097164541Z stderr F I0117 07:00:20.093702       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:00:58.562975926Z stderr F I0117 07:00:58.561666       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:00:58.583096004Z stderr F I0117 07:00:58.582102       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:00:58.58315554Z stderr F I0117 07:00:58.582154       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:01:32.57014433Z stderr F I0117 07:01:32.569207       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:01:32.570167619Z stderr F I0117 07:01:32.569437       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:01:32.570200394Z stderr F I0117 07:01:32.569453       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:02:06.963539082Z stderr F I0117 07:02:06.962732       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:02:06.966179508Z stderr F I0117 07:02:06.965032       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:02:06.966204134Z stderr F I0117 07:02:06.965095       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:02:49.731205354Z stderr F I0117 07:02:49.730254       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:02:49.731643775Z stderr F I0117 07:02:49.730341       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:02:49.731649115Z stderr F I0117 07:02:49.730360       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:03:26.174009875Z stderr F I0117 07:03:26.172860       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:03:26.177252649Z stderr F I0117 07:03:26.174862       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:03:26.177275181Z stderr F I0117 07:03:26.174886       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:04:00.823540104Z stderr F I0117 07:04:00.823019       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:04:00.830009273Z stderr F I0117 07:04:00.826190       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:04:00.830108433Z stderr F I0117 07:04:00.826237       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:04:40.0285236Z stderr F I0117 07:04:40.021767       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:04:40.031550425Z stderr F I0117 07:04:40.030978       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:04:40.031582742Z stderr F I0117 07:04:40.031036       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:05:19.127878004Z stderr F I0117 07:05:19.125694       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:05:19.128126785Z stderr F I0117 07:05:19.125780       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:05:19.128139858Z stderr F I0117 07:05:19.125795       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:05:57.563905788Z stderr F I0117 07:05:57.563225       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:05:57.567942778Z stderr F I0117 07:05:57.567417       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:05:57.567961118Z stderr F I0117 07:05:57.567451       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:06:42.210406728Z stderr F I0117 07:06:42.207901       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:06:42.23521963Z stderr F I0117 07:06:42.229243       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:06:42.23533113Z stderr F I0117 07:06:42.229380       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:07:21.881317695Z stderr F I0117 07:07:21.880082       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:07:21.889258309Z stderr F I0117 07:07:21.887296       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:07:21.889282771Z stderr F I0117 07:07:21.887338       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:07:56.986490471Z stderr F I0117 07:07:56.985222       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:07:56.989428561Z stderr F I0117 07:07:56.989142       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:07:56.989434204Z stderr F I0117 07:07:56.989193       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:08:37.121890273Z stderr F I0117 07:08:37.120568       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:08:37.138570722Z stderr F I0117 07:08:37.136607       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:08:37.138606515Z stderr F I0117 07:08:37.136687       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:09:14.547571952Z stderr F I0117 07:09:14.546921       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:09:14.57126532Z stderr F I0117 07:09:14.569843       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:09:14.57128996Z stderr F I0117 07:09:14.569896       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:09:54.028517331Z stderr F I0117 07:09:54.027386       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:09:54.031653537Z stderr F I0117 07:09:54.029860       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:09:54.03165958Z stderr F I0117 07:09:54.029917       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:10:30.972840648Z stderr F I0117 07:10:30.970367       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:10:30.97295775Z stderr F I0117 07:10:30.970489       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:10:30.972986999Z stderr F I0117 07:10:30.970504       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:11:04.169687255Z stderr F I0117 07:11:04.167661       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:11:04.180773862Z stderr F I0117 07:11:04.174647       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:11:04.180887115Z stderr F I0117 07:11:04.174678       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:11:43.70956532Z stderr F I0117 07:11:43.703191       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:11:43.720357805Z stderr F I0117 07:11:43.717110       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:11:43.720456533Z stderr F I0117 07:11:43.717144       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:12:15.181250384Z stderr F I0117 07:12:15.179654       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:12:15.181270019Z stderr F I0117 07:12:15.179746       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:12:15.181274146Z stderr F I0117 07:12:15.179760       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:12:50.555784705Z stderr F I0117 07:12:50.554003       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:12:50.555837316Z stderr F I0117 07:12:50.554151       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:12:50.555847795Z stderr F I0117 07:12:50.554173       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:13:21.49820065Z stderr F I0117 07:13:21.497878       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:13:21.498225934Z stderr F I0117 07:13:21.497943       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:13:21.498682274Z stderr F I0117 07:13:21.498472       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:13:55.769289884Z stderr F I0117 07:13:55.768216       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:13:55.769464032Z stderr F I0117 07:13:55.768588       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:13:55.769469495Z stderr F I0117 07:13:55.768609       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:14:19.268927767Z stderr F W0117 07:14:19.266316       1 watcher.go:220] watch chan error: etcdserver: mvcc: required revision has been compacted
+2023-01-17T07:14:38.492207988Z stderr F I0117 07:14:38.491721       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:14:38.519205295Z stderr F I0117 07:14:38.518514       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:14:38.51927172Z stderr F I0117 07:14:38.518568       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:15:10.432276321Z stderr F I0117 07:15:10.430303       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:15:10.434588644Z stderr F I0117 07:15:10.434013       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:15:10.434600961Z stderr F I0117 07:15:10.434061       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:15:54.727007245Z stderr F I0117 07:15:54.725536       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:15:54.731711142Z stderr F I0117 07:15:54.730759       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:15:54.731730513Z stderr F I0117 07:15:54.730833       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:16:36.413560979Z stderr F I0117 07:16:36.412201       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:16:36.427680268Z stderr F I0117 07:16:36.427290       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:16:36.427772923Z stderr F I0117 07:16:36.427333       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:17:17.972915014Z stderr F I0117 07:17:17.971408       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:17:17.977861588Z stderr F I0117 07:17:17.976702       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:17:17.977882959Z stderr F I0117 07:17:17.976735       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:17:48.137185484Z stderr F I0117 07:17:48.136479       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:17:48.145563297Z stderr F I0117 07:17:48.143425       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:17:48.145608691Z stderr F I0117 07:17:48.143488       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:18:22.976239384Z stderr F I0117 07:18:22.968502       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:18:22.985517046Z stderr F I0117 07:18:22.968639       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:18:22.985517052Z stderr F I0117 07:18:22.968661       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:19:05.508275353Z stderr F I0117 07:19:05.507093       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:19:05.52118155Z stderr F I0117 07:19:05.520155       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:19:05.521258667Z stderr F I0117 07:19:05.520190       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:19:37.257915784Z stderr F I0117 07:19:37.257492       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:19:37.261419377Z stderr F I0117 07:19:37.259451       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:19:37.261465895Z stderr F I0117 07:19:37.259496       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:20:15.879794128Z stderr F I0117 07:20:15.879238       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:20:15.8835472Z stderr F I0117 07:20:15.883023       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:20:15.883569176Z stderr F I0117 07:20:15.883062       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:20:50.200975735Z stderr F I0117 07:20:50.196803       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:20:50.205644983Z stderr F I0117 07:20:50.204784       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:20:50.205686954Z stderr F I0117 07:20:50.204813       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:21:33.992615758Z stderr F I0117 07:21:33.982213       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:21:33.996584218Z stderr F I0117 07:21:33.993670       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:21:33.996614433Z stderr F I0117 07:21:33.993710       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:22:06.507402336Z stderr F I0117 07:22:06.504609       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:22:06.524722839Z stderr F I0117 07:22:06.523883       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:22:06.524797296Z stderr F I0117 07:22:06.523960       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:22:46.722918946Z stderr F I0117 07:22:46.722220       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:22:46.752707874Z stderr F I0117 07:22:46.751386       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:22:46.752731606Z stderr F I0117 07:22:46.751445       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:23:23.326793051Z stderr F I0117 07:23:23.325743       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:23:23.328587664Z stderr F I0117 07:23:23.328188       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:23:23.333349561Z stderr F I0117 07:23:23.332132       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:23:59.006289468Z stderr F I0117 07:23:59.005394       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:23:59.0171551Z stderr F I0117 07:23:59.016928       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:23:59.017602339Z stderr F I0117 07:23:59.017286       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:24:38.073665883Z stderr F I0117 07:24:38.072805       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:24:38.085635096Z stderr F I0117 07:24:38.081658       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:24:38.08566128Z stderr F I0117 07:24:38.081680       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:25:17.451958834Z stderr F I0117 07:25:17.446917       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:25:17.452486726Z stderr F I0117 07:25:17.447543       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:25:17.452516382Z stderr F I0117 07:25:17.447572       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:25:52.034228509Z stderr F I0117 07:25:51.999202       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:25:52.074825906Z stderr F I0117 07:25:52.064959       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:25:52.089251291Z stderr F I0117 07:25:52.082591       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:26:33.479310602Z stderr F I0117 07:26:33.477832       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:26:33.486533674Z stderr F I0117 07:26:33.483673       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:26:33.486586683Z stderr F I0117 07:26:33.483714       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:27:12.637769916Z stderr F I0117 07:27:12.635190       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:27:12.654542977Z stderr F I0117 07:27:12.651982       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:27:12.654586394Z stderr F I0117 07:27:12.652145       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:27:49.147274584Z stderr F I0117 07:27:49.145629       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:27:49.154079699Z stderr F I0117 07:27:49.149587       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:27:49.154122277Z stderr F I0117 07:27:49.149612       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:28:21.754546651Z stderr F I0117 07:28:21.753626       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:28:21.759519295Z stderr F I0117 07:28:21.757130       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:28:21.75954323Z stderr F I0117 07:28:21.757154       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:29:02.777604922Z stderr F I0117 07:29:02.776997       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:29:02.78178111Z stderr F I0117 07:29:02.780645       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:29:02.781817077Z stderr F I0117 07:29:02.780698       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:29:41.445134481Z stderr F I0117 07:29:41.444226       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:29:41.448998704Z stderr F I0117 07:29:41.448538       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:29:41.449020236Z stderr F I0117 07:29:41.448690       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:30:18.063855128Z stderr F I0117 07:30:18.062547       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:30:18.067633856Z stderr F I0117 07:30:18.065570       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:30:18.067684297Z stderr F I0117 07:30:18.065599       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:30:56.547860633Z stderr F I0117 07:30:56.545559       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:30:56.566035968Z stderr F I0117 07:30:56.563968       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:30:56.566097805Z stderr F I0117 07:30:56.564031       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:31:38.349683573Z stderr F I0117 07:31:38.349230       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:31:38.349780103Z stderr F I0117 07:31:38.349332       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:31:38.355561046Z stderr F I0117 07:31:38.349876       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:32:18.829123102Z stderr F I0117 07:32:18.828694       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:32:18.832493861Z stderr F I0117 07:32:18.829995       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:32:18.832513953Z stderr F I0117 07:32:18.830113       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:32:50.425786529Z stderr F I0117 07:32:50.408398       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:32:50.427522206Z stderr F I0117 07:32:50.426714       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:32:50.427545651Z stderr F I0117 07:32:50.426806       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:33:27.042912411Z stderr F I0117 07:33:27.042219       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:33:27.052708805Z stderr F I0117 07:33:27.043549       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:33:27.052736145Z stderr F I0117 07:33:27.043587       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T07:34:09.334143168Z stderr F I0117 07:34:09.330698       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T07:34:09.349393271Z stderr F I0117 07:34:09.348478       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T07:34:09.349414384Z stderr F I0117 07:34:09.348528       1 clientconn.go:948] ClientConn switching balancer to "pick_first"

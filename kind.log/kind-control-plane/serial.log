@@ -1,0 +1,60 @@
+INFO: ensuring we can execute mount/umount even with userns-remap
+INFO: remounting /sys read-only
+INFO: making mounts shared
+INFO: detected cgroup v1
+INFO: fix cgroup mounts for all subsystems
+INFO: clearing and regenerating /etc/machine-id
+Initializing machine ID from random generator.
+INFO: faking /sys/class/dmi/id/product_name to be "kind"
+INFO: faking /sys/class/dmi/id/product_uuid to be random
+INFO: faking /sys/devices/virtual/dmi/id/product_uuid as well
+INFO: setting iptables to detected mode: legacy
+INFO: Detected IPv4 address: 172.18.0.2
+INFO: Detected IPv6 address: ::ffff:172.18.0.2
+systemd 247.3-3ubuntu3 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +ZSTD +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+Detected virtualization docker.
+Detected architecture x86-64.
+[0;1;31mFailed to create symlink /sys/fs/cgroup/cpu: File exists[0m
+[0;1;31mFailed to create symlink /sys/fs/cgroup/cpuacct: File exists[0m
+[0;1;31mFailed to create symlink /sys/fs/cgroup/net_cls: File exists[0m
+[0;1;31mFailed to create symlink /sys/fs/cgroup/net_prio: File exists[0m
+
+Welcome to [1mUbuntu 21.04[0m!
+
+Set hostname to <kind-control-plane>.
+Queued start job for default target Graphical Interface.
+[0;1;38;5;185msystem-modprobe.slice: unit configures an IP firewall, but the local system does not support BPF/cgroup firewalling.[0m
+[0;1;38;5;185m(This warning is only shown for the first unit using IP firewalling.)[0m
+[[0;32m  OK  [0m] Created slice [0;1;39msystem-modprobe.slice[0m.
+[[0;32m  OK  [0m] Started [0;1;39mDispatch Password …ts to Console Directory Watch[0m.
+[[0;32m  OK  [0m] Set up automount [0;1;39mArbitrary…s File System Automount Point[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLocal Encrypted Volumes[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mPaths[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSlices[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSwap[0m.
+[[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket (/dev/log)[0m.
+[[0;32m  OK  [0m] Listening on [0;1;39mJournal Socket[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSockets[0m.
+         Mounting [0;1;39mHuge Pages File System[0m...
+         Mounting [0;1;39mKernel Debug File System[0m...
+         Starting [0;1;39mJournal Service[0m...
+         Starting [0;1;39mCreate list of st…odes for the current kernel[0m...
+         Starting [0;1;39mLoad Kernel Module configfs[0m...
+         Starting [0;1;39mLoad Kernel Module fuse[0m...
+         Starting [0;1;39mRemount Root and Kernel File Systems[0m...
+         Starting [0;1;39mApply Kernel Variables[0m...
+[[0;32m  OK  [0m] Mounted [0;1;39mHuge Pages File System[0m.
+[[0;32m  OK  [0m] Mounted [0;1;39mKernel Debug File System[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mCreate list of st… nodes for the current kernel[0m.
+modprobe@configfs.service: Succeeded.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module configfs[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mRemount Root and Kernel File Systems[0m.
+         Starting [0;1;39mCreate System Users[0m...
+         Starting [0;1;39mUpdate UTMP about System Boot/Shutdown[0m...
+[[0;32m  OK  [0m] Finished [0;1;39mApply Kernel Variables[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mUpdate UTMP about System Boot/Shutdown[0m.
+modprobe@fuse.service: Succeeded.
+[[0;32m  OK  [0m] Finished [0;1;39mLoad Kernel Module fuse[0m.
+         Mounting [0;1;39mFUSE Control File System[0m...
+[[0;32m  OK  [0m] Mounted [0;1;39mFUSE Control File System[0m.
+[[0;32m  OK  [0m] Started [0;1;39mJournal Service[0m.

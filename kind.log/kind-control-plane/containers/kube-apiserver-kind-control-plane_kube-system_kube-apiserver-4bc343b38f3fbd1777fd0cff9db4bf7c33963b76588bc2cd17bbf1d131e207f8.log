@@ -1,0 +1,833 @@
+2023-01-17T06:34:21.02457404Z stderr F Flag --insecure-port has been deprecated, This flag has no effect now and will be removed in v1.24.
+2023-01-17T06:34:21.056888309Z stderr F I0117 06:34:21.051128       1 server.go:629] external host was not specified, using 172.18.0.2
+2023-01-17T06:34:21.087262726Z stderr F I0117 06:34:21.068714       1 server.go:181] Version: v1.21.1
+2023-01-17T06:34:26.673701374Z stderr F I0117 06:34:26.622920       1 shared_informer.go:240] Waiting for caches to sync for node_authorizer
+2023-01-17T06:34:26.93127157Z stderr F I0117 06:34:26.861606       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2023-01-17T06:34:26.931334839Z stderr F I0117 06:34:26.861634       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2023-01-17T06:34:26.931340252Z stderr F I0117 06:34:26.918023       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2023-01-17T06:34:26.939193372Z stderr F I0117 06:34:26.932086       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2023-01-17T06:34:27.051686186Z stderr F I0117 06:34:27.051381       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:27.05447153Z stderr F I0117 06:34:27.054139       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:27.314199339Z stderr F I0117 06:34:27.291818       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:27.314217249Z stderr F I0117 06:34:27.291852       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:27.424252341Z stderr F I0117 06:34:27.397629       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:27.424327479Z stderr F I0117 06:34:27.397666       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:27.529979591Z stderr F I0117 06:34:27.513896       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:34:27.529994252Z stderr F I0117 06:34:27.514140       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:34:27.529998471Z stderr F I0117 06:34:27.514435       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:34:27.587287579Z stderr F I0117 06:34:27.586518       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:27.587309914Z stderr F I0117 06:34:27.586554       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:28.190376348Z stderr F I0117 06:34:28.189551       1 instance.go:283] Using reconciler: lease
+2023-01-17T06:34:28.192505302Z stderr F I0117 06:34:28.190575       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:28.192529537Z stderr F I0117 06:34:28.190606       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:28.320067515Z stderr F I0117 06:34:28.317512       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:28.320093192Z stderr F I0117 06:34:28.317565       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:28.37418709Z stderr F I0117 06:34:28.361668       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:28.374210833Z stderr F I0117 06:34:28.361693       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:28.741170993Z stderr F I0117 06:34:28.712117       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:28.741196177Z stderr F I0117 06:34:28.712157       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:28.842159937Z stderr F I0117 06:34:28.841413       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:28.842179694Z stderr F I0117 06:34:28.841495       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.007428442Z stderr F I0117 06:34:28.991693       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.007446522Z stderr F I0117 06:34:28.991723       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.045608223Z stderr F I0117 06:34:29.036700       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.045771699Z stderr F I0117 06:34:29.036726       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.132477454Z stderr F I0117 06:34:29.115515       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.132532112Z stderr F I0117 06:34:29.115538       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.243464854Z stderr F I0117 06:34:29.238840       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.243480541Z stderr F I0117 06:34:29.238866       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.347957726Z stderr F I0117 06:34:29.340419       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.347970896Z stderr F I0117 06:34:29.340493       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.480208927Z stderr F I0117 06:34:29.477625       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.480228392Z stderr F I0117 06:34:29.477654       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.582194094Z stderr F I0117 06:34:29.578669       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.582259632Z stderr F I0117 06:34:29.578696       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.758224085Z stderr F I0117 06:34:29.757737       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.758247905Z stderr F I0117 06:34:29.757764       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.776271228Z stderr F I0117 06:34:29.771910       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.776287112Z stderr F I0117 06:34:29.771938       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.863213667Z stderr F I0117 06:34:29.849007       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.870202755Z stderr F I0117 06:34:29.864292       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:29.985210665Z stderr F I0117 06:34:29.967114       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:29.985233216Z stderr F I0117 06:34:29.967185       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:30.016691955Z stderr F I0117 06:34:30.004615       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:30.016709367Z stderr F I0117 06:34:30.004642       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:30.086138571Z stderr F I0117 06:34:30.055909       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:30.086158893Z stderr F I0117 06:34:30.055949       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:30.163264633Z stderr F I0117 06:34:30.161430       1 rest.go:130] the default service ipfamily for this cluster is: IPv4
+2023-01-17T06:34:30.774060498Z stderr F I0117 06:34:30.764307       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:30.774076149Z stderr F I0117 06:34:30.764333       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:30.849225707Z stderr F I0117 06:34:30.842159       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:30.849254252Z stderr F I0117 06:34:30.842221       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.00418022Z stderr F I0117 06:34:30.996928       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.004201358Z stderr F I0117 06:34:30.996979       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.1112167Z stderr F I0117 06:34:31.100336       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.111232195Z stderr F I0117 06:34:31.100364       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.16656863Z stderr F I0117 06:34:31.155425       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.166589476Z stderr F I0117 06:34:31.155455       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.198163302Z stderr F I0117 06:34:31.195003       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.198182134Z stderr F I0117 06:34:31.195031       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.367486263Z stderr F I0117 06:34:31.355119       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.367500114Z stderr F I0117 06:34:31.355152       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.441471549Z stderr F I0117 06:34:31.437385       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.441492314Z stderr F I0117 06:34:31.437416       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.515198274Z stderr F I0117 06:34:31.513954       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.515213218Z stderr F I0117 06:34:31.513981       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.685678041Z stderr F I0117 06:34:31.667612       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.685747603Z stderr F I0117 06:34:31.667655       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:31.888707705Z stderr F I0117 06:34:31.873536       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:31.888730417Z stderr F I0117 06:34:31.873653       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:32.051531099Z stderr F I0117 06:34:32.039625       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:32.051547479Z stderr F I0117 06:34:32.039650       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:32.313184871Z stderr F I0117 06:34:32.300434       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:32.313209273Z stderr F I0117 06:34:32.300475       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:32.46880565Z stderr F I0117 06:34:32.455659       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:32.468828056Z stderr F I0117 06:34:32.455697       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:32.682548905Z stderr F I0117 06:34:32.679131       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:32.682624036Z stderr F I0117 06:34:32.679200       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:32.800959939Z stderr F I0117 06:34:32.773439       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:32.801011041Z stderr F I0117 06:34:32.773461       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:32.952241103Z stderr F I0117 06:34:32.879821       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:32.952267577Z stderr F I0117 06:34:32.879874       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:33.407375665Z stderr F I0117 06:34:33.403954       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:33.407408559Z stderr F I0117 06:34:33.403986       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:33.777169984Z stderr F I0117 06:34:33.770125       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:33.777196138Z stderr F I0117 06:34:33.770211       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:33.930299915Z stderr F I0117 06:34:33.922635       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:33.930320712Z stderr F I0117 06:34:33.922663       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:34.077236242Z stderr F I0117 06:34:34.067870       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:34.077256158Z stderr F I0117 06:34:34.067896       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:34.6598748Z stderr F I0117 06:34:34.651880       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:34.659913717Z stderr F I0117 06:34:34.651938       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:34.772914793Z stderr F I0117 06:34:34.760033       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:34.796356911Z stderr F I0117 06:34:34.773197       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:34.890352699Z stderr F I0117 06:34:34.885925       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:34.890367497Z stderr F I0117 06:34:34.885953       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:34.929308869Z stderr F I0117 06:34:34.925074       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:34.932259316Z stderr F I0117 06:34:34.929511       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:34.984356781Z stderr F I0117 06:34:34.973716       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:34.984375711Z stderr F I0117 06:34:34.973740       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:35.075203235Z stderr F I0117 06:34:35.063512       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:35.075222259Z stderr F I0117 06:34:35.063545       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:35.128259523Z stderr F I0117 06:34:35.117553       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:35.128279805Z stderr F I0117 06:34:35.117590       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:35.245323126Z stderr F I0117 06:34:35.237489       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:35.245432174Z stderr F I0117 06:34:35.237516       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:35.335408804Z stderr F I0117 06:34:35.327835       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:35.33542998Z stderr F I0117 06:34:35.327873       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:35.524462312Z stderr F I0117 06:34:35.507204       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:35.524482466Z stderr F I0117 06:34:35.507253       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:36.518218309Z stderr F I0117 06:34:36.496433       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:36.518236392Z stderr F I0117 06:34:36.496462       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:36.704188114Z stderr F I0117 06:34:36.617399       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:36.704206288Z stderr F I0117 06:34:36.617426       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:36.738105477Z stderr F I0117 06:34:36.724390       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:36.738128928Z stderr F I0117 06:34:36.724422       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:36.820724336Z stderr F I0117 06:34:36.814519       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:36.820745733Z stderr F I0117 06:34:36.814545       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:36.859160492Z stderr F I0117 06:34:36.855522       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:36.859174939Z stderr F I0117 06:34:36.855553       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:36.996310029Z stderr F I0117 06:34:36.989730       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:36.996322185Z stderr F I0117 06:34:36.989779       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.071240758Z stderr F I0117 06:34:37.062907       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.07126151Z stderr F I0117 06:34:37.062936       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.146161943Z stderr F I0117 06:34:37.143157       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.146183174Z stderr F I0117 06:34:37.143253       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.228434361Z stderr F I0117 06:34:37.221731       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.22845328Z stderr F I0117 06:34:37.221756       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.276177044Z stderr F I0117 06:34:37.269597       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.27620125Z stderr F I0117 06:34:37.269597       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.342720032Z stderr F I0117 06:34:37.332194       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.342742858Z stderr F I0117 06:34:37.332219       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.426357978Z stderr F I0117 06:34:37.414518       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.426376846Z stderr F I0117 06:34:37.414544       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.654582369Z stderr F I0117 06:34:37.633153       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.654614507Z stderr F I0117 06:34:37.633173       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.755393156Z stderr F I0117 06:34:37.740759       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.755415458Z stderr F I0117 06:34:37.740789       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.840174185Z stderr F I0117 06:34:37.838572       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.840193249Z stderr F I0117 06:34:37.838595       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:37.934367925Z stderr F I0117 06:34:37.928363       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:37.934389495Z stderr F I0117 06:34:37.928389       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:38.130181118Z stderr F I0117 06:34:38.120451       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:38.130197571Z stderr F I0117 06:34:38.120514       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:38.173258862Z stderr F I0117 06:34:38.163212       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:38.173282589Z stderr F I0117 06:34:38.163241       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:38.419934375Z stderr F I0117 06:34:38.416489       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:38.419954527Z stderr F I0117 06:34:38.416561       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:38.47511972Z stderr F I0117 06:34:38.458869       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:38.475141988Z stderr F I0117 06:34:38.458894       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:38.605035276Z stderr F I0117 06:34:38.601701       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:38.605065249Z stderr F I0117 06:34:38.601739       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:38.711353091Z stderr F I0117 06:34:38.687796       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:38.711453947Z stderr F I0117 06:34:38.687832       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:38.884202598Z stderr F I0117 06:34:38.874088       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:38.884218752Z stderr F I0117 06:34:38.874132       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:39.029243735Z stderr F I0117 06:34:39.023768       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:39.029269025Z stderr F I0117 06:34:39.023800       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:40.751290093Z stderr F W0117 06:34:40.731788       1 genericapiserver.go:425] Skipping API node.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:34:40.845913816Z stderr F W0117 06:34:40.836628       1 genericapiserver.go:425] Skipping API rbac.authorization.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:34:40.907208731Z stderr F W0117 06:34:40.898124       1 genericapiserver.go:425] Skipping API scheduling.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:34:41.025168961Z stderr F W0117 06:34:41.022585       1 genericapiserver.go:425] Skipping API storage.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:34:41.027181593Z stderr F W0117 06:34:41.026614       1 genericapiserver.go:425] Skipping API flowcontrol.apiserver.k8s.io/v1alpha1 because it has no resources.
+2023-01-17T06:34:41.224120896Z stderr F W0117 06:34:41.032732       1 genericapiserver.go:425] Skipping API apps/v1beta2 because it has no resources.
+2023-01-17T06:34:41.224145251Z stderr F W0117 06:34:41.032751       1 genericapiserver.go:425] Skipping API apps/v1beta1 because it has no resources.
+2023-01-17T06:34:41.224194384Z stderr F I0117 06:34:41.218430       1 plugins.go:158] Loaded 12 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,RuntimeClass,DefaultIngressClass,MutatingAdmissionWebhook.
+2023-01-17T06:34:41.22419796Z stderr F I0117 06:34:41.218465       1 plugins.go:161] Loaded 10 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,RuntimeClass,CertificateApproval,CertificateSigning,CertificateSubjectRestriction,ValidatingAdmissionWebhook,ResourceQuota.
+2023-01-17T06:34:41.236315599Z stderr F I0117 06:34:41.227986       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:41.236340018Z stderr F I0117 06:34:41.228083       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:41.30447856Z stderr F I0117 06:34:41.301358       1 client.go:360] parsed scheme: "endpoint"
+2023-01-17T06:34:41.304486709Z stderr F I0117 06:34:41.301389       1 endpoint.go:68] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379  <nil> 0 <nil>}]
+2023-01-17T06:34:42.692885867Z stderr F I0117 06:34:42.389214       1 trace.go:205] Trace[1957195472]: "List etcd3" key:/apiregistration.k8s.io/apiservices,resourceVersion:,resourceVersionMatch:,limit:10000,continue: (17-Jan-2023 06:34:41.399) (total time: 908ms):
+2023-01-17T06:34:42.692903719Z stderr F Trace[1957195472]: [908.839979ms] [908.839979ms] END
+2023-01-17T06:34:42.947314994Z stderr F I0117 06:34:42.938015       1 trace.go:205] Trace[23867015]: "List etcd3" key:/apiregistration.k8s.io/apiservices,resourceVersion:,resourceVersionMatch:,limit:10000,continue: (17-Jan-2023 06:34:41.300) (total time: 1637ms):
+2023-01-17T06:34:42.947321833Z stderr F Trace[23867015]: [1.637036866s] [1.637036866s] END
+2023-01-17T06:35:10.057653566Z stderr F I0117 06:35:10.051632       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:35:11.788000095Z stderr F I0117 06:35:11.672135       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:35:11.928481172Z stderr F I0117 06:35:11.913547       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:35:43.636545642Z stderr F I0117 06:35:43.626662       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:35:43.97484562Z stderr F W0117 06:35:43.966967       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:35:50.305379654Z stderr F I0117 06:35:50.304619       1 secure_serving.go:197] Serving securely on [::]:6443
+2023-01-17T06:35:50.307881567Z stderr F I0117 06:35:50.305660       1 dynamic_cafile_content.go:167] Starting request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+2023-01-17T06:35:50.307886635Z stderr F I0117 06:35:50.305703       1 dynamic_serving_content.go:130] Starting serving-cert::/etc/kubernetes/pki/apiserver.crt::/etc/kubernetes/pki/apiserver.key
+2023-01-17T06:35:50.307914892Z stderr F I0117 06:35:50.305728       1 tlsconfig.go:240] Starting DynamicServingCertificateController
+2023-01-17T06:35:50.41317773Z stderr F I0117 06:35:50.409315       1 customresource_discovery_controller.go:209] Starting DiscoveryController
+2023-01-17T06:35:50.427723252Z stderr F I0117 06:35:50.425563       1 apf_controller.go:294] Starting API Priority and Fairness config controller
+2023-01-17T06:35:50.427747016Z stderr F I0117 06:35:50.426332       1 cluster_authentication_trust_controller.go:440] Starting cluster_authentication_trust_controller controller
+2023-01-17T06:35:50.427750991Z stderr F I0117 06:35:50.426351       1 shared_informer.go:240] Waiting for caches to sync for cluster_authentication_trust_controller
+2023-01-17T06:35:50.427752471Z stderr F I0117 06:35:50.426404       1 apiservice_controller.go:97] Starting APIServiceRegistrationController
+2023-01-17T06:35:50.427779555Z stderr F I0117 06:35:50.426415       1 cache.go:32] Waiting for caches to sync for APIServiceRegistrationController controller
+2023-01-17T06:35:50.437180783Z stderr F I0117 06:35:50.428606       1 available_controller.go:475] Starting AvailableConditionController
+2023-01-17T06:35:50.437206618Z stderr F I0117 06:35:50.428622       1 cache.go:32] Waiting for caches to sync for AvailableConditionController controller
+2023-01-17T06:35:50.437210748Z stderr F I0117 06:35:50.428666       1 controller.go:83] Starting OpenAPI AggregationController
+2023-01-17T06:35:50.437212819Z stderr F I0117 06:35:50.428737       1 dynamic_serving_content.go:130] Starting aggregator-proxy-cert::/etc/kubernetes/pki/front-proxy-client.crt::/etc/kubernetes/pki/front-proxy-client.key
+2023-01-17T06:35:50.437243562Z stderr F I0117 06:35:50.428783       1 autoregister_controller.go:141] Starting autoregister controller
+2023-01-17T06:35:50.43724717Z stderr F I0117 06:35:50.428788       1 cache.go:32] Waiting for caches to sync for autoregister controller
+2023-01-17T06:35:50.445214897Z stderr F I0117 06:35:50.441369       1 dynamic_cafile_content.go:167] Starting client-ca-bundle::/etc/kubernetes/pki/ca.crt
+2023-01-17T06:35:51.511222103Z stderr F I0117 06:35:51.505560       1 crdregistration_controller.go:111] Starting crd-autoregister controller
+2023-01-17T06:35:51.511239246Z stderr F I0117 06:35:51.505582       1 shared_informer.go:240] Waiting for caches to sync for crd-autoregister
+2023-01-17T06:35:51.93225307Z stderr F I0117 06:35:51.927849       1 controller.go:132] OpenAPI AggregationController: action for item : Nothing (removed from the queue).
+2023-01-17T06:35:51.932278041Z stderr F I0117 06:35:51.927876       1 controller.go:132] OpenAPI AggregationController: action for item k8s_internal_local_delegation_chain_0000000000: Nothing (removed from the queue).
+2023-01-17T06:35:52.805225223Z stderr F I0117 06:35:52.795624       1 controller.go:86] Starting OpenAPI controller
+2023-01-17T06:35:52.805249374Z stderr F I0117 06:35:52.795660       1 naming_controller.go:291] Starting NamingConditionController
+2023-01-17T06:35:52.805278207Z stderr F I0117 06:35:52.795678       1 establishing_controller.go:76] Starting EstablishingController
+2023-01-17T06:35:52.805281946Z stderr F I0117 06:35:52.795698       1 nonstructuralschema_controller.go:192] Starting NonStructuralSchemaConditionController
+2023-01-17T06:35:52.805285247Z stderr F I0117 06:35:52.795714       1 apiapproval_controller.go:186] Starting KubernetesAPIApprovalPolicyConformantConditionController
+2023-01-17T06:35:52.805301745Z stderr F I0117 06:35:52.795728       1 crd_finalizer.go:266] Starting CRDFinalizer
+2023-01-17T06:35:52.83054691Z stderr F I0117 06:35:52.819785       1 dynamic_cafile_content.go:167] Starting client-ca-bundle::/etc/kubernetes/pki/ca.crt
+2023-01-17T06:35:52.830581077Z stderr F I0117 06:35:52.819891       1 dynamic_cafile_content.go:167] Starting request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+2023-01-17T06:35:53.718019256Z stderr F E0117 06:35:53.703156       1 controller.go:152] Unable to remove old endpoints from kubernetes service: StorageError: key not found, Code: 1, Key: /registry/masterleases/172.18.0.2, ResourceVersion: 0, AdditionalErrorMsg: 
+2023-01-17T06:36:08.749258004Z stderr F E0117 06:36:08.639561       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:08.756312104Z stderr F E0117 06:36:08.639657       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:08.777690933Z stderr F E0117 06:36:08.756934       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:08.884829443Z stderr F E0117 06:36:08.876700       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:36:08.884893651Z stderr F E0117 06:36:08.876801       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:08.9003169Z stderr F E0117 06:36:08.894559       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:08.906325815Z stderr F E0117 06:36:08.901110       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:08.946378938Z stderr F E0117 06:36:08.943960       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:36:08.955483506Z stderr F E0117 06:36:08.951479       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:08.991800176Z stderr F E0117 06:36:08.971973       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:08.991829138Z stderr F E0117 06:36:08.979190       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.020419868Z stderr F E0117 06:36:09.014498       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:36:09.031238267Z stderr F E0117 06:36:09.028475       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.039252586Z stderr F E0117 06:36:09.033894       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.039267507Z stderr F E0117 06:36:09.034919       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.083312837Z stderr F E0117 06:36:09.064623       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.08333744Z stderr F E0117 06:36:09.065326       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.083341779Z stderr F I0117 06:36:09.065680       1 trace.go:205] Trace[380818862]: "Get" url:/api/v1/namespaces/kube-system/pods/kindnet-msl5l,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:08.258) (total time: 806ms):
+2023-01-17T06:36:09.083353774Z stderr F Trace[380818862]: [806.768926ms] [806.768926ms] END
+2023-01-17T06:36:09.102507071Z stderr F E0117 06:36:09.090133       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.102517429Z stderr F E0117 06:36:09.090168       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.102521043Z stderr F E0117 06:36:09.091011       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.102524687Z stderr F E0117 06:36:09.096546       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.1025282Z stderr F E0117 06:36:09.097360       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.102532081Z stderr F E0117 06:36:09.097609       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.102628241Z stderr F E0117 06:36:09.097633       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.125555627Z stderr F E0117 06:36:09.110802       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.125563151Z stderr F E0117 06:36:09.119879       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.154224598Z stderr F E0117 06:36:09.138712       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.190819098Z stderr F E0117 06:36:09.156420       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.190844658Z stderr F E0117 06:36:09.161754       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.207763361Z stderr F E0117 06:36:09.200895       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.224111208Z stderr F E0117 06:36:09.213478       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.224136786Z stderr F E0117 06:36:09.213993       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.25925365Z stderr F E0117 06:36:09.240369       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.282363602Z stderr F E0117 06:36:09.259648       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.282386563Z stderr F E0117 06:36:09.260342       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.282392008Z stderr F E0117 06:36:09.260422       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.282397076Z stderr F E0117 06:36:09.260643       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.532410214Z stderr F E0117 06:36:09.449230       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:09.62964284Z stderr F E0117 06:36:09.612090       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.719574937Z stderr F E0117 06:36:09.678599       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:09.719609072Z stderr F E0117 06:36:09.679860       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.750297745Z stderr F I0117 06:36:09.733019       1 trace.go:205] Trace[709916978]: "List" url:/api/v1/pods,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.064) (total time: 668ms):
+2023-01-17T06:36:09.750326967Z stderr F Trace[709916978]: ---"Writing http response done" count:9 668ms (06:36:00.732)
+2023-01-17T06:36:09.750331288Z stderr F Trace[709916978]: [668.198509ms] [668.198509ms] END
+2023-01-17T06:36:09.750335459Z stderr F E0117 06:36:09.733643       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.82913842Z stderr F E0117 06:36:09.820489       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:09.877341629Z stderr F E0117 06:36:09.862755       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:10.044239367Z stderr F E0117 06:36:10.034439       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:36:10.112797429Z stderr F I0117 06:36:10.105854       1 trace.go:205] Trace[337533500]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.362) (total time: 18742ms):
+2023-01-17T06:36:10.112810827Z stderr F Trace[337533500]: ---"Objects listed" 18742ms (06:36:00.105)
+2023-01-17T06:36:10.112839632Z stderr F Trace[337533500]: [18.742886197s] [18.742886197s] END
+2023-01-17T06:36:10.161497452Z stderr F E0117 06:36:10.156953       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:36:10.161546672Z stderr F E0117 06:36:10.157193       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"context canceled"}: context canceled
+2023-01-17T06:36:10.877773568Z stderr F I0117 06:36:10.858285       1 trace.go:205] Trace[1632243984]: "List" url:/api/v1/services,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.097) (total time: 1757ms):
+2023-01-17T06:36:10.877869437Z stderr F Trace[1632243984]: ---"Writing http response done" count:2 1757ms (06:36:00.855)
+2023-01-17T06:36:10.877874941Z stderr F Trace[1632243984]: [1.75783746s] [1.75783746s] END
+2023-01-17T06:36:10.963414338Z stderr F I0117 06:36:10.951933       1 trace.go:205] Trace[1253510085]: "Reflector ListAndWatch" name:k8s.io/apiextensions-apiserver/pkg/client/informers/externalversions/factory.go:117 (17-Jan-2023 06:35:50.314) (total time: 20637ms):
+2023-01-17T06:36:10.963443022Z stderr F Trace[1253510085]: ---"Objects listed" 20637ms (06:36:00.951)
+2023-01-17T06:36:10.963446839Z stderr F Trace[1253510085]: [20.637425304s] [20.637425304s] END
+2023-01-17T06:36:11.82376874Z stderr F I0117 06:36:11.179483       1 shared_informer.go:247] Caches are synced for crd-autoregister 
+2023-01-17T06:36:11.823777186Z stderr F I0117 06:36:11.186526       1 trace.go:205] Trace[1002551214]: "List" url:/apis/storage.k8s.io/v1/csidrivers,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.097) (total time: 2088ms):
+2023-01-17T06:36:11.823781163Z stderr F Trace[1002551214]: ---"Writing http response done" count:0 2088ms (06:36:00.186)
+2023-01-17T06:36:11.823791214Z stderr F Trace[1002551214]: [2.0889598s] [2.0889598s] END
+2023-01-17T06:36:11.82379513Z stderr F E0117 06:36:11.210831       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:11.823800378Z stderr F E0117 06:36:11.210923       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:12.427246785Z stderr F I0117 06:36:12.419819       1 trace.go:205] Trace[1328807446]: "Get" url:/apis/scheduling.k8s.io/v1/priorityclasses/system-node-critical,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.097) (total time: 3322ms):
+2023-01-17T06:36:12.427296191Z stderr F Trace[1328807446]: ---"About to write a response" 3321ms (06:36:00.419)
+2023-01-17T06:36:12.427300744Z stderr F Trace[1328807446]: [3.322082469s] [3.322082469s] END
+2023-01-17T06:36:13.013488708Z stderr F I0117 06:36:12.998543       1 trace.go:205] Trace[1187828633]: "Get" url:/api/v1/namespaces/kube-system/serviceaccounts/coredns,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:08.971) (total time: 4026ms):
+2023-01-17T06:36:13.013525205Z stderr F Trace[1187828633]: ---"About to write a response" 4026ms (06:36:00.998)
+2023-01-17T06:36:13.01353076Z stderr F Trace[1187828633]: [4.026718839s] [4.026718839s] END
+2023-01-17T06:36:13.03821927Z stderr F I0117 06:36:13.019823       1 trace.go:205] Trace[1707322933]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.410) (total time: 21609ms):
+2023-01-17T06:36:13.038222185Z stderr F Trace[1707322933]: ---"Objects listed" 21609ms (06:36:00.019)
+2023-01-17T06:36:13.038255311Z stderr F Trace[1707322933]: [21.609126726s] [21.609126726s] END
+2023-01-17T06:36:13.082588992Z stderr F E0117 06:36:13.059940       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:13.178525564Z stderr F E0117 06:36:13.134360       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:13.331275342Z stderr F I0117 06:36:13.288876       1 trace.go:205] Trace[1289314547]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.410) (total time: 21877ms):
+2023-01-17T06:36:13.331299223Z stderr F Trace[1289314547]: ---"Objects listed" 21877ms (06:36:00.288)
+2023-01-17T06:36:13.331302986Z stderr F Trace[1289314547]: [21.877864572s] [21.877864572s] END
+2023-01-17T06:36:13.331306882Z stderr F E0117 06:36:13.289102       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:13.864845289Z stderr F I0117 06:36:13.841130       1 trace.go:205] Trace[1182687269]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.410) (total time: 22430ms):
+2023-01-17T06:36:13.86487833Z stderr F Trace[1182687269]: ---"Objects listed" 22424ms (06:36:00.835)
+2023-01-17T06:36:13.864883685Z stderr F Trace[1182687269]: [22.430939496s] [22.430939496s] END
+2023-01-17T06:36:13.86488717Z stderr F I0117 06:36:13.841875       1 trace.go:205] Trace[490415760]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.434) (total time: 22407ms):
+2023-01-17T06:36:13.864890564Z stderr F Trace[490415760]: ---"Objects listed" 22406ms (06:36:00.841)
+2023-01-17T06:36:13.864893702Z stderr F Trace[490415760]: [22.407054208s] [22.407054208s] END
+2023-01-17T06:36:14.072324652Z stderr F I0117 06:36:14.053394       1 trace.go:205] Trace[1408053644]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.424) (total time: 22628ms):
+2023-01-17T06:36:14.07235864Z stderr F Trace[1408053644]: ---"Objects listed" 22628ms (06:36:00.053)
+2023-01-17T06:36:14.072363962Z stderr F Trace[1408053644]: [22.62849445s] [22.62849445s] END
+2023-01-17T06:36:14.072378781Z stderr F E0117 06:36:14.053658       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:14.393957028Z stderr F E0117 06:36:14.376562       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:14.393983648Z stderr F I0117 06:36:14.377020       1 trace.go:205] Trace[814278070]: "Get" url:/apis/flowcontrol.apiserver.k8s.io/v1beta1/prioritylevelconfigurations/exempt,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.126) (total time: 5250ms):
+2023-01-17T06:36:14.393988144Z stderr F Trace[814278070]: ---"About to write a response" 5249ms (06:36:00.376)
+2023-01-17T06:36:14.393991992Z stderr F Trace[814278070]: [5.250002195s] [5.250002195s] END
+2023-01-17T06:36:14.691924909Z stderr F I0117 06:36:14.650355       1 trace.go:205] Trace[1993169599]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.435) (total time: 23215ms):
+2023-01-17T06:36:14.691945407Z stderr F Trace[1993169599]: ---"Objects listed" 23214ms (06:36:00.650)
+2023-01-17T06:36:14.691949114Z stderr F Trace[1993169599]: [23.21508941s] [23.21508941s] END
+2023-01-17T06:36:15.118211171Z stderr F I0117 06:36:15.101355       1 trace.go:205] Trace[520127531]: "SerializeObject" method:GET,url:/api/v1/namespaces/local-path-storage/configmaps,protocol:HTTP/2.0,mediaType:application/vnd.kubernetes.protobuf,encoder:{"encodeGV":"v1","encoder":"protobuf","name":"versioning"} (17-Jan-2023 06:36:09.213) (total time: 5887ms):
+2023-01-17T06:36:15.118233651Z stderr F Trace[520127531]: ---"About to start writing response" size:69 1997ms (06:36:00.210)
+2023-01-17T06:36:15.118265619Z stderr F Trace[520127531]: [5.887904822s] [5.887904822s] END
+2023-01-17T06:36:15.263503105Z stderr F I0117 06:36:15.243877       1 trace.go:205] Trace[2042232054]: "SerializeObject" method:GET,url:/api/v1/namespaces/kube-system/configmaps,protocol:HTTP/2.0,mediaType:application/vnd.kubernetes.protobuf,encoder:{"encodeGV":"v1","encoder":"protobuf","name":"versioning"} (17-Jan-2023 06:36:09.260) (total time: 5983ms):
+2023-01-17T06:36:15.26352639Z stderr F Trace[2042232054]: ---"About to start writing response" size:69 1950ms (06:36:00.210)
+2023-01-17T06:36:15.26353049Z stderr F Trace[2042232054]: [5.983503335s] [5.983503335s] END
+2023-01-17T06:36:15.662624567Z stderr F I0117 06:36:15.655495       1 trace.go:205] Trace[833247915]: "List etcd3" key:/clusterroles,resourceVersion:,resourceVersionMatch:,limit:0,continue: (17-Jan-2023 06:36:09.109) (total time: 6545ms):
+2023-01-17T06:36:15.662819256Z stderr F Trace[833247915]: [6.545646741s] [6.545646741s] END
+2023-01-17T06:36:15.791513038Z stderr F I0117 06:36:15.775927       1 trace.go:205] Trace[1793377093]: "SerializeObject" method:GET,url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,protocol:HTTP/2.0,mediaType:application/vnd.kubernetes.protobuf,encoder:{"encodeGV":"coordination.k8s.io/v1","encoder":"protobuf","name":"versioning"} (17-Jan-2023 06:36:09.260) (total time: 6515ms):
+2023-01-17T06:36:15.791539105Z stderr F Trace[1793377093]: ---"About to start writing response" size:69 3799ms (06:36:00.059)
+2023-01-17T06:36:15.791567045Z stderr F Trace[1793377093]: [6.51544214s] [6.51544214s] END
+2023-01-17T06:36:16.033488597Z stderr F I0117 06:36:16.026559       1 trace.go:205] Trace[1795939250]: "Reflector ListAndWatch" name:k8s.io/kubernetes/pkg/controlplane/controller/clusterauthenticationtrust/cluster_authentication_trust_controller.go:444 (17-Jan-2023 06:35:52.820) (total time: 23206ms):
+2023-01-17T06:36:16.033518251Z stderr F Trace[1795939250]: ---"Objects listed" 23206ms (06:36:00.026)
+2023-01-17T06:36:16.033522026Z stderr F Trace[1795939250]: [23.206307026s] [23.206307026s] END
+2023-01-17T06:36:16.124338147Z stderr F I0117 06:36:16.120283       1 trace.go:205] Trace[1525395808]: "Get" url:/api/v1/namespaces/kube-system/serviceaccounts/coredns,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.240) (total time: 6879ms):
+2023-01-17T06:36:16.1401808Z stderr F Trace[1525395808]: ---"About to write a response" 1991ms (06:36:00.232)
+2023-01-17T06:36:16.140228732Z stderr F Trace[1525395808]: ---"Transformed response object" 4887ms (06:36:00.120)
+2023-01-17T06:36:16.140233136Z stderr F Trace[1525395808]: [6.879193367s] [6.879193367s] END
+2023-01-17T06:36:16.140237438Z stderr F I0117 06:36:16.120855       1 trace.go:205] Trace[1213113841]: "SerializeObject" method:GET,url:/apis/node.k8s.io/v1/runtimeclasses,protocol:HTTP/2.0,mediaType:application/vnd.kubernetes.protobuf,encoder:{"encodeGV":"node.k8s.io/v1","encoder":"protobuf","name":"versioning"} (17-Jan-2023 06:36:09.449) (total time: 6671ms):
+2023-01-17T06:36:16.140241522Z stderr F Trace[1213113841]: ---"About to start writing response" size:69 3685ms (06:36:00.134)
+2023-01-17T06:36:16.14024478Z stderr F Trace[1213113841]: [6.671649852s] [6.671649852s] END
+2023-01-17T06:36:16.140248528Z stderr F I0117 06:36:16.120902       1 trace.go:205] Trace[1327083910]: "List" url:/apis/node.k8s.io/v1/runtimeclasses,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:08.560) (total time: 7560ms):
+2023-01-17T06:36:16.14025264Z stderr F Trace[1327083910]: ---"Writing http response done" count:0 7531ms (06:36:00.120)
+2023-01-17T06:36:16.140257182Z stderr F Trace[1327083910]: [7.560877544s] [7.560877544s] END
+2023-01-17T06:36:16.438249916Z stderr F E0117 06:36:16.419898       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:16.438726424Z stderr F I0117 06:36:16.419956       1 shared_informer.go:247] Caches are synced for cluster_authentication_trust_controller 
+2023-01-17T06:36:16.504372019Z stderr F I0117 06:36:16.498858       1 trace.go:205] Trace[1297886148]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.831) (total time: 23667ms):
+2023-01-17T06:36:16.50438728Z stderr F Trace[1297886148]: ---"Objects listed" 23667ms (06:36:00.498)
+2023-01-17T06:36:16.504427752Z stderr F Trace[1297886148]: [23.667241403s] [23.667241403s] END
+2023-01-17T06:36:16.504431784Z stderr F E0117 06:36:16.499301       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:16.640166112Z stderr F I0117 06:36:16.625683       1 trace.go:205] Trace[986555276]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.833) (total time: 23792ms):
+2023-01-17T06:36:16.640192727Z stderr F Trace[986555276]: ---"Objects listed" 23792ms (06:36:00.625)
+2023-01-17T06:36:16.640238357Z stderr F Trace[986555276]: [23.792264742s] [23.792264742s] END
+2023-01-17T06:36:16.786766631Z stderr F E0117 06:36:16.776982       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:16.786897158Z stderr F I0117 06:36:16.777304       1 trace.go:205] Trace[392655988]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.833) (total time: 23943ms):
+2023-01-17T06:36:16.786902574Z stderr F Trace[392655988]: ---"Objects listed" 23943ms (06:36:00.777)
+2023-01-17T06:36:16.786906027Z stderr F Trace[392655988]: [23.943612658s] [23.943612658s] END
+2023-01-17T06:36:16.786909304Z stderr F I0117 06:36:16.777953       1 trace.go:205] Trace[384521863]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.834) (total time: 23943ms):
+2023-01-17T06:36:16.78691244Z stderr F Trace[384521863]: ---"Objects listed" 23943ms (06:36:00.777)
+2023-01-17T06:36:16.786928095Z stderr F Trace[384521863]: [23.943700857s] [23.943700857s] END
+2023-01-17T06:36:16.803507891Z stderr F E0117 06:36:16.794028       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:16.803569821Z stderr F I0117 06:36:16.794453       1 trace.go:205] Trace[1500618052]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.833) (total time: 23960ms):
+2023-01-17T06:36:16.803573822Z stderr F Trace[1500618052]: ---"Objects listed" 23960ms (06:36:00.794)
+2023-01-17T06:36:16.803577048Z stderr F Trace[1500618052]: [23.960485615s] [23.960485615s] END
+2023-01-17T06:36:16.803580183Z stderr F I0117 06:36:16.794743       1 trace.go:205] Trace[910153452]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:53.229) (total time: 23564ms):
+2023-01-17T06:36:16.803583355Z stderr F Trace[910153452]: ---"Objects listed" 23564ms (06:36:00.794)
+2023-01-17T06:36:16.803586454Z stderr F Trace[910153452]: [23.564931587s] [23.564931587s] END
+2023-01-17T06:36:16.803589632Z stderr F E0117 06:36:16.794896       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:16.916795404Z stderr F E0117 06:36:16.914367       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:16.916816445Z stderr F I0117 06:36:16.914531       1 trace.go:205] Trace[1257216046]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/kind-control-plane,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:08.815) (total time: 8099ms):
+2023-01-17T06:36:16.916820487Z stderr F Trace[1257216046]: [8.099467873s] [8.099467873s] END
+2023-01-17T06:36:16.969251865Z stderr F I0117 06:36:16.924612       1 trace.go:205] Trace[1348186012]: "Get" url:/api/v1/nodes/kind-control-plane,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.260) (total time: 7663ms):
+2023-01-17T06:36:16.969278047Z stderr F Trace[1348186012]: [7.663774555s] [7.663774555s] END
+2023-01-17T06:36:17.070448504Z stderr F I0117 06:36:17.067018       1 trace.go:205] Trace[797918728]: "List etcd3" key:/services/specs,resourceVersion:,resourceVersionMatch:,limit:0,continue: (17-Jan-2023 06:36:09.733) (total time: 7333ms):
+2023-01-17T06:36:17.070471481Z stderr F Trace[797918728]: [7.333127667s] [7.333127667s] END
+2023-01-17T06:36:17.070505905Z stderr F I0117 06:36:17.067200       1 trace.go:205] Trace[310505016]: "List" url:/api/v1/services,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.733) (total time: 7333ms):
+2023-01-17T06:36:17.070509736Z stderr F Trace[310505016]: ---"Listing from storage done" 7333ms (06:36:00.067)
+2023-01-17T06:36:17.070513062Z stderr F Trace[310505016]: [7.333341253s] [7.333341253s] END
+2023-01-17T06:36:17.238249199Z stderr F E0117 06:36:17.222785       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:36:17.238270366Z stderr F I0117 06:36:17.223649       1 trace.go:205] Trace[114897574]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.795) (total time: 24428ms):
+2023-01-17T06:36:17.23830966Z stderr F Trace[114897574]: ---"Objects listed" 24428ms (06:36:00.223)
+2023-01-17T06:36:17.238314169Z stderr F Trace[114897574]: [24.428257811s] [24.428257811s] END
+2023-01-17T06:36:17.238319095Z stderr F I0117 06:36:17.223759       1 trace.go:205] Trace[47478497]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.263) (total time: 24960ms):
+2023-01-17T06:36:17.238323317Z stderr F Trace[47478497]: ---"Objects listed" 23340ms (06:36:00.604)
+2023-01-17T06:36:17.238333729Z stderr F Trace[47478497]: [24.960103198s] [24.960103198s] END
+2023-01-17T06:36:17.265511621Z stderr F I0117 06:36:17.253220       1 trace.go:205] Trace[291680744]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.831) (total time: 24422ms):
+2023-01-17T06:36:17.265549212Z stderr F Trace[291680744]: ---"Objects listed" 24422ms (06:36:00.253)
+2023-01-17T06:36:17.265559342Z stderr F Trace[291680744]: [24.422061026s] [24.422061026s] END
+2023-01-17T06:36:17.265568768Z stderr F I0117 06:36:17.253404       1 trace.go:205] Trace[1818086956]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.831) (total time: 24421ms):
+2023-01-17T06:36:17.265578191Z stderr F Trace[1818086956]: ---"Objects listed" 24421ms (06:36:00.253)
+2023-01-17T06:36:17.265587422Z stderr F Trace[1818086956]: [24.421544317s] [24.421544317s] END
+2023-01-17T06:36:17.327250148Z stderr F I0117 06:36:17.312700       1 trace.go:205] Trace[1108311556]: "Get" url:/api/v1/namespaces/kube-system/pods/kindnet-msl5l,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.732) (total time: 7580ms):
+2023-01-17T06:36:17.327256314Z stderr F Trace[1108311556]: [7.580067889s] [7.580067889s] END
+2023-01-17T06:36:17.408895429Z stderr F I0117 06:36:17.399798       1 trace.go:205] Trace[1259951377]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.435) (total time: 25963ms):
+2023-01-17T06:36:17.408908957Z stderr F Trace[1259951377]: ---"Objects listed" 25963ms (06:36:00.399)
+2023-01-17T06:36:17.408959022Z stderr F Trace[1259951377]: [25.963941482s] [25.963941482s] END
+2023-01-17T06:36:17.419996537Z stderr F I0117 06:36:17.410757       1 trace.go:205] Trace[1746835780]: "Reflector ListAndWatch" name:k8s.io/kube-aggregator/pkg/client/informers/externalversions/factory.go:117 (17-Jan-2023 06:35:53.230) (total time: 24180ms):
+2023-01-17T06:36:17.42010526Z stderr F Trace[1746835780]: ---"Objects listed" 24180ms (06:36:00.410)
+2023-01-17T06:36:17.420116012Z stderr F Trace[1746835780]: [24.18019648s] [24.18019648s] END
+2023-01-17T06:36:17.420120438Z stderr F I0117 06:36:17.411245       1 trace.go:205] Trace[619168170]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:50.426) (total time: 26984ms):
+2023-01-17T06:36:17.420124192Z stderr F Trace[619168170]: ---"Objects listed" 26984ms (06:36:00.411)
+2023-01-17T06:36:17.420127949Z stderr F Trace[619168170]: [26.984657351s] [26.984657351s] END
+2023-01-17T06:36:17.420132026Z stderr F E0117 06:36:17.411379       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:36:17.426808718Z stderr F I0117 06:36:17.422687       1 trace.go:205] Trace[1527363668]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:52.834) (total time: 24588ms):
+2023-01-17T06:36:17.426814334Z stderr F Trace[1527363668]: ---"Objects listed" 24588ms (06:36:00.422)
+2023-01-17T06:36:17.426849683Z stderr F Trace[1527363668]: [24.588195531s] [24.588195531s] END
+2023-01-17T06:36:17.426853628Z stderr F I0117 06:36:17.423148       1 trace.go:205] Trace[1129075876]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:53.240) (total time: 24182ms):
+2023-01-17T06:36:17.426857536Z stderr F Trace[1129075876]: ---"Objects listed" 24182ms (06:36:00.422)
+2023-01-17T06:36:17.426861316Z stderr F Trace[1129075876]: [24.182163788s] [24.182163788s] END
+2023-01-17T06:36:17.426865277Z stderr F I0117 06:36:17.423367       1 trace.go:205] Trace[1771987608]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:51.195) (total time: 26227ms):
+2023-01-17T06:36:17.426869109Z stderr F Trace[1771987608]: ---"Objects listed" 26227ms (06:36:00.423)
+2023-01-17T06:36:17.426882619Z stderr F Trace[1771987608]: [26.227397911s] [26.227397911s] END
+2023-01-17T06:36:17.426886724Z stderr F I0117 06:36:17.423507       1 trace.go:205] Trace[1789038388]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:35:53.114) (total time: 24309ms):
+2023-01-17T06:36:17.426890507Z stderr F Trace[1789038388]: ---"Objects listed" 24309ms (06:36:00.423)
+2023-01-17T06:36:17.426894361Z stderr F Trace[1789038388]: [24.309043412s] [24.309043412s] END
+2023-01-17T06:36:17.459805883Z stderr F I0117 06:36:17.447331       1 trace.go:205] Trace[1966219507]: "List" url:/apis/rbac.authorization.k8s.io/v1/clusterroles,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:09.109) (total time: 8337ms):
+2023-01-17T06:36:17.459830556Z stderr F Trace[1966219507]: ---"Listing from storage done" 6545ms (06:36:00.655)
+2023-01-17T06:36:17.459868343Z stderr F Trace[1966219507]: ---"Writing http response done" count:66 1791ms (06:36:00.447)
+2023-01-17T06:36:17.459873228Z stderr F Trace[1966219507]: [8.337550234s] [8.337550234s] END
+2023-01-17T06:36:17.459877453Z stderr F E0117 06:36:17.447501       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:36:17.469396173Z stderr F I0117 06:36:17.461560       1 apf_controller.go:299] Running API Priority and Fairness config worker
+2023-01-17T06:36:17.491208822Z stderr F I0117 06:36:17.482030       1 trace.go:205] Trace[129125200]: "Patch" url:/api/v1/namespaces/kube-system/events/kube-controller-manager-kind-control-plane.173b04f24d18e354,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:08.963) (total time: 8518ms):
+2023-01-17T06:36:17.491231326Z stderr F Trace[129125200]: ---"Recorded the audit event" 1174ms (06:36:00.137)
+2023-01-17T06:36:17.491267184Z stderr F Trace[129125200]: [8.518530348s] [8.518530348s] END
+2023-01-17T06:36:17.491271404Z stderr F I0117 06:36:17.482652       1 shared_informer.go:247] Caches are synced for node_authorizer 
+2023-01-17T06:36:17.62924767Z stderr F I0117 06:36:17.620663       1 trace.go:205] Trace[1676138867]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/kind-control-plane,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:13.749) (total time: 3871ms):
+2023-01-17T06:36:17.62926676Z stderr F Trace[1676138867]: ---"About to write a response" 3871ms (06:36:00.620)
+2023-01-17T06:36:17.629300862Z stderr F Trace[1676138867]: [3.871378556s] [3.871378556s] END
+2023-01-17T06:36:17.629304988Z stderr F I0117 06:36:17.621017       1 trace.go:205] Trace[1013635627]: "GuaranteedUpdate etcd3" type:*core.Event (17-Jan-2023 06:36:17.104) (total time: 516ms):
+2023-01-17T06:36:17.629308529Z stderr F Trace[1013635627]: ---"initial value restored" 516ms (06:36:00.620)
+2023-01-17T06:36:17.629312018Z stderr F Trace[1013635627]: [516.449799ms] [516.449799ms] END
+2023-01-17T06:36:17.62931564Z stderr F I0117 06:36:17.621207       1 trace.go:205] Trace[1534556823]: "Patch" url:/api/v1/namespaces/kube-system/events/kube-controller-manager-kind-control-plane.173b04f24d18e354,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:17.104) (total time: 516ms):
+2023-01-17T06:36:17.629319201Z stderr F Trace[1534556823]: ---"About to apply patch" 516ms (06:36:00.620)
+2023-01-17T06:36:17.629322734Z stderr F Trace[1534556823]: [516.728072ms] [516.728072ms] END
+2023-01-17T06:36:17.802177595Z stderr F I0117 06:36:17.795508       1 cache.go:39] Caches are synced for APIServiceRegistrationController controller
+2023-01-17T06:36:17.829970732Z stderr F I0117 06:36:17.823854       1 cache.go:39] Caches are synced for AvailableConditionController controller
+2023-01-17T06:36:17.838238778Z stderr F I0117 06:36:17.830880       1 cache.go:39] Caches are synced for autoregister controller
+2023-01-17T06:36:17.852205136Z stderr F I0117 06:36:17.845085       1 trace.go:205] Trace[930943103]: "Get" url:/api/v1/namespaces/kube-system/pods/kindnet-msl5l,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:13.769) (total time: 4075ms):
+2023-01-17T06:36:17.852215138Z stderr F Trace[930943103]: ---"About to write a response" 3835ms (06:36:00.604)
+2023-01-17T06:36:17.852245284Z stderr F Trace[930943103]: ---"Transformed response object" 240ms (06:36:00.845)
+2023-01-17T06:36:17.852249568Z stderr F Trace[930943103]: [4.075596216s] [4.075596216s] END
+2023-01-17T06:36:18.684273533Z stderr F I0117 06:36:18.666817       1 trace.go:205] Trace[692738656]: "List etcd3" key:/minions,resourceVersion:,resourceVersionMatch:,limit:0,continue: (17-Jan-2023 06:36:18.117) (total time: 549ms):
+2023-01-17T06:36:18.684307649Z stderr F Trace[692738656]: [549.156281ms] [549.156281ms] END
+2023-01-17T06:36:18.733435918Z stderr F I0117 06:36:18.710571       1 trace.go:205] Trace[456673224]: "Get" url:/apis/scheduling.k8s.io/v1/priorityclasses/system-cluster-critical,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:18.116) (total time: 593ms):
+2023-01-17T06:36:18.733461406Z stderr F Trace[456673224]: ---"About to write a response" 593ms (06:36:00.710)
+2023-01-17T06:36:18.733465627Z stderr F Trace[456673224]: [593.832568ms] [593.832568ms] END
+2023-01-17T06:36:19.331246867Z stderr F I0117 06:36:19.267530       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:36:19.331274553Z stderr F I0117 06:36:19.318752       1 trace.go:205] Trace[540665838]: "List" url:/api/v1/nodes,user-agent:kindnetd/v0.0.0 (linux/amd64) kubernetes/$Format,client:172.18.0.2,accept:application/json, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:18.117) (total time: 1201ms):
+2023-01-17T06:36:19.331278746Z stderr F Trace[540665838]: ---"Listing from storage done" 549ms (06:36:00.666)
+2023-01-17T06:36:19.331282618Z stderr F Trace[540665838]: ---"Writing http response done" count:1 651ms (06:36:00.318)
+2023-01-17T06:36:19.331287479Z stderr F Trace[540665838]: [1.20109877s] [1.20109877s] END
+2023-01-17T06:36:19.331292624Z stderr F I0117 06:36:19.319967       1 trace.go:205] Trace[1211207798]: "Get" url:/apis/flowcontrol.apiserver.k8s.io/v1beta1/flowschemas/exempt,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:18.116) (total time: 1203ms):
+2023-01-17T06:36:19.331296276Z stderr F Trace[1211207798]: ---"About to write a response" 1202ms (06:36:00.319)
+2023-01-17T06:36:19.331299806Z stderr F Trace[1211207798]: [1.203054771s] [1.203054771s] END
+2023-01-17T06:36:19.38832339Z stderr F I0117 06:36:19.347920       1 controller.go:611] quota admission added evaluator for: leases.coordination.k8s.io
+2023-01-17T06:36:19.388426863Z stderr F I0117 06:36:19.375775       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:36:19.388431689Z stderr F I0117 06:36:19.375812       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:36:19.38843619Z stderr F I0117 06:36:19.382363       1 storage_scheduling.go:148] all system priority classes are created successfully or already exist.
+2023-01-17T06:36:19.388440788Z stderr F I0117 06:36:19.382791       1 trace.go:205] Trace[217759123]: "List etcd3" key:/clusterrolebindings,resourceVersion:,resourceVersionMatch:,limit:0,continue: (17-Jan-2023 06:36:18.117) (total time: 1265ms):
+2023-01-17T06:36:19.38844513Z stderr F Trace[217759123]: [1.265729131s] [1.265729131s] END
+2023-01-17T06:36:19.530330053Z stderr F I0117 06:36:19.484374       1 trace.go:205] Trace[2045155560]: "List" url:/apis/rbac.authorization.k8s.io/v1/clusterrolebindings,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:18.116) (total time: 1367ms):
+2023-01-17T06:36:19.530411503Z stderr F Trace[2045155560]: ---"Listing from storage done" 1265ms (06:36:00.382)
+2023-01-17T06:36:19.530416078Z stderr F Trace[2045155560]: [1.367349408s] [1.367349408s] END
+2023-01-17T06:36:19.68168529Z stderr F I0117 06:36:19.595439       1 trace.go:205] Trace[181459342]: "Update" url:/apis/coordination.k8s.io/v1/namespaces/kube-node-lease/leases/kind-control-plane,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:18.242) (total time: 1352ms):
+2023-01-17T06:36:19.681706699Z stderr F Trace[181459342]: ---"Object stored in database" 1323ms (06:36:00.566)
+2023-01-17T06:36:19.681711153Z stderr F Trace[181459342]: [1.352946542s] [1.352946542s] END
+2023-01-17T06:36:21.249086988Z stderr F I0117 06:36:21.234711       1 trace.go:205] Trace[1322207242]: "List etcd3" key:/services/specs,resourceVersion:,resourceVersionMatch:,limit:0,continue: (17-Jan-2023 06:36:19.303) (total time: 1931ms):
+2023-01-17T06:36:21.249095583Z stderr F Trace[1322207242]: [1.931237023s] [1.931237023s] END
+2023-01-17T06:36:21.275961935Z stderr F I0117 06:36:21.249229       1 trace.go:205] Trace[973891275]: "List" url:/api/v1/services,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:19.303) (total time: 1931ms):
+2023-01-17T06:36:21.27598514Z stderr F Trace[973891275]: ---"Listing from storage done" 1931ms (06:36:00.234)
+2023-01-17T06:36:21.275989174Z stderr F Trace[973891275]: [1.931632555s] [1.931632555s] END
+2023-01-17T06:36:21.432662835Z stderr F I0117 06:36:21.422466       1 trace.go:205] Trace[2088128009]: "GuaranteedUpdate etcd3" type:*core.Node (17-Jan-2023 06:36:18.546) (total time: 2861ms):
+2023-01-17T06:36:21.432680378Z stderr F Trace[2088128009]: ---"Transaction prepared" 829ms (06:36:00.375)
+2023-01-17T06:36:21.432713124Z stderr F Trace[2088128009]: ---"Transaction committed" 2032ms (06:36:00.407)
+2023-01-17T06:36:21.432717008Z stderr F Trace[2088128009]: [2.861259341s] [2.861259341s] END
+2023-01-17T06:36:21.432721307Z stderr F I0117 06:36:21.423103       1 trace.go:205] Trace[1128696641]: "Patch" url:/api/v1/nodes/kind-control-plane/status,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:18.511) (total time: 2911ms):
+2023-01-17T06:36:21.432727216Z stderr F Trace[1128696641]: ---"About to check admission control" 828ms (06:36:00.375)
+2023-01-17T06:36:21.432730719Z stderr F Trace[1128696641]: ---"Object stored in database" 2047ms (06:36:00.422)
+2023-01-17T06:36:21.432734231Z stderr F Trace[1128696641]: [2.911116909s] [2.911116909s] END
+2023-01-17T06:36:21.511188126Z stderr F I0117 06:36:21.503880       1 trace.go:205] Trace[962795844]: "Get" url:/apis/flowcontrol.apiserver.k8s.io/v1beta1/flowschemas/catch-all,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:19.596) (total time: 1907ms):
+2023-01-17T06:36:21.511196924Z stderr F Trace[962795844]: ---"About to write a response" 1907ms (06:36:00.503)
+2023-01-17T06:36:21.511200536Z stderr F Trace[962795844]: [1.907193819s] [1.907193819s] END
+2023-01-17T06:36:21.538435632Z stderr F I0117 06:36:21.521687       1 trace.go:205] Trace[1097692999]: "GuaranteedUpdate etcd3" type:*core.Pod (17-Jan-2023 06:36:18.512) (total time: 3009ms):
+2023-01-17T06:36:21.53848232Z stderr F Trace[1097692999]: ---"Transaction prepared" 1205ms (06:36:00.718)
+2023-01-17T06:36:21.538486507Z stderr F Trace[1097692999]: ---"Transaction committed" 1803ms (06:36:00.521)
+2023-01-17T06:36:21.538497961Z stderr F Trace[1097692999]: [3.009252593s] [3.009252593s] END
+2023-01-17T06:36:21.545893504Z stderr F I0117 06:36:21.539949       1 trace.go:205] Trace[1914510049]: "Get" url:/apis/rbac.authorization.k8s.io/v1/clusterroles/system:aggregate-to-admin,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:19.596) (total time: 1942ms):
+2023-01-17T06:36:21.545909206Z stderr F Trace[1914510049]: ---"About to write a response" 1942ms (06:36:00.539)
+2023-01-17T06:36:21.545956333Z stderr F Trace[1914510049]: [1.942980134s] [1.942980134s] END
+2023-01-17T06:36:21.552891582Z stderr F I0117 06:36:21.546327       1 trace.go:205] Trace[530024672]: "Patch" url:/api/v1/namespaces/kube-system/pods/kindnet-msl5l/status,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:18.365) (total time: 3180ms):
+2023-01-17T06:36:21.552915021Z stderr F Trace[530024672]: ---"Recorded the audit event" 146ms (06:36:00.512)
+2023-01-17T06:36:21.552918636Z stderr F Trace[530024672]: ---"About to check admission control" 1172ms (06:36:00.685)
+2023-01-17T06:36:21.552922062Z stderr F Trace[530024672]: ---"Object stored in database" 1836ms (06:36:00.521)
+2023-01-17T06:36:21.55292598Z stderr F Trace[530024672]: [3.180766678s] [3.180766678s] END
+2023-01-17T06:36:21.706287493Z stderr F I0117 06:36:21.687937       1 trace.go:205] Trace[632292561]: "Create" url:/api/v1/namespaces/kube-system/events,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:18.241) (total time: 3446ms):
+2023-01-17T06:36:21.706307772Z stderr F Trace[632292561]: ---"About to convert to expected version" 131ms (06:36:00.373)
+2023-01-17T06:36:21.70631163Z stderr F Trace[632292561]: ---"Object stored in database" 3305ms (06:36:00.678)
+2023-01-17T06:36:21.70631553Z stderr F Trace[632292561]: [3.446030314s] [3.446030314s] END
+2023-01-17T06:36:22.091476783Z stderr F I0117 06:36:22.086345       1 trace.go:205] Trace[1009932578]: "Get" url:/api/v1/namespaces/local-path-storage/pods/local-path-provisioner-547f784dff-78qdn,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:21.582) (total time: 503ms):
+2023-01-17T06:36:22.091498608Z stderr F Trace[1009932578]: ---"About to write a response" 503ms (06:36:00.085)
+2023-01-17T06:36:22.091502761Z stderr F Trace[1009932578]: [503.862607ms] [503.862607ms] END
+2023-01-17T06:36:22.240732578Z stderr F I0117 06:36:22.220517       1 trace.go:205] Trace[1410371651]: "Get" url:/apis/flowcontrol.apiserver.k8s.io/v1beta1/prioritylevelconfigurations/catch-all,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:21.568) (total time: 652ms):
+2023-01-17T06:36:22.240758284Z stderr F Trace[1410371651]: ---"About to write a response" 475ms (06:36:00.043)
+2023-01-17T06:36:22.240759408Z stderr F Trace[1410371651]: ---"Transformed response object" 176ms (06:36:00.220)
+2023-01-17T06:36:22.24079332Z stderr F Trace[1410371651]: [652.092729ms] [652.092729ms] END
+2023-01-17T06:36:23.857293037Z stderr F I0117 06:36:23.852635       1 trace.go:205] Trace[161391095]: "Create" url:/api/v1/namespaces/kube-system/events,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:23.344) (total time: 507ms):
+2023-01-17T06:36:23.857315051Z stderr F Trace[161391095]: ---"Object stored in database" 507ms (06:36:00.852)
+2023-01-17T06:36:23.857318878Z stderr F Trace[161391095]: [507.758851ms] [507.758851ms] END
+2023-01-17T06:36:23.918279433Z stderr F I0117 06:36:23.917589       1 trace.go:205] Trace[1684330168]: "GuaranteedUpdate etcd3" type:*core.Pod (17-Jan-2023 06:36:23.410) (total time: 506ms):
+2023-01-17T06:36:23.918304922Z stderr F Trace[1684330168]: ---"Transaction prepared" 423ms (06:36:00.834)
+2023-01-17T06:36:23.918307842Z stderr F Trace[1684330168]: [506.949438ms] [506.949438ms] END
+2023-01-17T06:36:23.918338609Z stderr F I0117 06:36:23.917839       1 trace.go:205] Trace[772671780]: "Patch" url:/api/v1/namespaces/kube-system/pods/kube-scheduler-kind-control-plane/status,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:23.373) (total time: 543ms):
+2023-01-17T06:36:23.918343131Z stderr F Trace[772671780]: ---"About to check admission control" 423ms (06:36:00.833)
+2023-01-17T06:36:23.918347472Z stderr F Trace[772671780]: ---"Object stored in database" 83ms (06:36:00.917)
+2023-01-17T06:36:23.918352067Z stderr F Trace[772671780]: [543.972466ms] [543.972466ms] END
+2023-01-17T06:36:24.51735374Z stderr F I0117 06:36:24.469568       1 trace.go:205] Trace[1996038177]: "GuaranteedUpdate etcd3" type:*core.Event (17-Jan-2023 06:36:23.919) (total time: 549ms):
+2023-01-17T06:36:24.517416073Z stderr F Trace[1996038177]: ---"initial value restored" 436ms (06:36:00.356)
+2023-01-17T06:36:24.517421326Z stderr F Trace[1996038177]: [549.657924ms] [549.657924ms] END
+2023-01-17T06:36:24.517426014Z stderr F I0117 06:36:24.469704       1 trace.go:205] Trace[1621115496]: "Patch" url:/api/v1/namespaces/kube-system/events/kube-apiserver-kind-control-plane.173b02138c94785e,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:23.919) (total time: 550ms):
+2023-01-17T06:36:24.517431117Z stderr F Trace[1621115496]: ---"About to apply patch" 436ms (06:36:00.356)
+2023-01-17T06:36:24.517460317Z stderr F Trace[1621115496]: ---"Object stored in database" 89ms (06:36:00.469)
+2023-01-17T06:36:24.517464047Z stderr F Trace[1621115496]: [550.155739ms] [550.155739ms] END
+2023-01-17T06:36:25.329573354Z stderr F I0117 06:36:25.325893       1 trace.go:205] Trace[816547049]: "GuaranteedUpdate etcd3" type:*core.Event (17-Jan-2023 06:36:24.712) (total time: 613ms):
+2023-01-17T06:36:25.329587652Z stderr F Trace[816547049]: ---"Transaction committed" 525ms (06:36:00.325)
+2023-01-17T06:36:25.329622701Z stderr F Trace[816547049]: [613.735927ms] [613.735927ms] END
+2023-01-17T06:36:25.331182272Z stderr F I0117 06:36:25.329920       1 trace.go:205] Trace[356035110]: "Patch" url:/api/v1/namespaces/kube-system/events/coredns-558bd4d5db-7kcfd.173b02109f801c29,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:24.711) (total time: 614ms):
+2023-01-17T06:36:25.331196784Z stderr F Trace[356035110]: ---"About to apply patch" 86ms (06:36:00.798)
+2023-01-17T06:36:25.33120084Z stderr F Trace[356035110]: ---"Object stored in database" 526ms (06:36:00.325)
+2023-01-17T06:36:25.331204376Z stderr F Trace[356035110]: [614.045353ms] [614.045353ms] END
+2023-01-17T06:36:27.419469209Z stderr F I0117 06:36:27.262378       1 trace.go:205] Trace[558165914]: "Get" url:/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager,user-agent:kube-controller-manager/v1.21.1 (linux/amd64) kubernetes/5e58841/leader-election,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:26.077) (total time: 1168ms):
+2023-01-17T06:36:27.419488333Z stderr F Trace[558165914]: ---"About to write a response" 1168ms (06:36:00.245)
+2023-01-17T06:36:27.419520842Z stderr F Trace[558165914]: [1.168296859s] [1.168296859s] END
+2023-01-17T06:36:27.419524713Z stderr F I0117 06:36:27.308618       1 trace.go:205] Trace[1038380026]: "Get" url:/apis/rbac.authorization.k8s.io/v1/clusterroles/view,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:36:25.816) (total time: 1492ms):
+2023-01-17T06:36:27.419533441Z stderr F Trace[1038380026]: ---"About to write a response" 1492ms (06:36:00.308)
+2023-01-17T06:36:27.419536974Z stderr F Trace[1038380026]: [1.492237792s] [1.492237792s] END
+2023-01-17T06:36:27.419541195Z stderr F I0117 06:36:27.376738       1 trace.go:205] Trace[718944835]: "GuaranteedUpdate etcd3" type:*core.Event (17-Jan-2023 06:36:26.014) (total time: 1362ms):
+2023-01-17T06:36:27.419544612Z stderr F Trace[718944835]: ---"initial value restored" 808ms (06:36:00.822)
+2023-01-17T06:36:27.419547977Z stderr F Trace[718944835]: ---"Transaction prepared" 367ms (06:36:00.189)
+2023-01-17T06:36:27.419551411Z stderr F Trace[718944835]: ---"Transaction committed" 186ms (06:36:00.376)
+2023-01-17T06:36:27.41955474Z stderr F Trace[718944835]: [1.36269446s] [1.36269446s] END
+2023-01-17T06:36:27.419558274Z stderr F I0117 06:36:27.377026       1 trace.go:205] Trace[600483181]: "Patch" url:/api/v1/namespaces/kube-system/events/coredns-558bd4d5db-tsnk8.173b02131b8c67e9,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:26.013) (total time: 1363ms):
+2023-01-17T06:36:27.419561595Z stderr F Trace[600483181]: ---"About to apply patch" 808ms (06:36:00.822)
+2023-01-17T06:36:27.419565248Z stderr F Trace[600483181]: ---"Object stored in database" 530ms (06:36:00.376)
+2023-01-17T06:36:27.419568614Z stderr F Trace[600483181]: [1.363065663s] [1.363065663s] END
+2023-01-17T06:36:29.650619895Z stderr F I0117 06:36:29.598877       1 trace.go:205] Trace[219782132]: "GuaranteedUpdate etcd3" type:*core.Event (17-Jan-2023 06:36:28.368) (total time: 1230ms):
+2023-01-17T06:36:29.650641668Z stderr F Trace[219782132]: ---"initial value restored" 707ms (06:36:00.075)
+2023-01-17T06:36:29.650645649Z stderr F Trace[219782132]: ---"Transaction committed" 501ms (06:36:00.598)
+2023-01-17T06:36:29.650649558Z stderr F Trace[219782132]: [1.230728649s] [1.230728649s] END
+2023-01-17T06:36:29.650653578Z stderr F I0117 06:36:29.599079       1 trace.go:205] Trace[4757361]: "Patch" url:/api/v1/namespaces/kube-system/events/kube-apiserver-kind-control-plane.173b04d10e3697f1,user-agent:kubelet/v1.21.1 (linux/amd64) kubernetes/5e58841,client:172.18.0.2,accept:application/vnd.kubernetes.protobuf,application/json,protocol:HTTP/2.0 (17-Jan-2023 06:36:28.231) (total time: 1367ms):
+2023-01-17T06:36:29.650657314Z stderr F Trace[4757361]: ---"About to apply patch" 844ms (06:36:00.075)
+2023-01-17T06:36:29.650660972Z stderr F Trace[4757361]: ---"Object stored in database" 501ms (06:36:00.598)
+2023-01-17T06:36:29.650664635Z stderr F Trace[4757361]: [1.367630461s] [1.367630461s] END
+2023-01-17T06:37:16.015609319Z stderr F I0117 06:37:15.949892       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:18.322489797Z stderr F I0117 06:37:18.287491       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:23.948640826Z stderr F I0117 06:37:23.896738       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:23.948920429Z stderr F I0117 06:37:23.896978       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:23.971515024Z stderr F I0117 06:37:23.956419       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:23.971560215Z stderr F I0117 06:37:23.956567       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:23.971563941Z stderr F I0117 06:37:23.956665       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:26.990787141Z stderr F I0117 06:37:26.869912       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:26.990834651Z stderr F I0117 06:37:26.987466       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:26.990840105Z stderr F I0117 06:37:26.987964       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:26.990844561Z stderr F I0117 06:37:26.988207       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:26.990849191Z stderr F I0117 06:37:26.988337       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:26.990863109Z stderr F I0117 06:37:26.988450       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:26.990881208Z stderr F I0117 06:37:26.988627       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:27.607941717Z stderr F I0117 06:37:27.581863       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:28.507688221Z stderr F I0117 06:37:28.502465       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:30.504276992Z stderr F I0117 06:37:30.438094       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:30.504308256Z stderr F I0117 06:37:30.482666       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:30.747940043Z stderr F E0117 06:37:30.674239       1 wrap.go:54] timeout or abort while handling: PATCH "/api/v1/namespaces/kube-system/events/kube-apiserver-kind-control-plane.173b04d10e3697f1"
+2023-01-17T06:37:30.889567041Z stderr F I0117 06:37:30.776323       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:39.635659488Z stderr F W0117 06:37:39.618729       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:40.270807871Z stderr F W0117 06:37:39.921134       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:40.270833221Z stderr F W0117 06:37:39.921249       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:40.270836739Z stderr F W0117 06:37:39.921345       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:40.270840019Z stderr F W0117 06:37:39.921430       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:48.579684246Z stderr F I0117 06:37:48.537313       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:37:49.315341613Z stderr F W0117 06:37:49.305945       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.341602572Z stderr F W0117 06:37:49.323164       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.341642526Z stderr F W0117 06:37:49.323470       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.341648303Z stderr F W0117 06:37:49.323587       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.34165331Z stderr F W0117 06:37:49.323659       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.341658494Z stderr F W0117 06:37:49.323726       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.341663669Z stderr F W0117 06:37:49.323791       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.985662125Z stderr F W0117 06:37:49.895597       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.985668301Z stderr F W0117 06:37:49.895758       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.985709545Z stderr F W0117 06:37:49.895827       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.985713999Z stderr F W0117 06:37:49.895891       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.985721637Z stderr F W0117 06:37:49.895969       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:49.985725911Z stderr F W0117 06:37:49.896019       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:50.962961927Z stderr F W0117 06:37:50.941439       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:37:55.381352706Z stderr F W0117 06:37:55.375007       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:37:55.731302144Z stderr F W0117 06:37:55.710119       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:37:55.731323097Z stderr F W0117 06:37:55.710284       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:37:55.753275586Z stderr F W0117 06:37:55.732140       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:37:55.753406579Z stderr F W0117 06:37:55.732312       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:37:55.75341183Z stderr F W0117 06:37:55.732388       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:37:55.753415645Z stderr F W0117 06:37:55.732437       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:37:58.704152803Z stderr F I0117 06:37:58.683207       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:38:01.118324435Z stderr F W0117 06:38:01.002860       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing context deadline exceeded". Reconnecting...
+2023-01-17T06:38:02.126375511Z stderr F W0117 06:38:02.121509       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:02.231307467Z stderr F timeout waiting for SETTINGS frames from 172.18.0.2:40950
+2023-01-17T06:38:02.257676499Z stderr F E0117 06:38:02.253877       1 status.go:71] apiserver received an error that is not an metav1.Status: context.deadlineExceededError{}: context deadline exceeded
+2023-01-17T06:38:02.25768605Z stderr F E0117 06:38:02.253991       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:38:02.480261701Z stderr F W0117 06:38:02.470416       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:02.521021502Z stderr F W0117 06:38:02.505800       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:02.521078145Z stderr F W0117 06:38:02.506236       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:02.559448037Z stderr F W0117 06:38:02.555146       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:02.644271086Z stderr F W0117 06:38:02.627949       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:38:02.695216504Z stderr F W0117 06:38:02.688697       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:38:03.096226305Z stderr F I0117 06:38:03.090687       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:38:03.096277306Z stderr F W0117 06:38:03.091476       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:03.12124231Z stderr F I0117 06:38:03.116533       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:38:03.379268268Z stderr F W0117 06:38:03.376825       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:03.415074681Z stderr F W0117 06:38:03.393648       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:03.464599335Z stderr F W0117 06:38:03.441920       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:03.896352489Z stderr F E0117 06:38:03.892664       1 authentication.go:63] "Unable to authenticate the request" err="[invalid bearer token, context deadline exceeded]"
+2023-01-17T06:38:04.535288879Z stderr F E0117 06:38:04.530371       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:38:04.535373301Z stderr F E0117 06:38:04.530414       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:38:04.542449688Z stderr F E0117 06:38:04.535693       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:38:04.682421811Z stderr F I0117 06:38:04.677732       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:38:04.682448241Z stderr F I0117 06:38:04.677814       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:38:07.856446092Z stderr F timeout waiting for SETTINGS frames from 172.18.0.2:41070
+2023-01-17T06:38:07.992355288Z stderr F W0117 06:38:07.979654       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:07.992445856Z stderr F W0117 06:38:07.980474       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:08.286338335Z stderr F E0117 06:38:08.274652       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:38:10.295741926Z stderr F W0117 06:38:10.102463       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:13.77960372Z stderr F W0117 06:38:13.710411       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:13.779679145Z stderr F W0117 06:38:13.710541       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:13.779686657Z stderr F W0117 06:38:13.710590       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:13.779691546Z stderr F W0117 06:38:13.710642       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:13.779696378Z stderr F W0117 06:38:13.710686       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:13.779701158Z stderr F W0117 06:38:13.710738       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:14.084350535Z stderr F W0117 06:38:14.014477       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:38:14.084373674Z stderr F W0117 06:38:14.030292       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.Namespace ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:38:14.084377322Z stderr F W0117 06:38:14.037818       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.VolumeAttachment ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:38:14.45088381Z stderr F W0117 06:38:14.376853       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.ServiceAccount ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:26.628035039Z stderr F I0117 06:39:26.620330       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:26.628448098Z stderr F I0117 06:38:37.216560       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:26.628459855Z stderr F W0117 06:38:15.903004       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.Endpoints ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:26.628467243Z stderr F W0117 06:39:26.620460       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing context deadline exceeded". Reconnecting...
+2023-01-17T06:39:26.628468718Z stderr F W0117 06:39:26.620558       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:26.628505834Z stderr F W0117 06:39:26.620609       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:26.628509576Z stderr F W0117 06:39:26.620652       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:26.821802161Z stderr F W0117 06:39:26.799000       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:26.869216539Z stderr F W0117 06:39:26.868002       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:26.869239303Z stderr F W0117 06:39:26.868121       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.RuntimeClass ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:26.908422788Z stderr F W0117 06:39:26.900013       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:26.965789605Z stderr F W0117 06:39:26.961219       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:27.014574009Z stderr F I0117 06:39:26.989860       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:27.014793175Z stderr F I0117 06:39:26.990012       1 cluster_authentication_trust_controller.go:463] Shutting down cluster_authentication_trust_controller controller
+2023-01-17T06:39:27.119227079Z stderr F E0117 06:39:27.113329       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:39:27.119245765Z stderr F I0117 06:39:27.113397       1 trace.go:205] Trace[326884993]: "SerializeObject" method:GET,url:/apis/rbac.authorization.k8s.io/v1/clusterroles/system:aggregate-to-edit,protocol:HTTP/2.0,mediaType:application/vnd.kubernetes.protobuf,encoder:{"encodeGV":"rbac.authorization.k8s.io/v1","encoder":"protobuf","name":"versioning"} (17-Jan-2023 06:38:02.253) (total time: 84859ms):
+2023-01-17T06:39:27.119258701Z stderr F Trace[326884993]: ---"About to start writing response" size:69 84859ms (06:39:00.113)
+2023-01-17T06:39:27.119289831Z stderr F Trace[326884993]: [1m24.859412218s] [1m24.859412218s] END
+2023-01-17T06:39:27.119294133Z stderr F I0117 06:39:27.113477       1 trace.go:205] Trace[67284526]: "Get" url:/apis/rbac.authorization.k8s.io/v1/clusterroles/system:aggregate-to-edit,user-agent:kube-apiserver/v1.21.1 (linux/amd64) kubernetes/5e58841,client:::1,accept:application/vnd.kubernetes.protobuf, */*,protocol:HTTP/2.0 (17-Jan-2023 06:38:02.253) (total time: 84859ms):
+2023-01-17T06:39:27.119302291Z stderr F Trace[67284526]: [1m24.859732828s] [1m24.859732828s] END
+2023-01-17T06:39:27.225517145Z stderr F I0117 06:39:27.147820       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:27.225603134Z stderr F W0117 06:39:27.147911       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:27.225612173Z stderr F W0117 06:39:27.148166       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:27.24335799Z stderr F I0117 06:39:27.237863       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:27.243379361Z stderr F W0117 06:39:27.237914       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:27.288376787Z stderr F W0117 06:39:27.282317       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:27.288379566Z stderr F I0117 06:39:27.282749       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:27.28841038Z stderr F I0117 06:39:27.283013       1 secure_serving.go:241] Stopped listening on [::]:6443
+2023-01-17T06:39:27.440463459Z stderr F I0117 06:39:27.428818       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:27.547200913Z stderr F W0117 06:39:27.538462       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:27.547235758Z stderr F W0117 06:39:27.538524       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:27.547239796Z stderr F W0117 06:39:27.538580       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:27.60022192Z stderr F W0117 06:39:27.592661       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:27.600244277Z stderr F W0117 06:38:14.686500       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.Pod ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:27.94220588Z stderr F W0117 06:38:30.531135       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:27.974495703Z stderr F E0117 06:39:27.960479       1 controller.go:203] unable to create required kubernetes system namespace kube-system: Post "https://[::1]:6443/api/v1/namespaces": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:28.138208453Z stderr F W0117 06:38:30.531191       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138217163Z stderr F W0117 06:38:30.531224       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138220789Z stderr F W0117 06:38:30.531257       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138224347Z stderr F W0117 06:38:30.531291       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138227992Z stderr F W0117 06:38:31.183479       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138231579Z stderr F W0117 06:38:31.183530       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.13823508Z stderr F W0117 06:38:31.183561       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138238648Z stderr F W0117 06:38:31.183592       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138245126Z stderr F W0117 06:38:31.183635       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138249615Z stderr F W0117 06:38:31.183667       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138254833Z stderr F W0117 06:38:31.183696       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138258627Z stderr F W0117 06:38:31.183730       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138262675Z stderr F W0117 06:38:31.183759       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.13826855Z stderr F W0117 06:38:31.183789       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.13827236Z stderr F W0117 06:38:31.183819       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138279166Z stderr F W0117 06:38:31.183851       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138282823Z stderr F W0117 06:38:31.183910       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138286427Z stderr F W0117 06:38:31.183979       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138289961Z stderr F W0117 06:38:31.989587       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138293508Z stderr F W0117 06:38:32.234109       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138297065Z stderr F W0117 06:38:32.234258       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138300574Z stderr F W0117 06:38:37.805200       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:28.138304296Z stderr F W0117 06:38:37.884404       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138307848Z stderr F W0117 06:38:08.120134       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1beta1.PriorityLevelConfiguration ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.138313279Z stderr F W0117 06:38:38.247944       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138317555Z stderr F W0117 06:38:38.332856       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138321174Z stderr F W0117 06:38:41.626892       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138326373Z stderr F E0117 06:39:05.536930       1 controller.go:116] loading OpenAPI spec for "k8s_internal_local_delegation_chain_0000000002" failed with: failed to retrieve openAPI spec, http error: ResponseCode: 503, Body: request timed out, Header: map[]
+2023-01-17T06:39:28.13833012Z stderr F I0117 06:39:28.073220       1 controller.go:129] OpenAPI AggregationController: action for item k8s_internal_local_delegation_chain_0000000002: Rate Limited Requeue.
+2023-01-17T06:39:28.138333718Z stderr F W0117 06:39:05.537219       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.13833734Z stderr F W0117 06:39:12.329246       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138343898Z stderr F W0117 06:39:12.329274       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138347573Z stderr F W0117 06:39:12.329286       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138351182Z stderr F W0117 06:39:12.331139       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.138354771Z stderr F W0117 06:39:12.661792       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.13835832Z stderr F W0117 06:39:14.133327       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.154283448Z stderr F W0117 06:39:14.568643       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.154303531Z stderr F W0117 06:39:24.885398       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.154380217Z stderr F W0117 06:39:25.431307       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.154384516Z stderr F I0117 06:39:25.734990       1 controller.go:181] Shutting down kubernetes service endpoint reconciler
+2023-01-17T06:39:28.174014478Z stderr F I0117 06:39:25.735179       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:28.174066527Z stderr F I0117 06:39:25.745470       1 clientconn.go:897] blockingPicker: the picked transport is not ready, loop back to repick
+2023-01-17T06:39:28.17410168Z stderr F W0117 06:39:25.745818       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.Service ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.174106032Z stderr F W0117 06:39:25.745841       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.Role ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.174110208Z stderr F I0117 06:39:25.822630       1 dynamic_cafile_content.go:182] Shutting down request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+2023-01-17T06:39:28.174114151Z stderr F W0117 06:39:25.822890       1 reflector.go:436] k8s.io/kubernetes/pkg/controlplane/controller/clusterauthenticationtrust/cluster_authentication_trust_controller.go:444: watch of *v1.ConfigMap ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.174118196Z stderr F I0117 06:39:25.884832       1 trace.go:205] Trace[1358245835]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:38:21.558) (total time: 64326ms):
+2023-01-17T06:39:28.17412222Z stderr F Trace[1358245835]: [1m4.326200686s] [1m4.326200686s] END
+2023-01-17T06:39:28.174125813Z stderr F I0117 06:39:25.884849       1 trace.go:205] Trace[1123557478]: "Reflector ListAndWatch" name:k8s.io/client-go/informers/factory.go:134 (17-Jan-2023 06:38:37.990) (total time: 47893ms):
+2023-01-17T06:39:28.174129375Z stderr F Trace[1123557478]: [47.893977048s] [47.893977048s] END
+2023-01-17T06:39:28.174133596Z stderr F I0117 06:39:25.884881       1 controller.go:123] Shutting down OpenAPI controller
+2023-01-17T06:39:28.174137685Z stderr F I0117 06:39:25.884903       1 apiservice_controller.go:131] Shutting down APIServiceRegistrationController
+2023-01-17T06:39:28.174141198Z stderr F I0117 06:39:25.884934       1 autoregister_controller.go:165] Shutting down autoregister controller
+2023-01-17T06:39:28.174144747Z stderr F I0117 06:39:25.884964       1 available_controller.go:487] Shutting down AvailableConditionController
+2023-01-17T06:39:28.174148874Z stderr F I0117 06:39:25.884995       1 apf_controller.go:303] Shutting down API Priority and Fairness config worker
+2023-01-17T06:39:28.174152396Z stderr F I0117 06:39:25.885154       1 customresource_discovery_controller.go:245] Shutting down DiscoveryController
+2023-01-17T06:39:28.174155916Z stderr F I0117 06:39:25.923658       1 crdregistration_controller.go:142] Shutting down crd-autoregister controller
+2023-01-17T06:39:28.174159953Z stderr F I0117 06:39:25.923730       1 crd_finalizer.go:278] Shutting down CRDFinalizer
+2023-01-17T06:39:28.19038892Z stderr F I0117 06:39:25.923746       1 apiapproval_controller.go:198] Shutting down KubernetesAPIApprovalPolicyConformantConditionController
+2023-01-17T06:39:28.190438024Z stderr F I0117 06:39:25.923760       1 nonstructuralschema_controller.go:204] Shutting down NonStructuralSchemaConditionController
+2023-01-17T06:39:28.190442704Z stderr F I0117 06:39:25.923768       1 establishing_controller.go:87] Shutting down EstablishingController
+2023-01-17T06:39:28.19044722Z stderr F I0117 06:39:25.923779       1 naming_controller.go:302] Shutting down NamingConditionController
+2023-01-17T06:39:28.190450902Z stderr F I0117 06:39:25.971183       1 dynamic_cafile_content.go:182] Shutting down request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+2023-01-17T06:39:28.190454583Z stderr F I0117 06:39:25.971413       1 dynamic_cafile_content.go:182] Shutting down client-ca-bundle::/etc/kubernetes/pki/ca.crt
+2023-01-17T06:39:28.190458695Z stderr F I0117 06:39:25.971518       1 dynamic_serving_content.go:145] Shutting down aggregator-proxy-cert::/etc/kubernetes/pki/front-proxy-client.crt::/etc/kubernetes/pki/front-proxy-client.key
+2023-01-17T06:39:28.190466876Z stderr F I0117 06:39:25.971533       1 controller.go:89] Shutting down OpenAPI AggregationController
+2023-01-17T06:39:28.190470716Z stderr F I0117 06:39:25.971562       1 dynamic_cafile_content.go:182] Shutting down client-ca-bundle::/etc/kubernetes/pki/ca.crt
+2023-01-17T06:39:28.190474362Z stderr F I0117 06:39:26.037946       1 tlsconfig.go:255] Shutting down DynamicServingCertificateController
+2023-01-17T06:39:28.19047851Z stderr F I0117 06:39:26.037964       1 dynamic_serving_content.go:145] Shutting down serving-cert::/etc/kubernetes/pki/apiserver.crt::/etc/kubernetes/pki/apiserver.key
+2023-01-17T06:39:28.190482745Z stderr F W0117 06:39:26.038012       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.PersistentVolume ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190486877Z stderr F W0117 06:39:26.076821       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.MutatingWebhookConfiguration ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190490478Z stderr F W0117 06:39:26.096473       1 reflector.go:436] k8s.io/kube-aggregator/pkg/client/informers/externalversions/factory.go:117: watch of *v1.APIService ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.19050128Z stderr F W0117 06:39:26.096554       1 reflector.go:436] k8s.io/apiextensions-apiserver/pkg/client/informers/externalversions/factory.go:117: watch of *v1.CustomResourceDefinition ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190505229Z stderr F W0117 06:39:26.096582       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.StorageClass ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190508828Z stderr F W0117 06:39:26.096609       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.Secret ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190512423Z stderr F W0117 06:39:26.096641       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.Node ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190516011Z stderr F E0117 06:39:26.162855       1 storage_flowcontrol.go:153] failed creating mandatory flowcontrol settings: failed getting mandatory FlowSchema exempt due to Get "https://[::1]:6443/apis/flowcontrol.apiserver.k8s.io/v1beta1/flowschemas/exempt": http2: client connection lost, will retry later
+2023-01-17T06:39:28.19051964Z stderr F W0117 06:39:26.163073       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.ClusterRole ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190527721Z stderr F W0117 06:39:26.163149       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.RoleBinding ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190531403Z stderr F W0117 06:39:26.163163       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.ClusterRoleBinding ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190536621Z stderr F W0117 06:39:26.163180       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.ResourceQuota ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190540309Z stderr F W0117 06:39:26.163195       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.ValidatingWebhookConfiguration ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190543938Z stderr F W0117 06:39:26.163211       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.IngressClass ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190547509Z stderr F W0117 06:39:26.163227       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.LimitRange ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190551076Z stderr F W0117 06:39:26.163240       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1beta1.FlowSchema ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190554903Z stderr F E0117 06:39:26.176161       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:aggregate-to-edit: the server was unable to return a response in the time allotted, but may still be processing the request (get clusterroles.rbac.authorization.k8s.io system:aggregate-to-edit)
+2023-01-17T06:39:28.190558489Z stderr F W0117 06:39:26.397685       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.190562153Z stderr F W0117 06:38:11.816690       1 reflector.go:436] k8s.io/client-go/informers/factory.go:134: watch of *v1.PriorityClass ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+2023-01-17T06:39:28.190565731Z stderr F W0117 06:39:26.476969       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:28.19057165Z stderr F W0117 06:39:26.516742       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:2379: i/o timeout". Reconnecting...
+2023-01-17T06:39:28.19057533Z stderr F W0117 06:39:26.619551       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.190579256Z stderr F I0117 06:39:26.619848       1 client.go:360] parsed scheme: "passthrough"
+2023-01-17T06:39:28.19058284Z stderr F I0117 06:39:28.183661       1 passthrough.go:48] ccResolverWrapper: sending update to cc: {[{https://127.0.0.1:2379  <nil> 0 <nil>}] <nil> <nil>}
+2023-01-17T06:39:28.190586436Z stderr F I0117 06:39:28.183674       1 clientconn.go:948] ClientConn switching balancer to "pick_first"
+2023-01-17T06:39:28.190615533Z stderr F W0117 06:39:26.619967       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.190623699Z stderr F W0117 06:39:26.620242       1 clientconn.go:1223] grpc: addrConn.createTransport failed to connect to {https://127.0.0.1:2379  <nil> 0 <nil>}. Err :connection error: desc = "transport: authentication handshake failed: context deadline exceeded". Reconnecting...
+2023-01-17T06:39:28.570760568Z stderr F E0117 06:39:28.564025       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:aggregate-to-view: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:aggregate-to-view": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:28.854185077Z stderr F E0117 06:39:28.846459       1 controller.go:203] unable to create required kubernetes system namespace kube-public: Post "https://[::1]:6443/api/v1/namespaces": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:28.970920793Z stderr F E0117 06:39:28.956580       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:heapster: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:heapster": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:29.501506032Z stderr F E0117 06:39:29.351227       1 repair.go:75] unable to refresh the port block: Get "https://[::1]:6443/api/v1/services": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:29.501581825Z stderr F E0117 06:39:29.466745       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:node: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:node": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:29.835437609Z stderr F E0117 06:39:29.819243       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:node-problem-detector: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:node-problem-detector": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:30.23584615Z stderr F E0117 06:39:30.215335       1 controller.go:203] unable to create required kubernetes system namespace kube-node-lease: Post "https://[::1]:6443/api/v1/namespaces": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:30.407389743Z stderr F E0117 06:39:30.359344       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:kubelet-api-admin: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:kubelet-api-admin": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:30.586313889Z stderr F E0117 06:39:30.581527       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:node-bootstrapper: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:node-bootstrapper": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:30.833288208Z stderr F E0117 06:39:30.825364       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:auth-delegator: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:auth-delegator": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:31.090981635Z stderr F E0117 06:39:31.074335       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:kube-aggregator: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:kube-aggregator": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:31.265537435Z stderr F E0117 06:39:31.260659       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:kube-controller-manager: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:kube-controller-manager": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:31.502247141Z stderr F E0117 06:39:31.494953       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:kube-dns: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:kube-dns": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:31.640191868Z stderr F E0117 06:39:31.633549       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:persistent-volume-provisioner: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:persistent-volume-provisioner": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:31.86809196Z stderr F E0117 06:39:31.855866       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:certificates.k8s.io:certificatesigningrequests:nodeclient: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:certificates.k8s.io:certificatesigningrequests:nodeclient": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:32.158392733Z stderr F E0117 06:39:32.156810       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:certificates.k8s.io:certificatesigningrequests:selfnodeclient: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:certificates.k8s.io:certificatesigningrequests:selfnodeclient": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:32.331474176Z stderr F E0117 06:39:32.330916       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:volume-scheduler: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:volume-scheduler": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:32.34873406Z stderr F E0117 06:39:32.187921       1 controller.go:184] StorageError: key not found, Code: 1, Key: /registry/masterleases/172.18.0.2, ResourceVersion: 0, AdditionalErrorMsg: 
+2023-01-17T06:39:32.56448769Z stderr F E0117 06:39:32.554687       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:certificates.k8s.io:legacy-unknown-approver: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:certificates.k8s.io:legacy-unknown-approver": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:32.785292156Z stderr F E0117 06:39:32.779814       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:certificates.k8s.io:kubelet-serving-approver: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:certificates.k8s.io:kubelet-serving-approver": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:33.169217644Z stderr F E0117 06:39:33.151926       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:certificates.k8s.io:kube-apiserver-client-approver: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:certificates.k8s.io:kube-apiserver-client-approver": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:33.398407879Z stderr F E0117 06:39:33.390445       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:certificates.k8s.io:kube-apiserver-client-kubelet-approver: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:certificates.k8s.io:kube-apiserver-client-kubelet-approver": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:33.55782008Z stderr F E0117 06:39:33.544286       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:service-account-issuer-discovery: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:service-account-issuer-discovery": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:33.806391286Z stderr F E0117 06:39:33.802966       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:node-proxier: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:node-proxier": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:33.951680314Z stderr F E0117 06:39:33.950556       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:kube-scheduler: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:kube-scheduler": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.036277393Z stderr F E0117 06:39:34.020303       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:attachdetach-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:attachdetach-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.065563159Z stderr F E0117 06:39:34.058409       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:clusterrole-aggregation-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:clusterrole-aggregation-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.247277174Z stderr F E0117 06:39:34.226430       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:cronjob-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:cronjob-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.288268697Z stderr F E0117 06:39:34.285009       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:daemon-set-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:daemon-set-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.352524276Z stderr F E0117 06:39:34.347464       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:deployment-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:deployment-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.49388322Z stderr F E0117 06:39:34.490680       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:disruption-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:disruption-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.548737501Z stderr F E0117 06:39:34.541531       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:endpoint-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:endpoint-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.633240958Z stderr F E0117 06:39:34.628668       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:endpointslice-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:endpointslice-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.82638118Z stderr F E0117 06:39:34.819371       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:endpointslicemirroring-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:endpointslicemirroring-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:34.854477407Z stderr F E0117 06:39:34.845088       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:expand-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:expand-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.039080521Z stderr F E0117 06:39:34.980613       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:ephemeral-volume-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:ephemeral-volume-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.039130127Z stderr F E0117 06:39:35.003485       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:generic-garbage-collector: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:generic-garbage-collector": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.039135536Z stderr F E0117 06:39:35.027829       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:horizontal-pod-autoscaler: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:horizontal-pod-autoscaler": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.05135841Z stderr F E0117 06:39:35.049715       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:job-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:job-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.10643781Z stderr F E0117 06:39:35.093852       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:namespace-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:namespace-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.153227587Z stderr F E0117 06:39:35.142750       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:node-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:node-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.200159404Z stderr F E0117 06:39:35.191357       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:persistent-volume-binder: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:persistent-volume-binder": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.292409783Z stderr F E0117 06:39:35.223451       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:pod-garbage-collector: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:pod-garbage-collector": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.50866305Z stderr F E0117 06:39:35.318715       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:replicaset-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:replicaset-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.508677889Z stderr F E0117 06:39:35.392345       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:replication-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:replication-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.617547056Z stderr F E0117 06:39:35.599557       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:resourcequota-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:resourcequota-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:35.977313407Z stderr F E0117 06:39:35.948798       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:route-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:route-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:36.725350853Z stderr F E0117 06:39:36.701582       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:service-account-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:service-account-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:36.872242095Z stderr F E0117 06:39:36.860292       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:service-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:service-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:36.981215099Z stderr F E0117 06:39:36.973585       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:statefulset-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:statefulset-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:37.02937875Z stderr F E0117 06:39:37.020539       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:ttl-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:ttl-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:37.100190684Z stderr F E0117 06:39:37.074261       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:certificate-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:certificate-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:37.145244177Z stderr F E0117 06:39:37.118322       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:pvc-protection-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:pvc-protection-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:37.200307612Z stderr F E0117 06:39:37.192157       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:pv-protection-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:pv-protection-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:37.247290717Z stderr F E0117 06:39:37.218436       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:ttl-after-finished-controller: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:ttl-after-finished-controller": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:37.290243336Z stderr F E0117 06:39:37.280488       1 storage_rbac.go:242] unable to reconcile clusterrole.rbac.authorization.k8s.io/system:controller:root-ca-cert-publisher: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterroles/system:controller:root-ca-cert-publisher": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:37.827342999Z stderr F E0117 06:39:37.816689       1 storage_rbac.go:274] unable to reconcile clusterrolebinding.rbac.authorization.k8s.io/cluster-admin: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterrolebindings/cluster-admin": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:37.942232378Z stderr F E0117 06:39:37.924676       1 storage_rbac.go:274] unable to reconcile clusterrolebinding.rbac.authorization.k8s.io/system:monitoring: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterrolebindings/system:monitoring": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:38.018529655Z stderr F E0117 06:39:38.008953       1 storage_rbac.go:274] unable to reconcile clusterrolebinding.rbac.authorization.k8s.io/system:discovery: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterrolebindings/system:discovery": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:38.018638605Z stderr F E0117 06:39:38.009303       1 status.go:71] apiserver received an error that is not an metav1.Status: context.deadlineExceededError{}: context deadline exceeded
+2023-01-17T06:39:38.094208084Z stderr F E0117 06:39:38.086633       1 storage_rbac.go:274] unable to reconcile clusterrolebinding.rbac.authorization.k8s.io/system:basic-user: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterrolebindings/system:basic-user": dial tcp [::1]:6443: connect: connection refused
+2023-01-17T06:39:38.159005185Z stderr F E0117 06:39:38.151433       1 writers.go:117] apiserver was unable to write a JSON response: http: Handler timeout
+2023-01-17T06:39:38.159061958Z stderr F E0117 06:39:38.151476       1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http: Handler timeout"}: http: Handler timeout
+2023-01-17T06:39:38.208689706Z stderr F E0117 06:39:38.203354       1 writers.go:130] apiserver was unable to write a fallback JSON response: http: Handler timeout
+2023-01-17T06:39:38.226230644Z stderr F E0117 06:39:38.211765       1 storage_rbac.go:274] unable to reconcile clusterrolebinding.rbac.authorization.k8s.io/system:public-info-viewer: Get "https://[::1]:6443/apis/rbac.authorization.k8s.io/v1/clusterrolebindings/system:public-info-viewer": dial tcp [::1]:6443: connect: connection refused

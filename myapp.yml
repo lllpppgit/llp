@@ -1,0 +1,32 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8stest-1          
+  namespace:
+spec:
+  minReadySeconds: 5      
+  strategy:              
+    type: RollingUpdate   
+    rollingUpdate:
+      maxSurge: 1         
+      maxUnavailable: 1   
+  selector:               
+    matchLabels:
+      app: jalcge         
+  replicas: 1             
+  template:
+    metadata:
+      labels:
+        app: jalcge
+    spec:
+      hostNetwork: true   # 将pod暴露在宿主机环境中，这时Pod的PodIP就是其所在Node的IP，
+       # 可以直接在外部 http://NodeIP:容器端口/ 直接访问，无需service 缺点是不稳定且 副本数要和节点数一致，多余的副本会一直处于 Pending状态
+      containers:
+       - name: jalcge
+         image: jalcge/k8s:latest
+         args:               
+          - '1.0'
+         imagePullPolicy: Always  
+         ports:
+          - containerPort: 8080

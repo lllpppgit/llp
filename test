@@ -1,0 +1,59 @@
+-- MySQL dump 10.13  Distrib 5.7.32, for Linux (x86_64)
+--
+-- Host: localhost    Database: dolphinscheduler
+-- ------------------------------------------------------
+-- Server version	5.7.32
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `t_ds_environment`
+--
+
+DROP TABLE IF EXISTS `t_ds_environment`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `t_ds_environment` (
+  `id` bigint(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `code` bigint(20) DEFAULT NULL COMMENT 'encoding',
+  `name` varchar(100) NOT NULL COMMENT 'environment name',
+  `config` text COMMENT 'this config contains many environment variables config',
+  `description` text COMMENT 'the details',
+  `operator` int(11) DEFAULT NULL COMMENT 'operator user id',
+  `create_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `update_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `environment_name_unique` (`name`),
+  UNIQUE KEY `environment_code_unique` (`code`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `t_ds_environment`
+--
+
+LOCK TABLES `t_ds_environment` WRITE;
+/*!40000 ALTER TABLE `t_ds_environment` DISABLE KEYS */;
+INSERT INTO `t_ds_environment` VALUES (2,5029262283360,'hadoop','export HADOOP_USER_NAME=hadoop\nexport DATAX_HOME=/opt/soft/datax','hadoop',1,'2022-03-31 10:11:52','2022-03-31 10:34:20'),(3,5658173069024,'dataX抽数用户-测试','export HADOOP_USER_NAME=bi_ds\nexport DATAX_HOME=/opt/soft/datax','datax抽数测试',1,'2022-05-27 07:01:17','2022-06-02 07:08:08'),(4,5725009309664,'hive-测试环境变量','export HADOOP_USER_NAME=bi_five','一峰任务用户设置',1,'2022-06-02 08:03:55','2022-06-02 08:03:55'),(5,5725202110560,'dataX抽数用户-生产','export HADOOP_USER_NAME=ds_bi \n export DATAX_HOME=/opt/soft/datax','datax抽数-生产',1,'2022-06-02 08:29:01','2022-06-02 08:29:01'),(6,5725592148320,'hive-生产环境变量（一峰使用）','export HADOOP_USER_NAME=five_bi','一峰任务用户设置',1,'2022-06-02 09:19:49','2022-06-07 07:48:18'),(7,6123384874464,'hive生产环境变量（达伟使用）','export HADOOP_USER_NAME=one_bi','达伟任务用户设置（跑主机脚本）',1,'2022-07-08 08:35:44','2022-07-11 09:10:01'),(8,6253645717728,'hive生产环境变量（沐强使用）','export HADOOP_USER_NAME=six_bi','沐强任务用户设置',1,'2022-07-20 03:16:47','2022-07-20 03:16:47'),(9,6565904595040,'dataX2抽数用户-生产','export HADOOP_USER_NAME=ds_bi export DATAX_HOME=/opt/soft/datax2/datax','datax -临时生产',1,'2022-08-17 08:55:30','2022-08-17 10:47:31'),(10,8025610306016,'datax3','export HADOOP_USER_NAME=ds_bi export DATAX_HOME=/opt/soft/datax3/datax','datax3，直接从测试拷贝的',1,'2022-12-27 08:41:21','2022-12-27 08:41:21');
+/*!40000 ALTER TABLE `t_ds_environment` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-02-17 18:38:42

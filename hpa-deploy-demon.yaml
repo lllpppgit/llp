@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hpa-nginx-deploy
+spec:
+  selector:
+    matchLabels:
+      run: hpa-nginx-deploy
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: hpa-nginx-deploy
+    spec:
+      containers:
+      - name: nginx
+        image: hub.test.com/library/mynginx:v1  # 镜像地址
+        ports:
+        - containerPort: 80
+        resources:
+          limits:               # 最大限制
+            cpu: 500m   # CPU最大是500微核
+          requests:     # 最低保证
+            cpu: 200m   # CPU最小是200微核

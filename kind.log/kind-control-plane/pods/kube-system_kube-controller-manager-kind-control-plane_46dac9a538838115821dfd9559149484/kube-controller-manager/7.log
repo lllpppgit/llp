@@ -1,0 +1,263 @@
+2023-01-17T06:32:16.904725892Z stderr F Flag --port has been deprecated, see --secure-port instead.
+2023-01-17T06:32:27.090417569Z stderr F I0117 06:32:27.029233       1 serving.go:347] Generated self-signed cert in-memory
+2023-01-17T06:33:41.138404408Z stderr F I0117 06:33:41.120614       1 controllermanager.go:175] Version: v1.21.1
+2023-01-17T06:33:42.205382927Z stderr F I0117 06:33:42.175882       1 dynamic_cafile_content.go:167] Starting request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+2023-01-17T06:33:42.252242417Z stderr F I0117 06:33:42.245350       1 dynamic_cafile_content.go:167] Starting client-ca-bundle::/etc/kubernetes/pki/ca.crt
+2023-01-17T06:33:42.514743389Z stderr F I0117 06:33:42.499947       1 secure_serving.go:197] Serving securely on 127.0.0.1:10257
+2023-01-17T06:33:42.611865132Z stderr F I0117 06:33:42.601035       1 tlsconfig.go:240] Starting DynamicServingCertificateController
+2023-01-17T06:33:43.883223507Z stderr F I0117 06:33:43.882937       1 leaderelection.go:243] attempting to acquire leader lease kube-system/kube-controller-manager...
+2023-01-17T06:33:51.326495877Z stderr F E0117 06:33:51.304559       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:34:01.418288072Z stderr F E0117 06:34:01.370443       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:34:09.544088162Z stderr F E0117 06:34:09.492923       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:34:14.288256282Z stderr F E0117 06:34:14.277316       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:34:17.116022096Z stderr F E0117 06:34:17.094816       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:34:20.636266442Z stderr F E0117 06:34:20.626922       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:34:29.918818205Z stderr F E0117 06:34:29.918398       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:34:38.384306741Z stderr F E0117 06:34:38.374081       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:34:47.461181567Z stderr F E0117 06:34:47.340573       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:34:55.709194585Z stderr F E0117 06:34:55.686571       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:35:06.093300434Z stderr F E0117 06:35:06.061648       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:35:21.873329026Z stderr F E0117 06:35:21.746434       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded
+2023-01-17T06:35:43.425461599Z stderr F I0117 06:35:43.373349       1 request.go:668] Waited for 1.307644729s due to client-side throttling, not priority and fairness, request: GET:https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s
+2023-01-17T06:35:48.518281761Z stderr F E0117 06:35:48.517212       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:35:56.134441479Z stderr F E0117 06:35:56.107683       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:36:06.071189813Z stderr F E0117 06:36:06.053007       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:36:15.820353205Z stderr F E0117 06:36:15.815993       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:36:42.255511195Z stderr F E0117 06:36:42.212583       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:37:05.972627879Z stderr F E0117 06:37:04.898208       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:37:15.518903673Z stderr F E0117 06:37:15.495739       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": http2: client connection lost
+2023-01-17T06:37:24.533306476Z stderr F E0117 06:37:24.408017       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:37:37.095236903Z stderr F E0117 06:37:37.092311       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:37:50.018619633Z stderr F E0117 06:37:49.994946       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:38:00.328355756Z stderr F E0117 06:38:00.194450       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:38:08.249431812Z stderr F E0117 06:38:08.248775       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:38:34.242301902Z stderr F E0117 06:38:33.973698       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:38:53.045492068Z stderr F E0117 06:38:51.317417       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:39:23.736929436Z stderr F E0117 06:39:23.037501       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:39:27.931547516Z stderr F E0117 06:39:27.924439       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:39:31.868122333Z stderr F E0117 06:39:31.855502       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:39:33.969473028Z stderr F E0117 06:39:33.963653       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:39:38.085921549Z stderr F E0117 06:39:38.070607       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:39:41.404515864Z stderr F E0117 06:39:41.391903       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": dial tcp 172.18.0.2:6443: connect: connection refused
+2023-01-17T06:39:50.233936257Z stderr F E0117 06:39:50.225749       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:39:58.725963175Z stderr F E0117 06:39:58.715338       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded
+2023-01-17T06:40:07.489200158Z stderr F E0117 06:40:07.480502       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:40:17.51877886Z stderr F E0117 06:40:17.496572       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:40:28.030337248Z stderr F E0117 06:40:28.014493       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded
+2023-01-17T06:40:39.034762514Z stderr F E0117 06:40:38.891505       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:40:48.552848354Z stderr F E0117 06:40:48.525215       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:41:00.200195241Z stderr F E0117 06:41:00.137875       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded
+2023-01-17T06:41:50.882413131Z stderr F E0117 06:41:50.445092       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:42:06.530607169Z stderr F E0117 06:42:06.514592       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:42:15.169915888Z stderr F E0117 06:42:15.166594       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:42:24.582424649Z stderr F E0117 06:42:24.537176       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:42:33.030279356Z stderr F E0117 06:42:32.988207       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:42:43.661203305Z stderr F E0117 06:42:43.659516       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:42:52.6335969Z stderr F E0117 06:42:52.593899       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:43:01.406347169Z stderr F E0117 06:43:01.344524       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:43:12.539302516Z stderr F E0117 06:43:12.487401       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": context deadline exceeded
+2023-01-17T06:43:22.302922053Z stderr F E0117 06:43:22.299285       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://172.18.0.2:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=5s": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2023-01-17T06:43:26.3002469Z stderr F I0117 06:43:26.269223       1 leaderelection.go:253] successfully acquired lease kube-system/kube-controller-manager
+2023-01-17T06:43:26.326354213Z stderr F I0117 06:43:26.325141       1 event.go:291] "Event occurred" object="kube-system/kube-controller-manager" kind="Lease" apiVersion="coordination.k8s.io/v1" type="Normal" reason="LeaderElection" message="kind-control-plane_acc2f50b-bb42-4a63-a48d-1d5ab2ebf0fe became leader"
+2023-01-17T06:43:29.760842401Z stderr F I0117 06:43:29.757612       1 shared_informer.go:240] Waiting for caches to sync for tokens
+2023-01-17T06:43:29.812003876Z stderr F I0117 06:43:29.810515       1 controllermanager.go:574] Started "daemonset"
+2023-01-17T06:43:29.812076877Z stderr F I0117 06:43:29.810657       1 daemon_controller.go:285] Starting daemon sets controller
+2023-01-17T06:43:29.812082065Z stderr F I0117 06:43:29.810666       1 shared_informer.go:240] Waiting for caches to sync for daemon sets
+2023-01-17T06:43:29.83715426Z stderr F I0117 06:43:29.834959       1 controllermanager.go:574] Started "replicaset"
+2023-01-17T06:43:29.846224813Z stderr F I0117 06:43:29.842308       1 replica_set.go:182] Starting replicaset controller
+2023-01-17T06:43:29.846244127Z stderr F I0117 06:43:29.842327       1 shared_informer.go:240] Waiting for caches to sync for ReplicaSet
+2023-01-17T06:43:29.870661485Z stderr F I0117 06:43:29.868694       1 shared_informer.go:247] Caches are synced for tokens 
+2023-01-17T06:43:29.899299215Z stderr F I0117 06:43:29.896557       1 attach_detach_controller.go:327] Starting attach detach controller
+2023-01-17T06:43:29.899317488Z stderr F I0117 06:43:29.896607       1 shared_informer.go:240] Waiting for caches to sync for attach detach
+2023-01-17T06:43:29.899376598Z stderr F I0117 06:43:29.896645       1 controllermanager.go:574] Started "attachdetach"
+2023-01-17T06:43:29.985275099Z stderr F I0117 06:43:29.984118       1 controllermanager.go:574] Started "persistentvolume-expander"
+2023-01-17T06:43:29.985281179Z stderr F I0117 06:43:29.984282       1 expand_controller.go:327] Starting expand controller
+2023-01-17T06:43:29.985309964Z stderr F I0117 06:43:29.984338       1 shared_informer.go:240] Waiting for caches to sync for expand
+2023-01-17T06:43:30.008903811Z stderr F I0117 06:43:30.004594       1 controllermanager.go:574] Started "ttl-after-finished"
+2023-01-17T06:43:30.008947312Z stderr F I0117 06:43:30.004876       1 ttlafterfinished_controller.go:109] Starting TTL after finished controller
+2023-01-17T06:43:30.008957572Z stderr F I0117 06:43:30.004886       1 shared_informer.go:240] Waiting for caches to sync for TTL after finished
+2023-01-17T06:43:30.088980293Z stderr F I0117 06:43:30.083755       1 controllermanager.go:574] Started "root-ca-cert-publisher"
+2023-01-17T06:43:30.089001219Z stderr F I0117 06:43:30.083917       1 publisher.go:102] Starting root CA certificate configmap publisher
+2023-01-17T06:43:30.08900539Z stderr F I0117 06:43:30.083926       1 shared_informer.go:240] Waiting for caches to sync for crt configmap
+2023-01-17T06:43:30.135258117Z stderr F I0117 06:43:30.132519       1 controllermanager.go:574] Started "endpoint"
+2023-01-17T06:43:30.135282529Z stderr F W0117 06:43:30.132543       1 core.go:245] configure-cloud-routes is set, but no cloud provider specified. Will not configure cloud provider routes.
+2023-01-17T06:43:30.135312506Z stderr F W0117 06:43:30.132549       1 controllermanager.go:566] Skipping "route"
+2023-01-17T06:43:30.135316362Z stderr F I0117 06:43:30.132684       1 endpoints_controller.go:189] Starting endpoint controller
+2023-01-17T06:43:30.135319588Z stderr F I0117 06:43:30.132692       1 shared_informer.go:240] Waiting for caches to sync for endpoint
+2023-01-17T06:43:30.186275846Z stderr F I0117 06:43:30.169723       1 controllermanager.go:574] Started "persistentvolume-binder"
+2023-01-17T06:43:30.186317714Z stderr F I0117 06:43:30.169921       1 pv_controller_base.go:308] Starting persistent volume controller
+2023-01-17T06:43:30.186332873Z stderr F I0117 06:43:30.169952       1 shared_informer.go:240] Waiting for caches to sync for persistent volume
+2023-01-17T06:43:30.208538366Z stderr F E0117 06:43:30.207440       1 core.go:91] Failed to start service controller: WARNING: no cloud provider provided, services of type LoadBalancer will fail
+2023-01-17T06:43:30.208555773Z stderr F W0117 06:43:30.207461       1 controllermanager.go:566] Skipping "service"
+2023-01-17T06:43:30.226508017Z stderr F I0117 06:43:30.219781       1 controllermanager.go:574] Started "clusterrole-aggregation"
+2023-01-17T06:43:30.226510144Z stderr F I0117 06:43:30.220011       1 clusterroleaggregation_controller.go:194] Starting ClusterRoleAggregator
+2023-01-17T06:43:30.226540169Z stderr F I0117 06:43:30.220022       1 shared_informer.go:240] Waiting for caches to sync for ClusterRoleAggregator
+2023-01-17T06:43:30.259427937Z stderr F I0117 06:43:30.254210       1 controllermanager.go:574] Started "endpointslicemirroring"
+2023-01-17T06:43:30.259552265Z stderr F I0117 06:43:30.254354       1 endpointslicemirroring_controller.go:211] Starting EndpointSliceMirroring controller
+2023-01-17T06:43:30.259564336Z stderr F I0117 06:43:30.254364       1 shared_informer.go:240] Waiting for caches to sync for endpoint_slice_mirroring
+2023-01-17T06:43:30.281545983Z stderr F I0117 06:43:30.269279       1 controllermanager.go:574] Started "podgc"
+2023-01-17T06:43:30.281593506Z stderr F I0117 06:43:30.269463       1 gc_controller.go:89] Starting GC controller
+2023-01-17T06:43:30.28159762Z stderr F I0117 06:43:30.269469       1 shared_informer.go:240] Waiting for caches to sync for GC
+2023-01-17T06:43:30.442449661Z stderr F I0117 06:43:30.440760       1 controllermanager.go:574] Started "namespace"
+2023-01-17T06:43:30.442454621Z stderr F I0117 06:43:30.440906       1 namespace_controller.go:200] Starting namespace controller
+2023-01-17T06:43:30.442528727Z stderr F I0117 06:43:30.440917       1 shared_informer.go:240] Waiting for caches to sync for namespace
+2023-01-17T06:43:30.449223391Z stderr F I0117 06:43:30.448174       1 controllermanager.go:574] Started "serviceaccount"
+2023-01-17T06:43:30.449247283Z stderr F I0117 06:43:30.448345       1 serviceaccounts_controller.go:117] Starting service account controller
+2023-01-17T06:43:30.449277302Z stderr F I0117 06:43:30.448356       1 shared_informer.go:240] Waiting for caches to sync for service account
+2023-01-17T06:43:30.456329784Z stderr F I0117 06:43:30.451308       1 controllermanager.go:574] Started "ttl"
+2023-01-17T06:43:30.456349047Z stderr F I0117 06:43:30.451412       1 ttl_controller.go:121] Starting TTL controller
+2023-01-17T06:43:30.456353125Z stderr F I0117 06:43:30.451419       1 shared_informer.go:240] Waiting for caches to sync for TTL
+2023-01-17T06:43:30.456356439Z stderr F I0117 06:43:30.453552       1 controllermanager.go:574] Started "bootstrapsigner"
+2023-01-17T06:43:30.456360607Z stderr F I0117 06:43:30.453637       1 shared_informer.go:240] Waiting for caches to sync for bootstrap_signer
+2023-01-17T06:43:30.464289447Z stderr F I0117 06:43:30.461979       1 controllermanager.go:574] Started "replicationcontroller"
+2023-01-17T06:43:30.464310416Z stderr F I0117 06:43:30.462125       1 replica_set.go:182] Starting replicationcontroller controller
+2023-01-17T06:43:30.46431466Z stderr F I0117 06:43:30.462133       1 shared_informer.go:240] Waiting for caches to sync for ReplicationController
+2023-01-17T06:43:30.472220669Z stderr F I0117 06:43:30.471666       1 controllermanager.go:574] Started "garbagecollector"
+2023-01-17T06:43:30.472243381Z stderr F I0117 06:43:30.472018       1 garbagecollector.go:142] Starting garbage collector controller
+2023-01-17T06:43:30.474287724Z stderr F I0117 06:43:30.472453       1 shared_informer.go:240] Waiting for caches to sync for garbage collector
+2023-01-17T06:43:30.474334491Z stderr F I0117 06:43:30.472501       1 graph_builder.go:289] GraphBuilder running
+2023-01-17T06:43:30.48025468Z stderr F I0117 06:43:30.475213       1 controllermanager.go:574] Started "job"
+2023-01-17T06:43:30.48026752Z stderr F I0117 06:43:30.475352       1 job_controller.go:150] Starting job controller
+2023-01-17T06:43:30.480271504Z stderr F I0117 06:43:30.475360       1 shared_informer.go:240] Waiting for caches to sync for job
+2023-01-17T06:43:30.490252612Z stderr F I0117 06:43:30.489832       1 controllermanager.go:574] Started "deployment"
+2023-01-17T06:43:30.490268368Z stderr F I0117 06:43:30.490007       1 deployment_controller.go:153] "Starting controller" controller="deployment"
+2023-01-17T06:43:30.490272352Z stderr F I0117 06:43:30.490017       1 shared_informer.go:240] Waiting for caches to sync for deployment
+2023-01-17T06:43:30.527595Z stderr F I0117 06:43:30.526091       1 controllermanager.go:574] Started "csrsigning"
+2023-01-17T06:43:30.527606694Z stderr F I0117 06:43:30.526311       1 certificate_controller.go:118] Starting certificate controller "csrsigning-legacy-unknown"
+2023-01-17T06:43:30.527639182Z stderr F I0117 06:43:30.526325       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrsigning-legacy-unknown
+2023-01-17T06:43:30.527642537Z stderr F I0117 06:43:30.526423       1 certificate_controller.go:118] Starting certificate controller "csrsigning-kubelet-serving"
+2023-01-17T06:43:30.527652458Z stderr F I0117 06:43:30.526431       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrsigning-kubelet-serving
+2023-01-17T06:43:30.527655994Z stderr F I0117 06:43:30.526462       1 certificate_controller.go:118] Starting certificate controller "csrsigning-kubelet-client"
+2023-01-17T06:43:30.527659227Z stderr F I0117 06:43:30.526467       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrsigning-kubelet-client
+2023-01-17T06:43:30.527662518Z stderr F I0117 06:43:30.526493       1 certificate_controller.go:118] Starting certificate controller "csrsigning-kube-apiserver-client"
+2023-01-17T06:43:30.52766631Z stderr F I0117 06:43:30.526534       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrsigning-kube-apiserver-client
+2023-01-17T06:43:30.527669644Z stderr F I0117 06:43:30.526603       1 dynamic_serving_content.go:130] Starting csr-controller::/etc/kubernetes/pki/ca.crt::/etc/kubernetes/pki/ca.key
+2023-01-17T06:43:30.527672931Z stderr F I0117 06:43:30.526640       1 dynamic_serving_content.go:130] Starting csr-controller::/etc/kubernetes/pki/ca.crt::/etc/kubernetes/pki/ca.key
+2023-01-17T06:43:30.527676265Z stderr F I0117 06:43:30.526670       1 dynamic_serving_content.go:130] Starting csr-controller::/etc/kubernetes/pki/ca.crt::/etc/kubernetes/pki/ca.key
+2023-01-17T06:43:30.527679567Z stderr F I0117 06:43:30.526700       1 dynamic_serving_content.go:130] Starting csr-controller::/etc/kubernetes/pki/ca.crt::/etc/kubernetes/pki/ca.key
+2023-01-17T06:43:30.554651589Z stderr F I0117 06:43:30.553862       1 controllermanager.go:574] Started "csrapproving"
+2023-01-17T06:43:30.558693691Z stderr F I0117 06:43:30.555224       1 certificate_controller.go:118] Starting certificate controller "csrapproving"
+2023-01-17T06:43:30.55885344Z stderr F I0117 06:43:30.555253       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrapproving
+2023-01-17T06:43:30.593358095Z stderr F I0117 06:43:30.587588       1 controllermanager.go:574] Started "horizontalpodautoscaling"
+2023-01-17T06:43:30.593409981Z stderr F I0117 06:43:30.587749       1 horizontal.go:169] Starting HPA controller
+2023-01-17T06:43:30.593415989Z stderr F I0117 06:43:30.587759       1 shared_informer.go:240] Waiting for caches to sync for HPA
+2023-01-17T06:43:30.605491229Z stderr F I0117 06:43:30.599938       1 controllermanager.go:574] Started "disruption"
+2023-01-17T06:43:30.608422588Z stderr F I0117 06:43:30.606231       1 disruption.go:363] Starting disruption controller
+2023-01-17T06:43:30.608447531Z stderr F I0117 06:43:30.606288       1 shared_informer.go:240] Waiting for caches to sync for disruption
+2023-01-17T06:43:30.613316561Z stderr F I0117 06:43:30.610634       1 controllermanager.go:574] Started "cronjob"
+2023-01-17T06:43:30.613338118Z stderr F I0117 06:43:30.610799       1 cronjob_controllerv2.go:125] Starting cronjob controller v2
+2023-01-17T06:43:30.613364132Z stderr F I0117 06:43:30.610809       1 shared_informer.go:240] Waiting for caches to sync for cronjob
+2023-01-17T06:43:30.617321531Z stderr F I0117 06:43:30.616858       1 controllermanager.go:574] Started "tokencleaner"
+2023-01-17T06:43:30.617338024Z stderr F I0117 06:43:30.616994       1 tokencleaner.go:118] Starting token cleaner controller
+2023-01-17T06:43:30.617341765Z stderr F I0117 06:43:30.617012       1 shared_informer.go:240] Waiting for caches to sync for token_cleaner
+2023-01-17T06:43:30.617344974Z stderr F I0117 06:43:30.617019       1 shared_informer.go:247] Caches are synced for token_cleaner 
+2023-01-17T06:43:30.634857754Z stderr F I0117 06:43:30.630780       1 controllermanager.go:574] Started "endpointslice"
+2023-01-17T06:43:30.634878602Z stderr F I0117 06:43:30.630980       1 endpointslice_controller.go:256] Starting endpoint slice controller
+2023-01-17T06:43:30.634881957Z stderr F I0117 06:43:30.630989       1 shared_informer.go:240] Waiting for caches to sync for endpoint_slice
+2023-01-17T06:43:30.634891624Z stderr F I0117 06:43:30.633173       1 node_lifecycle_controller.go:377] Sending events to api server.
+2023-01-17T06:43:30.634894566Z stderr F I0117 06:43:30.633298       1 taint_manager.go:163] "Sending events to api server"
+2023-01-17T06:43:30.634922259Z stderr F I0117 06:43:30.633370       1 node_lifecycle_controller.go:505] Controller will reconcile labels.
+2023-01-17T06:43:30.634925403Z stderr F I0117 06:43:30.633391       1 controllermanager.go:574] Started "nodelifecycle"
+2023-01-17T06:43:30.634928504Z stderr F I0117 06:43:30.633508       1 node_lifecycle_controller.go:539] Starting node controller
+2023-01-17T06:43:30.63493156Z stderr F I0117 06:43:30.633515       1 shared_informer.go:240] Waiting for caches to sync for taint
+2023-01-17T06:43:30.638316159Z stderr F I0117 06:43:30.638019       1 controllermanager.go:574] Started "statefulset"
+2023-01-17T06:43:30.641454373Z stderr F I0117 06:43:30.639206       1 stateful_set.go:146] Starting stateful set controller
+2023-01-17T06:43:30.641469052Z stderr F I0117 06:43:30.639218       1 shared_informer.go:240] Waiting for caches to sync for stateful set
+2023-01-17T06:43:30.647356821Z stderr F I0117 06:43:30.645983       1 node_ipam_controller.go:91] Sending events to api server.
+2023-01-17T06:43:40.756922985Z stderr F I0117 06:43:40.715446       1 range_allocator.go:82] Sending events to api server.
+2023-01-17T06:43:40.777403555Z stderr F I0117 06:43:40.770640       1 range_allocator.go:116] No Secondary Service CIDR provided. Skipping filtering out secondary service addresses.
+2023-01-17T06:43:40.780921256Z stderr F I0117 06:43:40.780560       1 controllermanager.go:574] Started "nodeipam"
+2023-01-17T06:43:40.781425044Z stderr F I0117 06:43:40.781174       1 node_ipam_controller.go:154] Starting ipam controller
+2023-01-17T06:43:40.796877742Z stderr F I0117 06:43:40.788957       1 shared_informer.go:240] Waiting for caches to sync for node
+2023-01-17T06:43:40.812065994Z stderr F I0117 06:43:40.808290       1 node_lifecycle_controller.go:76] Sending events to api server
+2023-01-17T06:43:40.8120939Z stderr F E0117 06:43:40.808357       1 core.go:231] failed to start cloud node lifecycle controller: no cloud provider provided
+2023-01-17T06:43:40.812097505Z stderr F W0117 06:43:40.808445       1 controllermanager.go:566] Skipping "cloud-node-lifecycle"
+2023-01-17T06:43:40.829339257Z stderr F I0117 06:43:40.827676       1 controllermanager.go:574] Started "pvc-protection"
+2023-01-17T06:43:40.829361906Z stderr F I0117 06:43:40.827922       1 pvc_protection_controller.go:110] "Starting PVC protection controller"
+2023-01-17T06:43:40.829405144Z stderr F I0117 06:43:40.827935       1 shared_informer.go:240] Waiting for caches to sync for PVC protection
+2023-01-17T06:43:40.839434098Z stderr F I0117 06:43:40.836454       1 controllermanager.go:574] Started "pv-protection"
+2023-01-17T06:43:40.839456436Z stderr F I0117 06:43:40.836617       1 pv_protection_controller.go:83] Starting PV protection controller
+2023-01-17T06:43:40.839459915Z stderr F I0117 06:43:40.836628       1 shared_informer.go:240] Waiting for caches to sync for PV protection
+2023-01-17T06:43:40.962523994Z stderr F W0117 06:43:40.961612       1 shared_informer.go:494] resyncPeriod 18h30m22.335797819s is smaller than resyncCheckPeriod 20h46m31.348176315s and the informer has already started. Changing it to 20h46m31.348176315s
+2023-01-17T06:43:40.962550769Z stderr F I0117 06:43:40.961699       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for serviceaccounts
+2023-01-17T06:43:40.962554045Z stderr F I0117 06:43:40.961748       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for daemonsets.apps
+2023-01-17T06:43:40.962556823Z stderr F I0117 06:43:40.961762       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for deployments.apps
+2023-01-17T06:43:40.962559994Z stderr F I0117 06:43:40.961797       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for events.events.k8s.io
+2023-01-17T06:43:40.962573043Z stderr F I0117 06:43:40.961835       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for csistoragecapacities.storage.k8s.io
+2023-01-17T06:43:40.962576145Z stderr F I0117 06:43:40.961847       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for limitranges
+2023-01-17T06:43:40.962578893Z stderr F I0117 06:43:40.961868       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for cronjobs.batch
+2023-01-17T06:43:40.962581637Z stderr F I0117 06:43:40.961897       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for podtemplates
+2023-01-17T06:43:40.96258439Z stderr F I0117 06:43:40.961922       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for endpointslices.discovery.k8s.io
+2023-01-17T06:43:40.962588634Z stderr F I0117 06:43:40.961937       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for horizontalpodautoscalers.autoscaling
+2023-01-17T06:43:40.962591403Z stderr F I0117 06:43:40.961953       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for roles.rbac.authorization.k8s.io
+2023-01-17T06:43:40.962594131Z stderr F I0117 06:43:40.961966       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for rolebindings.rbac.authorization.k8s.io
+2023-01-17T06:43:40.962596846Z stderr F I0117 06:43:40.961977       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for leases.coordination.k8s.io
+2023-01-17T06:43:40.962599604Z stderr F W0117 06:43:40.961985       1 shared_informer.go:494] resyncPeriod 20h32m23.059977252s is smaller than resyncCheckPeriod 20h46m31.348176315s and the informer has already started. Changing it to 20h46m31.348176315s
+2023-01-17T06:43:40.970481075Z stderr F I0117 06:43:40.962831       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for controllerrevisions.apps
+2023-01-17T06:43:40.970501623Z stderr F I0117 06:43:40.962901       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for ingresses.extensions
+2023-01-17T06:43:40.97050471Z stderr F I0117 06:43:40.962923       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for poddisruptionbudgets.policy
+2023-01-17T06:43:40.970527519Z stderr F I0117 06:43:40.962935       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for endpoints
+2023-01-17T06:43:40.97053039Z stderr F I0117 06:43:40.962948       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for statefulsets.apps
+2023-01-17T06:43:40.970533176Z stderr F I0117 06:43:40.962976       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for jobs.batch
+2023-01-17T06:43:40.970536039Z stderr F I0117 06:43:40.963013       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for networkpolicies.networking.k8s.io
+2023-01-17T06:43:40.970538762Z stderr F I0117 06:43:40.963035       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for replicasets.apps
+2023-01-17T06:43:40.970541559Z stderr F I0117 06:43:40.963079       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for ingresses.networking.k8s.io
+2023-01-17T06:43:40.970544965Z stderr F I0117 06:43:40.963091       1 controllermanager.go:574] Started "resourcequota"
+2023-01-17T06:43:40.974305107Z stderr F I0117 06:43:40.973861       1 resource_quota_controller.go:273] Starting resource quota controller
+2023-01-17T06:43:40.974324477Z stderr F I0117 06:43:40.973918       1 shared_informer.go:240] Waiting for caches to sync for resource quota
+2023-01-17T06:43:40.974328124Z stderr F I0117 06:43:40.973965       1 resource_quota_monitor.go:304] QuotaMonitor running
+2023-01-17T06:43:41.00643411Z stderr F I0117 06:43:40.974746       1 controllermanager.go:574] Started "csrcleaner"
+2023-01-17T06:43:41.009406236Z stderr F I0117 06:43:41.007527       1 cleaner.go:82] Starting CSR cleaner controller
+2023-01-17T06:43:41.170490301Z stderr F I0117 06:43:41.029688       1 controllermanager.go:574] Started "ephemeral-volume"
+2023-01-17T06:43:41.17051936Z stderr F I0117 06:43:41.031195       1 controller.go:170] Starting ephemeral volume controller
+2023-01-17T06:43:41.170522656Z stderr F I0117 06:43:41.031212       1 shared_informer.go:240] Waiting for caches to sync for ephemeral
+2023-01-17T06:43:41.416197335Z stderr F W0117 06:43:41.415701       1 actual_state_of_world.go:534] Failed to update statusUpdateNeeded field in actual state of world: Failed to set statusUpdateNeeded to needed true, because nodeName="kind-control-plane" does not exist
+2023-01-17T06:43:41.41915011Z stderr F I0117 06:43:41.418483       1 shared_informer.go:240] Waiting for caches to sync for resource quota
+2023-01-17T06:43:41.428335566Z stderr F I0117 06:43:41.427214       1 shared_informer.go:247] Caches are synced for certificate-csrsigning-kube-apiserver-client 
+2023-01-17T06:43:41.430191546Z stderr F I0117 06:43:41.429744       1 shared_informer.go:247] Caches are synced for certificate-csrsigning-legacy-unknown 
+2023-01-17T06:43:41.430204396Z stderr F I0117 06:43:41.429780       1 shared_informer.go:247] Caches are synced for certificate-csrsigning-kubelet-serving 
+2023-01-17T06:43:41.430207464Z stderr F I0117 06:43:41.429802       1 shared_informer.go:247] Caches are synced for certificate-csrsigning-kubelet-client 
+2023-01-17T06:43:41.505261456Z stderr F I0117 06:43:41.497861       1 shared_informer.go:247] Caches are synced for PV protection 
+2023-01-17T06:43:41.505282128Z stderr F I0117 06:43:41.497920       1 shared_informer.go:247] Caches are synced for namespace 
+2023-01-17T06:43:41.505308085Z stderr F I0117 06:43:41.497955       1 shared_informer.go:247] Caches are synced for service account 
+2023-01-17T06:43:41.509288887Z stderr F I0117 06:43:41.505545       1 shared_informer.go:247] Caches are synced for TTL 
+2023-01-17T06:43:41.509311017Z stderr F I0117 06:43:41.505629       1 shared_informer.go:247] Caches are synced for certificate-csrapproving 
+2023-01-17T06:43:41.509314379Z stderr F I0117 06:43:41.505999       1 shared_informer.go:247] Caches are synced for expand 
+2023-01-17T06:43:41.509317502Z stderr F I0117 06:43:41.506074       1 shared_informer.go:247] Caches are synced for node 
+2023-01-17T06:43:41.50932022Z stderr F I0117 06:43:41.506092       1 range_allocator.go:172] Starting range CIDR allocator
+2023-01-17T06:43:41.509323001Z stderr F I0117 06:43:41.506102       1 shared_informer.go:240] Waiting for caches to sync for cidrallocator
+2023-01-17T06:43:41.50932571Z stderr F I0117 06:43:41.506107       1 shared_informer.go:247] Caches are synced for cidrallocator 
+2023-01-17T06:43:41.509326704Z stderr F I0117 06:43:41.506152       1 shared_informer.go:247] Caches are synced for endpoint_slice_mirroring 
+2023-01-17T06:43:41.509353582Z stderr F I0117 06:43:41.506878       1 shared_informer.go:247] Caches are synced for TTL after finished 
+2023-01-17T06:43:41.522172821Z stderr F I0117 06:43:41.520033       1 shared_informer.go:247] Caches are synced for daemon sets 
+2023-01-17T06:43:41.522195696Z stderr F I0117 06:43:41.520081       1 shared_informer.go:247] Caches are synced for ClusterRoleAggregator 
+2023-01-17T06:43:41.532637175Z stderr F I0117 06:43:41.531477       1 shared_informer.go:247] Caches are synced for ephemeral 
+2023-01-17T06:43:41.532663074Z stderr F I0117 06:43:41.531691       1 shared_informer.go:247] Caches are synced for PVC protection 
+2023-01-17T06:43:41.532666518Z stderr F I0117 06:43:41.531716       1 shared_informer.go:247] Caches are synced for endpoint_slice 
+2023-01-17T06:43:41.543218014Z stderr F I0117 06:43:41.535696       1 shared_informer.go:247] Caches are synced for taint 
+2023-01-17T06:43:41.543240972Z stderr F I0117 06:43:41.535758       1 node_lifecycle_controller.go:1398] Initializing eviction metric for zone: 
+2023-01-17T06:43:41.545312468Z stderr F W0117 06:43:41.543312       1 node_lifecycle_controller.go:1013] Missing timestamp for Node kind-control-plane. Assuming now as a timestamp.
+2023-01-17T06:43:41.54535552Z stderr F I0117 06:43:41.543398       1 node_lifecycle_controller.go:1214] Controller detected that zone  is now in state Normal.
+2023-01-17T06:43:41.545359233Z stderr F I0117 06:43:41.543445       1 shared_informer.go:247] Caches are synced for ReplicaSet 
+2023-01-17T06:43:41.545362447Z stderr F I0117 06:43:41.543648       1 shared_informer.go:247] Caches are synced for endpoint 
+2023-01-17T06:43:41.545365575Z stderr F I0117 06:43:41.543703       1 taint_manager.go:187] "Starting NoExecuteTaintManager"
+2023-01-17T06:43:41.551171255Z stderr F I0117 06:43:41.545574       1 shared_informer.go:247] Caches are synced for stateful set 
+2023-01-17T06:43:41.551208333Z stderr F I0117 06:43:41.546334       1 event.go:291] "Event occurred" object="kind-control-plane" kind="Node" apiVersion="v1" type="Normal" reason="RegisteredNode" message="Node kind-control-plane event: Registered Node kind-control-plane in Controller"
+2023-01-17T06:43:41.558379564Z stderr F I0117 06:43:41.554267       1 shared_informer.go:247] Caches are synced for bootstrap_signer 
+2023-01-17T06:43:41.564160567Z stderr F I0117 06:43:41.562183       1 shared_informer.go:247] Caches are synced for ReplicationController 
+2023-01-17T06:43:41.581305935Z stderr F I0117 06:43:41.577117       1 shared_informer.go:247] Caches are synced for job 
+2023-01-17T06:43:41.590189316Z stderr F I0117 06:43:41.588006       1 shared_informer.go:247] Caches are synced for GC 
+2023-01-17T06:43:41.624829298Z stderr F I0117 06:43:41.595223       1 shared_informer.go:247] Caches are synced for persistent volume 
+2023-01-17T06:43:41.62485217Z stderr F I0117 06:43:41.595540       1 shared_informer.go:247] Caches are synced for crt configmap 
+2023-01-17T06:43:41.624855209Z stderr F I0117 06:43:41.612762       1 shared_informer.go:247] Caches are synced for cronjob 
+2023-01-17T06:43:41.62485798Z stderr F I0117 06:43:41.612810       1 shared_informer.go:247] Caches are synced for attach detach 
+2023-01-17T06:43:41.691182977Z stderr F I0117 06:43:41.690175       1 shared_informer.go:247] Caches are synced for deployment 
+2023-01-17T06:43:41.709455262Z stderr F I0117 06:43:41.695418       1 shared_informer.go:247] Caches are synced for HPA 
+2023-01-17T06:43:41.712595841Z stderr F I0117 06:43:41.710166       1 shared_informer.go:247] Caches are synced for disruption 
+2023-01-17T06:43:41.712698495Z stderr F I0117 06:43:41.710205       1 disruption.go:371] Sending events to api server.
+2023-01-17T06:43:41.759239393Z stderr F I0117 06:43:41.756395       1 shared_informer.go:240] Waiting for caches to sync for garbage collector
+2023-01-17T06:43:42.022265173Z stderr F I0117 06:43:42.021327       1 shared_informer.go:247] Caches are synced for resource quota 
+2023-01-17T06:43:42.077387458Z stderr F I0117 06:43:42.075413       1 shared_informer.go:247] Caches are synced for garbage collector 
+2023-01-17T06:43:42.077401718Z stderr F I0117 06:43:42.075436       1 garbagecollector.go:151] Garbage collector: all resource monitors have synced. Proceeding to collect garbage
+2023-01-17T06:43:42.077405257Z stderr F I0117 06:43:42.075501       1 shared_informer.go:247] Caches are synced for resource quota 
+2023-01-17T06:43:42.094371605Z stderr F I0117 06:43:42.092079       1 shared_informer.go:247] Caches are synced for garbage collector 

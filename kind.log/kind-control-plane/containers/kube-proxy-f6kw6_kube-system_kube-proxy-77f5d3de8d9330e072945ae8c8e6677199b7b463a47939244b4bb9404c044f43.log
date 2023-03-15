@@ -1,0 +1,92 @@
+2023-01-17T03:46:43.294978569Z stderr F I0117 03:46:43.293248       1 node.go:172] Successfully retrieved node IP: 172.18.0.2
+2023-01-17T03:46:43.295001058Z stderr F I0117 03:46:43.293297       1 server_others.go:140] Detected node IP 172.18.0.2
+2023-01-17T03:46:43.342313514Z stderr F I0117 03:46:43.334830       1 server_others.go:206] kube-proxy running in dual-stack mode, IPv4-primary
+2023-01-17T03:46:43.342323191Z stderr F I0117 03:46:43.334850       1 server_others.go:212] Using iptables Proxier.
+2023-01-17T03:46:43.342324762Z stderr F I0117 03:46:43.334856       1 server_others.go:219] creating dualStackProxier for iptables.
+2023-01-17T03:46:43.342326127Z stderr F W0117 03:46:43.334864       1 server_others.go:512] detect-local-mode set to ClusterCIDR, but no IPv6 cluster CIDR defined, , defaulting to no-op detect-local for IPv6
+2023-01-17T03:46:43.342327564Z stderr F I0117 03:46:43.335023       1 server.go:643] Version: v1.21.1
+2023-01-17T03:46:43.342329101Z stderr F I0117 03:46:43.335223       1 conntrack.go:100] Set sysctl 'net/netfilter/nf_conntrack_tcp_timeout_established' to 86400
+2023-01-17T03:46:43.34233024Z stderr F I0117 03:46:43.335253       1 conntrack.go:100] Set sysctl 'net/netfilter/nf_conntrack_tcp_timeout_close_wait' to 3600
+2023-01-17T03:46:43.342331539Z stderr F I0117 03:46:43.337453       1 config.go:315] Starting service config controller
+2023-01-17T03:46:43.342332697Z stderr F I0117 03:46:43.337465       1 shared_informer.go:240] Waiting for caches to sync for service config
+2023-01-17T03:46:43.342333829Z stderr F I0117 03:46:43.337476       1 config.go:224] Starting endpoint slice config controller
+2023-01-17T03:46:43.342335012Z stderr F I0117 03:46:43.337479       1 shared_informer.go:240] Waiting for caches to sync for endpoint slice config
+2023-01-17T03:46:43.35558916Z stderr F W0117 03:46:43.354116       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T03:46:43.355597417Z stderr F W0117 03:46:43.355408       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T03:46:43.452658083Z stderr F I0117 03:46:43.441571       1 shared_informer.go:247] Caches are synced for endpoint slice config 
+2023-01-17T03:46:43.452673654Z stderr F I0117 03:46:43.441572       1 shared_informer.go:247] Caches are synced for service config 
+2023-01-17T03:54:11.362732712Z stderr F W0117 03:54:11.362605       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T04:02:38.361806126Z stderr F W0117 04:02:38.361366       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T04:11:48.365773543Z stderr F W0117 04:11:48.365491       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T04:18:36.370260111Z stderr F W0117 04:18:36.369917       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T04:27:49.376456268Z stderr F W0117 04:27:49.376028       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T04:36:05.378737257Z stderr F W0117 04:36:05.378528       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T04:41:35.383377949Z stderr F W0117 04:41:35.382552       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T04:50:28.387261825Z stderr F W0117 04:50:28.386908       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T04:59:11.388326115Z stderr F W0117 04:59:11.388121       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:05:56.390544368Z stderr F W0117 05:05:56.390345       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:15:23.392454036Z stderr F W0117 05:15:23.392282       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:23:01.394662986Z stderr F W0117 05:23:01.394504       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:28:37.396635704Z stderr F W0117 05:28:37.396469       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:34:34.401446679Z stderr F W0117 05:34:34.401037       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:37:48.736659736Z stderr F I0117 05:37:48.703324       1 trace.go:205] Trace[2057154544]: "iptables ChainExists" (17-Jan-2023 05:37:44.046) (total time: 4654ms):
+2023-01-17T05:37:48.744110189Z stderr F Trace[2057154544]: [4.654042146s] [4.654042146s] END
+2023-01-17T05:37:48.765549773Z stderr F I0117 05:37:48.745579       1 trace.go:205] Trace[1210886028]: "iptables ChainExists" (17-Jan-2023 05:37:44.984) (total time: 3760ms):
+2023-01-17T05:37:48.765568116Z stderr F Trace[1210886028]: [3.760722403s] [3.760722403s] END
+2023-01-17T05:38:48.186460835Z stderr F I0117 05:38:48.185878       1 trace.go:205] Trace[763818752]: "iptables ChainExists" (17-Jan-2023 05:38:44.459) (total time: 3717ms):
+2023-01-17T05:38:48.197813439Z stderr F Trace[763818752]: [3.717903601s] [3.717903601s] END
+2023-01-17T05:38:48.197850197Z stderr F I0117 05:38:48.186593       1 trace.go:205] Trace[1081366417]: "iptables ChainExists" (17-Jan-2023 05:38:44.095) (total time: 2392ms):
+2023-01-17T05:38:48.197853839Z stderr F Trace[1081366417]: [2.39204843s] [2.39204843s] END
+2023-01-17T05:39:42.171036123Z stderr F I0117 05:39:42.170204       1 trace.go:205] Trace[1165535840]: "iptables ChainExists" (17-Jan-2023 05:39:33.955) (total time: 8193ms):
+2023-01-17T05:39:42.18594753Z stderr F Trace[1165535840]: [8.193512757s] [8.193512757s] END
+2023-01-17T05:39:42.225520747Z stderr F I0117 05:39:42.225176       1 trace.go:205] Trace[520908829]: "iptables ChainExists" (17-Jan-2023 05:39:13.572) (total time: 28542ms):
+2023-01-17T05:39:42.225543353Z stderr F Trace[520908829]: [28.542962232s] [28.542962232s] END
+2023-01-17T05:44:02.267200112Z stderr F W0117 05:44:02.266731       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:49:10.089552812Z stderr F I0117 05:49:09.926867       1 trace.go:205] Trace[1929543322]: "iptables ChainExists" (17-Jan-2023 05:48:48.199) (total time: 21727ms):
+2023-01-17T05:49:10.099768504Z stderr F Trace[1929543322]: [21.727722471s] [21.727722471s] END
+2023-01-17T05:49:10.099775681Z stderr F I0117 05:49:10.048015       1 trace.go:205] Trace[637627072]: "iptables ChainExists" (17-Jan-2023 05:48:48.110) (total time: 21599ms):
+2023-01-17T05:49:10.099813953Z stderr F Trace[637627072]: [21.599993773s] [21.599993773s] END
+2023-01-17T05:49:16.373444241Z stderr F W0117 05:49:16.373131       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:49:54.0843532Z stderr F I0117 05:49:54.078628       1 trace.go:205] Trace[618028807]: "iptables ChainExists" (17-Jan-2023 05:49:46.772) (total time: 7306ms):
+2023-01-17T05:49:54.103029949Z stderr F Trace[618028807]: [7.306248808s] [7.306248808s] END
+2023-01-17T05:49:54.103440213Z stderr F I0117 05:49:54.078677       1 trace.go:205] Trace[1534925476]: "iptables ChainExists" (17-Jan-2023 05:49:44.517) (total time: 9543ms):
+2023-01-17T05:49:54.103450879Z stderr F Trace[1534925476]: [9.543887214s] [9.543887214s] END
+2023-01-17T05:56:09.565587187Z stderr F W0117 05:56:09.565297       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T05:59:33.807717555Z stderr F I0117 05:59:33.801598       1 trace.go:205] Trace[1885869778]: "iptables ChainExists" (17-Jan-2023 05:59:22.747) (total time: 11053ms):
+2023-01-17T05:59:33.834033033Z stderr F Trace[1885869778]: [11.053823285s] [11.053823285s] END
+2023-01-17T06:00:19.900461116Z stderr F I0117 06:00:19.899542       1 trace.go:205] Trace[1323548078]: "iptables ChainExists" (17-Jan-2023 06:00:13.804) (total time: 6094ms):
+2023-01-17T06:00:19.932336029Z stderr F Trace[1323548078]: [6.09467354s] [6.09467354s] END
+2023-01-17T06:00:19.932358769Z stderr F I0117 06:00:19.899583       1 trace.go:205] Trace[1377728502]: "iptables ChainExists" (17-Jan-2023 06:00:13.521) (total time: 6240ms):
+2023-01-17T06:00:19.932388592Z stderr F Trace[1377728502]: [6.240425253s] [6.240425253s] END
+2023-01-17T06:04:03.603171408Z stderr F W0117 06:04:03.602935       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T06:13:03.833424477Z stderr F W0117 06:13:03.833250       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T06:20:31.014408283Z stderr F W0117 06:20:30.940151       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T06:22:47.262896162Z stderr F I0117 06:22:47.262685       1 trace.go:205] Trace[1911186666]: "iptables ChainExists" (17-Jan-2023 06:22:44.905) (total time: 2355ms):
+2023-01-17T06:22:47.264115029Z stderr F Trace[1911186666]: [2.355794307s] [2.355794307s] END
+2023-01-17T06:28:32.657668502Z stderr F W0117 06:28:32.657031       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T06:34:18.498203935Z stderr F I0117 06:34:18.486776       1 trace.go:205] Trace[1940767488]: "iptables ChainExists" (17-Jan-2023 06:31:47.420) (total time: 151066ms):
+2023-01-17T06:34:18.529812212Z stderr F Trace[1940767488]: [2m31.066102419s] [2m31.066102419s] END
+2023-01-17T06:34:18.529835747Z stderr F I0117 06:34:18.486814       1 trace.go:205] Trace[2016723491]: "iptables ChainExists" (17-Jan-2023 06:31:47.565) (total time: 150901ms):
+2023-01-17T06:34:18.529840795Z stderr F Trace[2016723491]: [2m30.901914711s] [2m30.901914711s] END
+2023-01-17T06:39:39.304697705Z stderr F I0117 06:39:39.273835       1 trace.go:205] Trace[255094642]: "iptables ChainExists" (17-Jan-2023 06:34:43.374) (total time: 295899ms):
+2023-01-17T06:39:39.324602938Z stderr F Trace[255094642]: [4m55.899517714s] [4m55.899517714s] END
+2023-01-17T06:39:39.362635601Z stderr F I0117 06:39:39.334483       1 trace.go:205] Trace[480703103]: "iptables ChainExists" (17-Jan-2023 06:34:49.708) (total time: 289530ms):
+2023-01-17T06:39:39.36270313Z stderr F Trace[480703103]: [4m49.530444412s] [4m49.530444412s] END
+2023-01-17T06:39:54.149559643Z stderr F I0117 06:39:54.149404       1 trace.go:205] Trace[468107905]: "iptables ChainExists" (17-Jan-2023 06:39:45.878) (total time: 8201ms):
+2023-01-17T06:39:54.153419422Z stderr F Trace[468107905]: [8.201451013s] [8.201451013s] END
+2023-01-17T06:39:54.153436394Z stderr F I0117 06:39:54.149441       1 trace.go:205] Trace[1279968066]: "iptables ChainExists" (17-Jan-2023 06:39:43.395) (total time: 10636ms):
+2023-01-17T06:39:54.153442205Z stderr F Trace[1279968066]: [10.636216608s] [10.636216608s] END
+2023-01-17T06:43:28.286079249Z stderr F I0117 06:43:28.282009       1 trace.go:205] Trace[1069618872]: "iptables ChainExists" (17-Jan-2023 06:40:13.375) (total time: 194890ms):
+2023-01-17T06:43:28.302558792Z stderr F Trace[1069618872]: [3m14.890936204s] [3m14.890936204s] END
+2023-01-17T06:43:28.302703479Z stderr F W0117 06:43:28.282154       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T06:43:28.302715849Z stderr F I0117 06:43:28.282339       1 trace.go:205] Trace[264793830]: "iptables ChainExists" (17-Jan-2023 06:42:20.956) (total time: 67326ms):
+2023-01-17T06:43:28.302726574Z stderr F Trace[264793830]: [1m7.326001747s] [1m7.326001747s] END
+2023-01-17T06:43:30.238758478Z stderr F W0117 06:43:30.231413       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T06:43:30.76881147Z stderr F W0117 06:43:30.763027       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T06:50:55.850567706Z stderr F W0117 06:50:55.850200       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T06:59:50.914708404Z stderr F W0117 06:59:50.914442       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T07:06:17.052765851Z stderr F W0117 07:06:17.052543       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T07:12:32.078836117Z stderr F W0117 07:12:32.078638       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T07:22:24.177114504Z stderr F W0117 07:22:24.151709       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T07:27:36.257202471Z stderr F W0117 07:27:36.256928       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
+2023-01-17T07:33:09.294510956Z stderr F W0117 07:33:09.294070       1 warnings.go:70] discovery.k8s.io/v1beta1 EndpointSlice is deprecated in v1.21+, unavailable in v1.25+; use discovery.k8s.io/v1 EndpointSlice
